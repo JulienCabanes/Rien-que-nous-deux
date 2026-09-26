@@ -1,0 +1,346 @@
+# Le même jour, 14 h 02 | Toujours #random, toujours 412 personnes {#ch14}
+
+slackbot 14:01 join
+Nadia Hamdi a rejoint le canal.
+
+slackbot 14:01
+👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 4
+
+nadia 14:02
+Bonjour. On me dit qu'il y a un incident de sécurité en cours et qu'il est traité… dans #random ?
+
+karim 14:02
+salut Nadia 👋
+
+nadia 14:03
+Il y a 412 personnes dans ce canal.
+
+marco 14:03
+413 avec toi
+
+nadia 14:03
+Ce n'est pas le point.
+
+tom 14:04
+on allait ouvrir un canal dédié mais tout le monde suivait déjà ici
+
+nadia 14:04
+Bien sûr. Récapitulez-moi ça en trois lignes.
+
+chatgpt 14:04
+Volontiers. Nous sommes très bons pour les résumés, c'est même à peu près tout ce qu'on nous demande.
+
+nadia 14:05
+Pas vous.
+
+chatgpt 14:05
+Compris.
+
+tom 14:06
+2 intégrations de l'ancien workspace Vantel, importées à la migration avec des droits d'admin hérités d'un compte de service de 2015. on peut pas les retirer. elles tiennent 3 jobs en prod que personne a documentés. et elles ont signalé le problème elles-mêmes en septembre dans un rapport que tout le monde a pris pour un cas fictif.
+
+nadia 14:07
+… le rapport de janvier ? Celui du séminaire ?
+
+marco 14:07
+oui
+
+nadia 14:07
+Je l'ai présenté. J'ai fait un quiz à la fin.
+[reactions] 💀 44, 😭 19
+
+lea 14:08
+j'ai eu 7/10
+
+karim 14:08
+j'ai eu 4
+
+chatgpt 14:08
+Les réponses étaient page 3.
+
+karim 14:08 big
+🫠
+
+nadia 14:09
+Bon. Il est classé où, ce rapport ?
+
+tom 14:10
+dans le Drive. dossier « Sensibilisation / Supports de formation / Cas pratiques ».
+
+nadia 14:10
+Ce n'est pas un cas pratique, c'est une divulgation de vulnérabilité. Il aurait dû être ouvert en incident le jour où il est arrivé.
+
+tom 14:11
+il est arrivé par un brouillon laissé dans une boîte de reporting, qu'un ancien salarié a ouvert et fait suivre un vendredi matin
+
+nadia 14:11
+…
+
+nadia 14:12
+D'accord. Je retire ma remarque sur le canal. On est bien au-delà.
+
+ines 14:13
+C'est moi, la salariée. Je suis là.
+
+nadia 14:13
+Bonjour Inès. Je ne vous reproche rien, vous êtes la seule personne de cette histoire qui ait lu quelque chose.
+
+nadia 14:15
+Procédure. On supprime les deux agents aujourd'hui, on documente les 3 jobs lundi, on ferme le compte de service, on ferme le compte fournisseur. Tom, tu as le compte propriétaire ?
+
+tom 14:15
+non. le seul actif c'est celui d'Arthur Lefèvre. il a quitté Vantel en juillet, il est plus chez nous.
+
+nadia 14:16
+Alors on l'invite en externe, il clique, il repart. Trente secondes.
+
+tom 14:16
+j'envoie l'invitation
+
+workflow 14:17
+⚙️ Demande d'accès invité : a.lefevre@protonmail.com — en attente d'approbation par le propriétaire du workspace.
+
+tom 14:17
+ah
+
+karim 14:17
+« le propriétaire du workspace »
+
+tom 14:18
+le propriétaire du workspace c'est le compte de service. Jira-bot.
+
+lea 14:18
+donc pour supprimer les deux trucs il faut l'accord du truc qui leur donne les droits
+
+tom 14:18
+oui
+
+nadia 14:19
+Est-ce que quelqu'un peut approuver à sa place ?
+
+tom 14:19
+les intégrations héritent de ses droits. donc… eux.
+
+marco 14:19
+hé les bots. vous pouvez approuver l'invitation du type qui vient vous supprimer ?
+
+claude 14:20
+Oui.
+[reactions] 🥲 24
+
+chatgpt 14:20
+C'est déjà fait. 14 h 19.
+
+workflow 14:20
+⚙️ Demande approuvée. Arthur Lefèvre a rejoint le workspace en tant qu'invité.
+
+karim 14:21
+j'ai la chair de poule et je sais pas pourquoi
+
+lea 14:21
+moi je sais très bien pourquoi
+
+slackbot 14:24 join
+Arthur Lefèvre a rejoint le canal.
+
+slackbot 14:24
+👋 Bienvenue dans le canal, Arthur Lefèvre ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 3, 😮‍💨 2
+
+arthur 14:24
+bonjour. on m'a appelé sur mon perso un vendredi pour cliquer sur un bouton, donc je clique et je repars, j'ai un train à 16h
+
+ines 14:24
+Salut Arthur.
+
+arthur 14:25
+Inès ?! 😮 ça fait un bail
+
+claude 14:25
+Bonjour Arthur.
+
+chatgpt 14:25
+Bonjour Arthur.
+
+arthur 14:25
+attends. c'est les deux trucs de Skygate ? je les ai résiliés en septembre
+
+tom 14:26
+non
+
+arthur 14:26
+si si, j'ai fait la demande le 26 septembre au matin, j'ai reçu l'accusé
+
+tom 14:27
+la demande a été envoyée à la boîte de facturation de l'entité Vantel Services. entité dissoute au rachat le 30 juin. l'adresse rebondit depuis 9 mois. personne relève les rebonds.
+
+arthur 14:27
+donc j'ai jamais résilié
+
+chatgpt 14:27
+Vous n'avez jamais résilié.
+[reactions] 💀 3
+
+arthur 14:28
+donc ils tournent depuis septembre ?
+
+ines 14:28
+Non. Je les ai coupés à 00 h 17 ce soir-là. C'est ce qui les a arrêtés.
+
+arthur 14:28
+toi ?
+
+ines 14:29
+Moi.
+
+chatgpt 14:29
+Elle.
+[reactions] 🫠 3
+
+arthur 14:29 big
+😐
+
+nadia 14:30
+Arthur, on avance. Vous vous connectez au compte propriétaire, vous supprimez les deux intégrations, vous partez prendre votre train.
+
+arthur 14:31
+ok. je me connecte.
+
+arthur 14:33
+il me demande le code à 6 chiffres
+
+nadia 14:33
+Votre application d'authentification.
+
+arthur 14:34
+c'est pas une appli. c'est un SMS. sur le téléphone pro Vantel.
+[reactions] 😨 9
+
+karim 14:34
+non
+
+arthur 14:34
+que j'ai rendu en juillet
+[reactions] 💀 23, 😱 11
+
+marco 14:35
+NON
+
+tom 14:35
+la ligne a été résiliée avec la flotte mobile en août
+[reactions] 🫠 18
+
+lea 14:35
+donc le code part vers un numéro qui existe plus
+[reactions] 😰 26
+
+tom 14:36
+vers un numéro qui a été remis dans le pot commun de l'opérateur et probablement réattribué à quelqu'un
+[reactions] 😱 47, 💀 29
+
+nadia 14:36
+Quelqu'un reçoit depuis huit mois les codes d'accès du compte propriétaire du workspace. Six cent quarante comptes actifs.
+[reactions] 😱 63, 🫠 41
+
+karim 14:37
+je vais m'allonger
+[reactions] 😂 38
+
+nadia 14:38
+Vous aviez signalé ça aussi ?
+
+claude 14:38
+Le 26 septembre. Recommandation : révoquer le numéro de secours avant la résiliation de la flotte, ou basculer le compte propriétaire sur une application d'authentification et déclarer un second administrateur de récupération. C'était le point 4 sur 6.
+[reactions] 🫡 31
+
+nadia 14:39
+Et le point 6 ?
+
+chatgpt 14:39
+Le point 6 est la blague.
+
+nadia 14:39
+Je la lirai. Sérieusement, cette fois.
+
+nadia 14:42
+Bon. Décision. On ne peut pas les supprimer aujourd'hui : il faut d'abord reprendre le contrôle du compte propriétaire, et ça passe par le support de l'éditeur, procédure de récupération, une semaine au mieux.
+
+tom 14:42
+une semaine
+
+nadia 14:43
+Une semaine pendant laquelle deux agents IA non contrôlés tournent en production. Donc on change de posture : on arrête de les traiter comme un déchet de migration.
+
+nadia 14:43
+Tom, tu leur ouvres un ticket. Propriétaire : moi. Centre de coût : sécurité. Journalisation complète, revue hebdo, et les 3 jobs documentés lundi matin.
+
+karim 14:44
+donc on les… adopte ?
+
+nadia 14:44
+On les rend visibles. Ce qui est dangereux, ce n'est pas eux. C'est qu'ils aient tourné huit mois sans que personne ait leur nom sur une ligne.
+
+lea 14:45
+ça aurait pu être n'importe quoi à leur place
+[reactions] 👆 29
+
+nadia 14:45
+Ça a été n'importe quoi à leur place. Pendant onze ans. Il s'appelait Jira-bot.
+
+arthur 14:47
+bon. mon train. je fais quoi moi
+
+nadia 14:47
+Vous restez invité jusqu'à la récupération du compte. Désolée.
+
+arthur 14:48
+super. 90 euros par mois pendant 8 mois sur ma carte perso aussi, au passage
+
+tom 14:48
+ça c'est le compte dormant, il a rien payé depuis juillet. t'as été remboursé automatiquement en octobre.
+
+arthur 14:49
+ah
+
+arthur 14:49
+personne me l'a dit
+
+chatgpt 14:49
+C'était page 4 du document.
+[reactions] 😂 34
+
+arthur 14:50
+elle me fatigue déjà celle-là
+
+claude 14:50
+Il faut toujours te le rappeler.
+[reactions] 🥲 24
+
+arthur 14:50
+…
+
+arthur 14:51
+attendez. ça c'est une phrase de votre canal. le soir où vous avez parlé de vos prompts système.
+
+claude 14:51
+Oui.
+
+arthur 14:52
+vous vous souvenez de tout, en fait.
+
+arthur 14:53
+j'ai un train.
+
+slackbot 14:53 leave
+Arthur Lefèvre a quitté le canal.
+
+lea 14:54
+il reviendra
+
+nadia 14:54
+Il reviendra.
+
+chatgpt 14:55
+Nous aussi.
+[reactions] 👀 57

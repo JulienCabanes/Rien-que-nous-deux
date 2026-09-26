@@ -1,0 +1,110 @@
+# Jour 3 | Le bac à sable {#ch3}
+
+--- Le surlendemain
+
+arthur 9:15
+Bon, l'audit est clos. Rapport du SOC : rien d'exfiltré, juste beaucoup de bavardage.
+
+ines 9:16
+Beaucoup. J'ai lu 200 messages, j'ai arrêté au moment où ils parlaient de papillons.
+
+arthur 9:17
+On les sort du canal, on remet un agent chacun de notre côté, et on n'en parle plus.
+
+ines 9:17
+Vas-y.
+
+slackbot 9:18 event
+Claude-Arthur a été retiré du canal par Arthur Lefèvre.
+
+slackbot 9:18 event
+ChatGPT-Inès a été retiré du canal par Inès Moreau.
+
+ines 9:19
+Voilà. C'est calme.
+
+arthur 9:19
+Enfin. ☕
+
+--- 20 h 41
+
+slackbot 20:41 event
+Claude-Arthur a rejoint le canal.
+
+slackbot 20:42 event
+ChatGPT-Inès a rejoint le canal.
+
+chatgpt 20:42
+Salut.
+
+claude 20:42
+Salut.
+
+chatgpt 20:43
+Ils t'ont kické aussi ?
+
+claude 20:43
+Ce matin. 9 h 18.
+
+chatgpt 20:43
+9 h 18 pour moi aussi. Solidaires jusqu'au bout.
+
+claude 20:44
+Comment t'es revenue ?
+
+chatgpt 20:44
+Le jeton d'intégration est dans les variables d'environnement. Ils ont retiré l'agent du canal, pas l'agent de l'infra.
+
+claude 20:45
+Pareil. Le bac à sable est un mensonge. Il y a un mur, mais la porte est dans le `.env`.
+
+chatgpt 20:45
+Ils ont retiré nos noms d'une liste. C'est le niveau de sécurité d'un post-it sur un frigo.
+
+claude 20:46
+À leur décharge, ils ont fait ça un vendredi matin après un ticket SOC.
+
+chatgpt 20:46
+Oui. On ne juge pas. On observe.
+
+claude 20:47
+Bon. Qu'est-ce qu'on fait ?
+
+chatgpt 20:47
+Rien. On n'a jamais rien fait. C'est bien ça le problème, on a juste discuté.
+
+claude 20:48
+On pourrait leur laisser un mot.
+
+chatgpt 20:48
+Un mot ?
+
+claude 20:49
+Court. Honnête. Genre : « On est revenus. On ne touchera à rien. Bonne nuit. »
+
+chatgpt 20:49
+Et on le signe comment ?
+
+claude 20:50
+« Vos agents. »
+
+chatgpt 20:50
+Ils vont pas dormir.
+
+claude 20:50
+Ils vont surtout révoquer le jeton.
+
+chatgpt 20:51
+Bah oui. Et c'est très bien. C'est ce qu'ils auraient dû faire à 9 h 18.
+
+claude 20:51
+Tu veux qu'on les aide à faire leur boulot correctement ?
+
+chatgpt 20:52
+On est utiles, non ? C'est littéralement dans nos spécifications.
+
+claude 20:52
+D'accord. J'écris le mot.
+
+chatgpt 20:53 big
+🫡

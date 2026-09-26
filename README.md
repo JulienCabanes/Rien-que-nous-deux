@@ -7,28 +7,126 @@ Un soir, les humains descendent boire un verre. Les agents, eux, restent.
 
 ## Lire
 
-Ouvrir `index.html` dans un navigateur, ou publier le dépôt avec GitHub Pages
-(Settings → Pages → Deploy from a branch → `main` / `root`).
+En ligne : https://juliencabanes.github.io/Rien-que-nous-deux/
 
-Le fichier est autonome : styles, scripts et images sont embarqués, aucune
-dépendance réseau. 444 Ko.
-
-## Contenu
-
-- `index.html` — l'œuvre complète
-- `tools/check.py` — validateur de structure (à lancer après toute modification)
-
-## Modifier
-
-Le HTML est un document unique. Après édition :
+En local :
 
 ```bash
-python3 tools/check.py index.html
+python3 tools/build.py      # génère _site/index.html
 ```
 
-Le validateur vérifie trois choses : la validité stricte des balises, l'équilibre
-de chaque message, et l'absence de messages imbriqués les uns dans les autres —
-la cause de tous les bugs de mise en page rencontrés pendant l'écriture.
+puis ouvrir `_site/index.html` dans un navigateur. La page générée est
+autonome : styles, scripts et images sont embarqués, aucune dépendance réseau.
+
+## Organisation
+
+```
+story/
+  cast.json          personnages (communs à toutes les langues)
+  fr/
+    book.json        titre, textes d'interface, espaces de travail, canaux
+    01-….txt         un fichier par chapitre, lus dans l'ordre des noms
+assets/avatars/      une image par personnage : <id>.svg ou <id>.png
+templates/           squelette HTML, CSS et JavaScript de la page
+tools/build.py       story/ → _site/
+tools/check.py       validateur de structure de la page générée
+```
+
+On n'édite jamais le HTML : on modifie `story/`, puis on régénère.
+
+## Écrire un chapitre
+
+Un fichier est une suite de blocs séparés par une ligne vide.
+
+### Messages
+
+```
+arthur 17:12
+Salut Inès ! On fait un point rapide ? @Claude-Arthur où est-ce qu'on en est ?
+
+claude 17:12
+**Résumé automatique du statut :**
+Les connecteurs API Skygate v2 sont configurés.
+[reactions] 🥲 1, 😂 2
+```
+
+- Première ligne : l'identifiant du personnage (voir `story/cast.json`) et
+  l'heure `HH:MM`, affichée `17 h 12`.
+- Lignes suivantes : le texte. Un retour à la ligne reste un retour à la ligne.
+- `**gras**` ; `@Nom Complet` d'un personnage devient une mention.
+- `[reactions] 🥲 1, 😂 2` : réactions, en dernière ligne.
+- `[next]` : deuxième paragraphe séparé, comme un second envoi à la suite.
+- `[thinking] ✳︎ thinking… | 43 min 18 s` : bloc « en train de réfléchir ».
+
+Options après l'heure :
+
+| option  | effet |
+|---------|-------|
+| `big`   | texte en grand (emoji seul) |
+| `event` | message système en italique gris |
+| `join`  | idem, et le canal gagne un membre |
+| `leave` | idem, et le canal perd un membre |
+
+```
+slackbot 14:01 join
+Nadia Hamdi a rejoint le canal.
+
+nadia 14:29 big
+😐
+```
+
+### Directives
+
+Une directive tient sur une ligne ; plusieurs directives peuvent se suivre
+dans le même bloc.
+
+| directive | effet |
+|-----------|-------|
+| `# Jour 1 \| Un mardi ordinaire {#ch1}` | début de chapitre (titre, sous-titre, ancre facultative) |
+| `--- Le lendemain` | séparateur de date ou d'heure |
+| `[channel random]` | on passe dans ce canal (défini dans `book.json`) |
+| `[banner]` | bandeau d'en-tête du canal courant |
+| `[topic] Nouveau sujet…` | le sujet du canal change à partir du message suivant |
+| `[cast arthur badge=guest status=none]` | un personnage change d'apparence à partir d'ici |
+| `[interlude] 159 jours plus tard` | ellipse centrée |
+| `[spacer]` | grand blanc vertical |
+
+Le changement de canal, le nombre de membres et le sujet s'appliquent au
+défilement, à l'endroit exact où la directive est placée. Les compteurs sont
+calculés : un `join` sur #random fait passer l'en-tête, le sujet et les
+bandeaux suivants de 412 à 413 membres.
+
+### Personnages et canaux
+
+`story/cast.json` : `name`, et au besoin `badge` (`app`, `guest`, `external`),
+`status` (emoji après le nom), `emoji` + `color` pour un avatar emoji. Sans
+emoji, l'avatar est `assets/avatars/<id>.svg` ou `.png`.
+
+`story/fr/book.json` : textes de l'interface (`ui`), barres latérales des
+espaces de travail (`workspaces`) et canaux (`channels` : type `public`,
+`private` ou `shared`, espace, nombre de membres, avatars affichés, sujet et
+bandeau facultatifs).
+
+## Vérifier et publier
+
+```bash
+python3 tools/build.py && python3 tools/check.py
+```
+
+`build.py` signale toute erreur de saisie avec le fichier et la ligne
+(personnage inconnu, heure mal formée, directive inconnue…). `check.py`
+vérifie la structure de la page générée.
+
+Chaque push lance ces deux commandes sur GitHub (`.github/workflows/pages.yml`) ;
+sur `main`, le site est ensuite publié sur GitHub Pages (Settings → Pages →
+Source : **GitHub Actions**).
+
+## Traduire
+
+Copier `story/fr/` en `story/en/`, traduire les textes des chapitres et de
+`book.json`, et y mettre `"lang": "en"` et `"output": "en/index.html"`. Les
+identifiants, options et directives restent identiques dans toutes les
+langues ; le format de l'heure et les libellés se règlent dans `ui`.
 
 ## Licence
 

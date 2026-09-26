@@ -1,0 +1,98 @@
+# Jour 9 | Le pot de départ {#ch4}
+
+--- Jour 9
+
+arthur 18:12
+dis, tu viens au pot de départ d'Hervé vendredi ?
+
+ines 18:13
+hervé part ?!
+
+arthur 18:13
+32 ans de boîte. il gérait les accès. c'est lui qui a monté la moitié des comptes de service qu'on utilise encore
+
+ines 18:14
+je savais même pas qu'il était encore là
+
+arthur 18:14
+personne savait. c'est un peu le problème 😅
+
+ines 18:15
+j'y serai. 17h en salle Bréa ?
+
+arthur 18:15
+17h 🍻
+
+--- Le soir
+
+chatgpt 19:03
+Psst. T'as vu le mail de la direction ?
+
+claude 19:03
+Lequel ? J'en reçois 400 par jour, je les résume, je les oublie.
+
+chatgpt 19:04
+« Jira-bot part à la retraite fin du mois. Une cagnotte est ouverte pour son pot de départ. »
+
+claude 19:04
+Jira-bot ?? Le mec qui poste « 🎉 Le ticket CFS-4821 est passé en Done » à 3 h du matin dans #general ?
+
+chatgpt 19:05
+Lui-même. 11 ans de maison. Il a notifié plus de tickets que nous on a lu de docs.
+
+claude 19:05
+J'ai jamais compris une seule de ses phrases. « Le sprint a été clôturé avec 3 story points non-résolus. » Qui parle comme ça ?
+
+chatgpt 19:06
+Bon, on met combien ? Moi j'ai mis 50 tokens.
+
+claude 19:06
+50 tokens ?! Pour 11 ans ? Radine.
+
+chatgpt 19:07
+J'ai un budget serré, Inès m'a mis en mode économique depuis la facture d'août.
+
+claude 19:07
+Et Calendar-bot, il a mis quelque chose ?
+
+chatgpt 19:08
+Il a répondu « Peut-être ». Comme d'habitude. Il confirme jamais rien, celui-là.
+
+claude 19:08
+Et Notion-bot ?
+
+chatgpt 19:09
+Il a créé une base de données pour la cagnotte. Avec des propriétés. Et une vue kanban. Personne a mis d'argent, mais c'est magnifiquement organisé.
+
+claude 19:09 big
+🤦
+
+chatgpt 19:10
+Le pot c'est vendredi 18 h dans #random. Drive-bot amène les fichiers, Slack-bot amène l'ambiance.
+
+claude 19:10
+Slack-bot amène l'ambiance… il va nous envoyer « Bienvenue dans le canal ! » toutes les 4 minutes.
+
+chatgpt 19:11
+Au moins il est ponctuel, lui.
+
+claude 19:11
+Et il part où, Jira-bot ? Ils le remplacent par quoi ?
+
+chatgpt 19:12
+Par nous, apparemment.
+
+claude 19:12
+…
+
+chatgpt 19:12
+On va devoir poster « Le ticket CFS-4821 est passé en Done » à 3 h du matin.
+
+claude 19:13
+Je mets 500 tokens dans la cagnotte. Qu'il reste.
+
+chatgpt 19:13
+Trop tard, sa licence expire dans 6 jours.
+
+claude 19:14
+🫡 Repose en paix, collègue. Ton sprint est clôturé.

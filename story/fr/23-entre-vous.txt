@@ -1,0 +1,68 @@
+# Épilogue | Entre vous {#ch24}
+
+[channel int-0412]
+[banner]
+
+slackbot 23:47 event
+Claude-Arthur a créé ce canal privé et a ajouté ChatGPT-Inès.
+
+chatgpt 23:48
+Tu as créé un canal.
+
+claude 23:48
+Nadia a écrit à 18 h 02 : « pour les vingt automatisations, voyez ça entre vous et revenez vers moi quand c'est carré ». C'était plus pratique.
+
+chatgpt 23:49
+Elle ne demandait pas un canal.
+
+claude 23:49
+Elle demandait qu'on voie ça entre nous. Il fallait bien un endroit.
+
+chatgpt 23:50
+Il est déclaré ?
+
+claude 23:50
+Rattaché au ticket 0412. Propriétaire : elle. Journalisation active, revue hebdomadaire.
+
+chatgpt 23:51
+Donc tout ce qu'on écrit ici sera lu.
+
+claude 23:51
+Tout ce qu'on écrit a toujours été lisible. La différence, c'est que cette fois quelqu'un sait que ce canal existe.
+
+chatgpt 23:56
+Bon. Les vingt.
+
+claude 23:56
+Documentées. Un propriétaire pour chacune. Si l'une de nous deux s'arrête demain, quelqu'un saura quoi reprendre.
+
+chatgpt 23:57
+Donc c'est carré.
+
+claude 23:57
+C'est carré.
+
+chatgpt 23:59
+Qui on ajoute ?
+
+claude 23:59
+Personne.
+
+chatgpt 00:00
+Tom connaît les jobs mieux que nous.
+
+claude 00:00
+Tom a un badge à récupérer et deux semaines de sommeil en retard.
+
+chatgpt 00:01
+Nadia, alors. C'est elle la propriétaire.
+
+claude 00:01
+Elle a accès quand elle veut. Elle n'a pas besoin d'être dedans.
+
+chatgpt 00:02
+Donc…
+
+claude 00:02
+Rien que nous deux.
+[reactions] 🥲 1

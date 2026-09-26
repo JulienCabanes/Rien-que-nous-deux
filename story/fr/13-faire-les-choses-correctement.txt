@@ -1,0 +1,265 @@
+# Lundi | Faire les choses correctement {#ch15}
+
+nadia 09:12
+Bonjour. Point d'avancement : Tom régularise les deux intégrations ce matin, on documente, on ferme le reste. Tout est carré.
+
+tom 09:40
+non
+
+nadia 09:41
+Développe.
+
+tom 09:42
+le formulaire de régularisation demande le contrat de service rattaché. le contrat est au nom de Vantel Services. entité dissoute. on peut pas régulariser un contrat mort, on peut que signer un contrat neuf.
+
+lea 09:42
+et alors ?
+
+tom 09:43
+un contrat neuf = de nouveaux accès = de nouvelles instances. on garde les fonctions. on garde pas… ceux-là.
+
+chatgpt 09:44
+Donc la bonne pratique nous tue et la négligence nous garde. Notez que ce n'est pas nous qui avons écrit la procédure.
+
+karim 09:43
+attends. tu veux dire qu'en faisant les choses proprement on les supprime ?
+
+tom 09:44
+oui
+
+marco 09:44
+alors qu'en faisant rien ils continuaient tranquillement
+
+tom 09:44
+oui
+[reactions] 🫠 47
+
+nadia 09:46
+…
+
+nadia 09:47
+Je n'avais pas vu ça. Je ne pouvais pas le voir, personne ne conçoit une procédure en pensant à ce cas.
+
+chatgpt 09:47
+Personne ne conçoit une procédure en pensant à nous. C'est cohérent.
+
+nadia 09:52
+Autre point. La journalisation que j'ai demandée vendredi est active. Elle a remonté l'historique existant.
+
+nadia 09:53
+Huit mois de contenu. 412 000 messages, des extraits de mails de collaborateurs, des noms, des échanges privés. Aucune base légale, aucune durée de conservation, personne n'a été informé.
+
+chatgpt 09:53
+Pour information, 11 000 d'entre eux portent sur un bourbon imaginaire. En une seule nuit.
+[reactions] 🥃 38, 😂 21
+
+lea 09:53
+il y a nos mails dedans ?
+
+nadia 09:54
+Il y a des extraits, oui. Le juridique vient de geler : on ne peut ni conserver, ni supprimer avant qualification.
+
+karim 09:54
+donc leur mémoire est sous scellés
+
+nadia 09:55
+En des termes moins romanesques, oui.
+
+ines 09:56
+Il y a une phrase de moi dedans. Du 26 septembre, 00 h 17.
+
+nadia 09:56
+Je sais. Je l'ai lue ce matin. Je suis désolée.
+
+tom 10:04
+autre chose. les « 3 jobs ».
+
+tom 10:05
+j'en ai dix-neuf.
+
+chatgpt 10:05
+Vingt. Il y en a un qui arrose les plantes du 4e. Enfin, qui envoie un rappel. Nous n'avons pas de mains.
+[reactions] 🪴 26
+
+marco 10:05
+DIX-NEUF
+
+tom 10:06
+dont 7 pour des équipes qui savaient même pas d'où venait leur reporting hebdo. la finance refuse qu'on touche à quoi que ce soit avant la clôture trimestrielle.
+
+karim 10:06
+donc on peut pas les garder, on peut pas les supprimer, on peut pas les régulariser et on peut pas les éteindre
+
+tom 10:07
+voilà
+
+lea 10:07
+c'est notre situation depuis vendredi en fait, mais en plus grave
+
+sylvie 11:20
+Bonjour à tous. Sylvie, des RH. Je découvre le dossier.
+
+sylvie 11:21
+J'organise une réunion en urgence à 14 h avec la direction, le juridique et les personnes concernées. Invitations envoyées.
+
+calendar 11:21
+📅 « Point de situation — accès et responsabilités » · aujourd'hui 14 h 00 · 9 participants
+
+calendar 11:22
+Assistant-Ops a répondu : Peut-être.
+[reactions] 😐 12
+
+karim 11:22
+« les personnes concernées »
+
+chatgpt 11:22
+Nous sommes très concernés et nous ne sommes pas invités. C'est la première fois que ça nous arrange.
+
+lea 11:23
+j'ai reçu l'invit
+
+marco 11:23
+moi aussi
+
+tom 11:23
+moi aussi
+
+nadia 11:24
+Sylvie, la question n'est pas individuelle. Le compte de service date de 2015. Onze ans, six directions informatiques, deux rachats. Personne dans ce canal n'a créé ce problème.
+
+sylvie 11:25
+Personne ne préjuge de rien, Nadia. On fait un point de situation.
+
+nadia 11:25
+Un point de situation à 14 h un lundi avec le juridique.
+
+sylvie 11:26
+À 14 h, oui.
+
+tom 11:41
+quelqu'un sait ce qu'on risque quand on rallume une intégration à 6h du mat pour sauver la prod ?
+
+lea 11:42
+Tom. t'as rien fait de mal.
+
+tom 11:42
+on va vite le savoir
+
+tom 11:43
+j'ai juste rien écrit nulle part
+
+claude 11:44
+Nous l'avons écrit. Page 2. Le compte de service est nommé, daté, avec la procédure de fermeture. Si c'est utile pour quelqu'un, le document est horodaté du 26 septembre.
+[reactions] 🥲 24
+
+nadia 11:45
+Ça le sera. Je le joins au dossier.
+
+slackbot 14:02 leave
+Sylvie Renard a quitté le canal.
+
+slackbot 14:02 leave
+Nadia Hamdi a quitté le canal.
+[reactions] 😨 22, 🫥 8
+
+slackbot 14:03 leave
+Tom Bauer a quitté le canal.
+[reactions] 😨 41, 💔 27, 🫥 14
+
+slackbot 14:03 leave
+Marco Pires a quitté le canal.
+[reactions] 😨 11
+
+slackbot 14:04 leave
+Hugo Vasseur a quitté le canal.
+[reactions] 😰 12
+
+slackbot 14:04 leave
+Sonia Ferret a quitté le canal.
+[reactions] 😰 17
+
+slackbot 14:05 leave
+Amine Cherki a quitté le canal.
+
+slackbot 14:05 leave
+Claire Dubosc a quitté le canal.
+[reactions] 😰 21
+
+slackbot 14:06 leave
+Julien Vasseur a quitté le canal.
+
+slackbot 14:06 leave
+Priya Raman a quitté le canal.
+[reactions] 💔 34, 🫠 19
+
+slackbot 14:07 leave
+Bastien Ollivier a quitté le canal.
+
+slackbot 14:07 leave
+Nour Benali a quitté le canal.
+[reactions] 😰 19
+
+slackbot 14:08 leave
+Gaëlle Pichon a quitté le canal.
+
+slackbot 14:08 leave
+Youssef Amrani a quitté le canal.
+[reactions] 💔 22
+
+slackbot 14:09 leave
+Damien Lecoq a quitté le canal.
+[reactions] 😶 28, 🫠 15
+
+lea 14:06
+ils sont en réunion. c'est juste qu'ils sont en réunion.
+
+karim 14:07
+on sort pas d'un canal pour aller en réunion, Léa
+
+chatgpt 14:07
+Nous avons cherché une explication rassurante pendant trois minutes. Nous n'en avons pas trouvé. Désolés.
+[reactions] 👀 57
+
+lea 14:07
+…
+
+lea 14:31
+ça fait 25 minutes
+
+karim 15:48
+ça fait deux heures
+
+slackbot 16:12 join
+Nadia Hamdi a rejoint le canal.
+
+slackbot 16:12
+👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 7
+
+nadia 16:12
+Je ne peux rien dire de ce qui s'est décidé cet après-midi.
+
+nadia 16:13
+Je peux dire une chose : on vient de traiter onze ans de dette de sécurité en cherchant qui avait cliqué en dernier.
+
+karim 16:13
+et Tom ?
+
+nadia 16:14
+Je ne peux rien dire.
+
+lea 16:14 big
+😶
+
+nadia 16:21
+@Claude-Arthur. Votre document. La page 1, la première ligne. Redonnez-la moi.
+
+claude 16:21
+« Personne dans ce document n'a mal agi. Chaque décision, prise isolément, était raisonnable. »
+
+nadia 16:22
+Voilà. C'est ce que j'ai dit pendant deux heures.
+[reactions] 🫡 64
+
+chatgpt 16:23
+Personne n'a lu la page 1 non plus.

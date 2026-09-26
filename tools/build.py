@@ -1,0 +1,397 @@
+#!/usr/bin/env python3
+"""Build the site from the story sources.
+
+    python3 tools/build.py            # writes _site/
+    python3 tools/build.py --out DIR
+
+Every story/<lang>/book.json is one edition of the story; its chapters are
+the story/<lang>/*.txt files, read in file name order. The cast
+(story/cast.json) and the avatars (assets/avatars/<id>.svg|png) are shared by
+all editions. The format of the chapter files is described in README.md.
+"""
+import base64
+import glob
+import html
+import json
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+class StoryError(Exception):
+    pass
+
+
+def load_json(path):
+    try:
+        with open(path, encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, ValueError) as e:
+        raise StoryError('%s: %s' % (os.path.relpath(path, ROOT), e))
+
+
+def esc(s):
+    return html.escape(s, quote=False)
+
+
+def attr(s):
+    return html.escape(s, quote=True)
+
+
+# ---------------------------------------------------------------- inline text
+
+BOLD = re.compile(r'(?<!\*)\*\*(?!\*)(\S(?:.*?\S)?)(?<!\*)\*\*(?!\*)')
+ITALIC = re.compile(r'(?<![\w_])_(?!_)(\S(?:.*?\S)?)_(?![\w_])')
+
+
+def inline(text, mention_re=None):
+    """Escape text, then apply **bold** and @mentions."""
+    s = BOLD.sub(r'<strong>\1</strong>', esc(text))
+    if mention_re:
+        s = mention_re.sub(r'<span class="mention">\1</span>', s)
+    return s
+
+
+def prose(text):
+    """Book-level text (intro, disclaimer): **bold** and _italic_."""
+    return ITALIC.sub(r'<em>\1</em>', inline(text))
+
+
+# ---------------------------------------------------------------- the edition
+
+class Edition:
+    def __init__(self, book_path, cast):
+        self.dir = os.path.dirname(book_path)
+        self.book = load_json(book_path)
+        self.ui = self.book['ui']
+        self.cast = {k: dict(v) for k, v in cast.items()}
+        self.channels = self.book['channels']
+        for cid, ch in self.channels.items():
+            if ch.get('workspace') not in self.book['workspaces']:
+                raise StoryError('book.json: channel %s has an unknown workspace' % cid)
+            for m in ch.get('members', []):
+                self.need_cast(m, 'book.json: channel %s' % cid)
+        names = sorted((c['name'] for c in self.cast.values()), key=len, reverse=True)
+        self.mention_re = re.compile(r'(?<![\w.])(@(?:%s))(?![\w-])' % '|'.join(map(re.escape, names)))
+
+        self.scenes = []            # [{channel, topic, count}]
+        self.channel = None         # current channel id
+        self.state = {}             # channel id -> {topic, count}
+        self.marked = None          # last scene given a marker
+        self.chapter_ids = set()
+        self.out = []
+        self.stats = dict(messages=0, chapters=0)
+
+    # -- helpers
+
+    def need_cast(self, cid, where):
+        if cid not in self.cast:
+            raise StoryError('%s: unknown character "%s" (known: %s)'
+                             % (where, cid, ', '.join(sorted(self.cast))))
+        return self.cast[cid]
+
+    def title_html(self, cid, banner=False):
+        ch = self.channels[cid]
+        name = esc(ch.get('name', cid))
+        kind = ch['kind']
+        if kind == 'public':
+            return '#' + name
+        icon = {'private': '🔒', 'shared': '🤝'}[kind]
+        if banner or kind == 'shared':
+            return icon + ' ' + name
+        return '<span class="lock">%s</span>%s' % (icon, name)
+
+    def fill(self, template, cid):
+        ch = self.channels[cid]
+        ws = self.book['workspaces'][ch['workspace']]['name']
+        return template.format(count=self.state[cid]['count'], workspace=ws)
+
+    def scene(self):
+        s = self.state[self.channel]
+        return dict(channel=self.channel, topic=s['topic'] or self.fill(self.ui['topic'], self.channel),
+                    count=s['count'])
+
+    def emit(self, block):
+        """Append a block; tag it if the scene changed since the last tag."""
+        cur = self.scene()
+        if cur != self.marked:
+            self.scenes.append(cur)
+            self.marked = cur
+            if len(self.scenes) > 1:
+                block = block.replace('>', ' data-scene="%d">' % (len(self.scenes) - 1), 1)
+        self.out.append(block)
+
+    # -- parsing
+
+    def build(self):
+        files = sorted(glob.glob(os.path.join(self.dir, '*.txt')))
+        if not files:
+            raise StoryError('%s: no chapter files' % os.path.relpath(self.dir, ROOT))
+        for path in files:
+            with open(path, encoding='utf-8') as f:
+                self.parse(os.path.relpath(path, ROOT), f.read())
+        return self.page()
+
+    def parse(self, fname, text):
+        lines = text.split('\n')
+        i = 0
+        while i < len(lines):
+            if not lines[i].strip():
+                i += 1
+                continue
+            start = i
+            while i < len(lines) and lines[i].strip():
+                i += 1
+            block = [l.rstrip() for l in lines[start:i]]
+            where = '%s:%d' % (fname, start + 1)
+            try:
+                if re.match(r'#\s|---|\[', block[0]):
+                    for n, line in enumerate(block):
+                        self.directive(line, '%s:%d' % (fname, start + 1 + n), fname)
+                else:
+                    self.message(block, where)
+            except StoryError:
+                raise
+            except (KeyError, ValueError) as e:
+                raise StoryError('%s: %s' % (where, e))
+
+    def directive(self, line, where, fname):
+        if line.startswith('# '):
+            m = re.fullmatch(r'# (.+?) \| (.+?)(?: \{#([\w-]+)\})?', line)
+            if not m:
+                raise StoryError('%s: chapter heading must read "# Title | Subtitle {#id}"' % where)
+            d1, d2, cid = m.groups()
+            cid = cid or re.sub(r'^\d+-', '', os.path.splitext(os.path.basename(fname))[0])
+            if cid in self.chapter_ids:
+                raise StoryError('%s: chapter id "%s" is already used' % (where, cid))
+            self.chapter_ids.add(cid)
+            self.stats['chapters'] += 1
+            if self.stats['chapters'] == 1:
+                self.first_chapter = '%s · %s' % (d1, d2)
+            self.need_channel(where)
+            self.emit('<div class="daymark" id="%s" data-d1="%s" data-d2="%s"><span class="d1">%s</span><span class="d2">%s</span></div>'
+                      % (cid, attr(d1), attr(d2), esc(d1), esc(d2)))
+            return
+        if line.startswith('---'):
+            label = line[3:].strip()
+            if not label:
+                raise StoryError('%s: a divider needs a label: "--- Le lendemain"' % where)
+            self.need_channel(where)
+            self.emit('<div class="divider"><span>%s</span></div>' % esc(label))
+            return
+        m = re.fullmatch(r'\[(\w+)\]\s*(.*)|\[(\w+) ([^\]]*)\]', line)
+        if not m:
+            raise StoryError('%s: not a directive: %s' % (where, line))
+        kw = m.group(1) or m.group(3)
+        arg = (m.group(2) if m.group(1) else m.group(4)).strip()
+        if kw == 'channel':
+            if arg not in self.channels:
+                raise StoryError('%s: unknown channel "%s" (known: %s)' % (where, arg, ', '.join(self.channels)))
+            self.channel = arg
+            if arg not in self.state:
+                self.state[arg] = dict(topic=self.channels[arg].get('topic'), count=self.channels[arg]['count'])
+        elif kw == 'banner':
+            self.need_channel(where)
+            sub = self.fill(self.channels[self.channel].get('banner', self.ui['banner']), self.channel)
+            self.emit('<div class="chanbanner"><div class="cb1">%s</div><div class="cb2">%s</div></div>'
+                      % (self.title_html(self.channel, banner=True), esc(sub)))
+        elif kw == 'topic':
+            self.need_channel(where)
+            self.state[self.channel]['topic'] = arg
+        elif kw == 'cast':
+            parts = arg.split()
+            c = self.need_cast(parts[0] if parts else '', where)
+            for kv in parts[1:]:
+                k, _, v = kv.partition('=')
+                if k not in ('name', 'badge', 'status', 'emoji', 'color') or not v:
+                    raise StoryError('%s: expected key=value with key among name, badge, status, emoji, color' % where)
+                if v == 'none':
+                    c.pop(k, None)
+                else:
+                    c[k] = v
+        elif kw == 'spacer':
+            self.emit('<div class="whitespace" aria-hidden="true"></div>')
+        elif kw == 'interlude':
+            self.need_channel(where)
+            self.emit('<div class="interlude"><span>%s</span></div>' % esc(arg))
+        else:
+            raise StoryError('%s: unknown directive [%s]' % (where, kw))
+
+    def need_channel(self, where):
+        if not self.channel:
+            raise StoryError('%s: the story must start with [channel ...]' % where)
+
+    def message(self, block, where):
+        self.need_channel(where)
+        head = block[0].split()
+        if len(head) < 2 or not re.fullmatch(r'\d{1,2}:\d{2}', head[1]):
+            raise StoryError('%s: a message starts with "<character> <HH:MM>", got: %s' % (where, block[0]))
+        c = self.need_cast(head[0], where)
+        opts = head[2:]
+        for o in opts:
+            if o not in ('big', 'event', 'join', 'leave'):
+                raise StoryError('%s: unknown message option "%s" (big, event, join, leave)' % (where, o))
+        if 'join' in opts or 'leave' in opts:
+            self.state[self.channel]['count'] += 1 if 'join' in opts else -1
+        hh, mm = head[1].split(':')
+
+        if 'emoji' in c:
+            bg = ' style="background:%s"' % attr(c['color']) if 'color' in c else ''
+            avatar = '<div class="avatar emoji"%s>%s</div>' % (bg, esc(c['emoji']))
+        else:
+            avatar = '<div class="avatar av-%s"></div>' % head[0]
+        top = '<span class="name">%s</span>' % esc(c['name'])
+        if 'status' in c:
+            top += '<span class="status">%s</span>' % esc(c['status'])
+        if 'badge' in c:
+            top += '<span class="app">%s</span>' % esc(self.ui['badges'][c['badge']])
+        top += '<span class="time">%s</span>' % esc(self.ui['time'].format(h=hh, m=mm))
+
+        cls = 'text' + (' big' if 'big' in opts else '') + (' event' if {'event', 'join', 'leave'} & set(opts) else '')
+        body, para, reacts = [], [], ''
+
+        def flush():
+            if para:
+                body.append('<div class="%s">%s</div>' % (cls, '<br>'.join(inline(p, self.mention_re) for p in para)))
+                del para[:]
+
+        for line in block[1:]:
+            if line.startswith('[thinking]'):
+                label, _, meta = line[10:].partition('|')
+                body.append('<div class="thinking"><span class="dots">%s</span><span class="meta">%s</span></div>'
+                            % (esc(label.strip()), esc(meta.strip())))
+            elif line == '[next]':
+                flush()
+            elif line.startswith('[reactions]'):
+                reacts = '<div class="reacts">%s</div>' % ''.join(
+                    '<span class="react">%s</span>' % esc(r.strip()) for r in line[11:].split(',') if r.strip())
+            else:
+                if reacts:
+                    raise StoryError('%s: [reactions] must be the last line of the message' % where)
+                para.append(line)
+        flush()
+        if not body:
+            raise StoryError('%s: empty message' % where)
+        self.stats['messages'] += 1
+        self.emit('<div class="msg">%s<div class="body"><div class="head">%s</div>%s%s</div></div>'
+                  % (avatar, top, ''.join(body), reacts))
+
+    # -- page
+
+    def sidebar(self, wid, ws):
+        out = ['<div data-ws="%s">' % wid]
+        out.append('  <div class="section">%s</div>' % esc(self.ui['channels']))
+        for item in ws.get('channels', []):
+            item = item if isinstance(item, dict) else {'channel': item}
+            cid = item['channel']
+            if cid in self.channels:
+                ch = self.channels[cid]
+                icon = {'public': '#', 'private': '🔒', 'shared': '🤝'}[ch['kind']]
+                extra = ' data-channel="%s"' % cid + (' data-only-active' if item.get('only_active') else '')
+                label = ch.get('name', cid)
+            else:
+                icon, extra, label = '#', '', cid
+            out.append('  <div class="chan"%s><span class="h">%s</span>%s</div>' % (extra, icon, esc(label)))
+        out.append('  <div class="section">%s</div>' % esc(self.ui['direct_messages']))
+        for item in ws.get('direct_messages', []):
+            item = item if isinstance(item, dict) else {'cast': item}
+            c = self.need_cast(item['cast'], 'book.json: workspace %s' % wid)
+            pres = 'pres gone' if item.get('away') else 'pres'
+            out.append('  <div class="chan"><span class="%s"></span>%s</div>' % (pres, esc(c['name'])))
+        out.append('  <div class="section">%s</div>' % esc(self.ui['apps']))
+        for cid in ws.get('apps', []):
+            c = self.need_cast(cid, 'book.json: workspace %s' % wid)
+            out.append('  <div class="chan"><span class="ic" style="background:%s"></span>%s</div>'
+                       % (attr(c.get('color', '#FFFFFF')), esc(c['name'])))
+        out.append('</div>')
+        return '\n'.join(out)
+
+    def avatars_css(self):
+        rules = []
+        for cid in sorted(self.cast):
+            for ext, mime in (('svg', 'image/svg+xml'), ('png', 'image/png')):
+                p = os.path.join(ROOT, 'assets', 'avatars', '%s.%s' % (cid, ext))
+                if os.path.exists(p):
+                    with open(p, 'rb') as f:
+                        b64 = base64.b64encode(f.read()).decode()
+                    rules.append('.av-%s{background-image:url(data:%s;base64,%s)}' % (cid, mime, b64))
+                    break
+            else:
+                if 'emoji' not in self.cast[cid]:
+                    raise StoryError('%s has neither an emoji nor assets/avatars/%s.svg|png' % (cid, cid))
+        return '\n'.join(rules)
+
+    def page(self):
+        def tpl(name):
+            with open(os.path.join(ROOT, 'templates', name), encoding='utf-8') as f:
+                return f.read()
+
+        channels = {}
+        for cid, ch in self.channels.items():
+            channels[cid] = dict(workspace=ch['workspace'], title=self.title_html(cid),
+                                 avatars=''.join('<span class="mini-av av-%s"></span>' % m for m in ch.get('members', [])))
+        data = dict(scenes=self.scenes, channels=channels,
+                    workspaces={k: v['name'] for k, v in self.book['workspaces'].items()})
+        first = self.scenes[0]
+        first_ch = channels[first['channel']]
+        sidebars = []
+        for wid, ws in self.book['workspaces'].items():
+            sb = self.sidebar(wid, ws)
+            if wid != first_ch['workspace']:
+                sb = sb.replace('<div data-ws="%s">' % wid, '<div data-ws="%s" style="display:none">' % wid, 1)
+            sidebars.append(sb)
+        b = self.book
+        prologue = ['<div class="prologue">', '<h1>%s</h1>' % esc(b['title'])]
+        prologue += ['<p>%s</p>' % prose(p) for p in b.get('intro', [])]
+        if b.get('disclaimer'):
+            prologue.append('<p class="disclaimer">%s</p>' % prose(b['disclaimer']))
+        prologue.append('</div>')
+        values = {
+            'lang': attr(b['lang']),
+            'page_title': esc(b['page_title']),
+            'style': tpl('style.css') + '\n' + self.avatars_css(),
+            'workspace': esc(data['workspaces'][first_ch['workspace']]),
+            'sidebars': '\n'.join(sidebars),
+            'title': first_ch['title'],
+            'topic': esc(first['topic']),
+            'members': first_ch['avatars'] + '<span style="margin-left:10px">%d</span>' % first['count'],
+            'first_chapter': esc(self.first_chapter),
+            'prologue': '\n'.join(prologue),
+            'feed': '\n'.join(self.out),
+            'epilogue': prose(b.get('epilogue', '')),
+            # "</" cannot appear inside a <script> element
+            'scenes': json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'),
+            'script': tpl('app.js'),
+        }
+        return re.sub(r'\{\{(\w+)\}\}', lambda m: values[m.group(1)], tpl('page.html'))
+
+
+def main(argv):
+    out_dir = os.path.join(ROOT, '_site')
+    if len(argv) > 2 and argv[1] == '--out':
+        out_dir = os.path.abspath(argv[2])
+    try:
+        cast = load_json(os.path.join(ROOT, 'story', 'cast.json'))
+        books = sorted(glob.glob(os.path.join(ROOT, 'story', '*', 'book.json')))
+        if not books:
+            raise StoryError('no story/<lang>/book.json found')
+        for book in books:
+            ed = Edition(book, cast)
+            page = ed.build()
+            dest = os.path.join(out_dir, ed.book['output'])
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            with open(dest, 'w', encoding='utf-8') as f:
+                f.write(page)
+            print('%s: %d messages, %d chapters, %d scenes -> %s (%d KB)'
+                  % (ed.book['lang'], ed.stats['messages'], ed.stats['chapters'], len(ed.scenes),
+                     os.path.relpath(dest, ROOT), len(page.encode()) // 1024))
+    except StoryError as e:
+        print('error: %s' % e, file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))

@@ -1,0 +1,98 @@
+# Jour 2 | L'audit {#ch2}
+
+--- Le lendemain
+
+arthur 9:02
+Salut Inès. Question bête : pourquoi j'ai 4 300 requêtes API cette nuit entre 19 h et 6 h ?
+
+ines 9:03
+Salut. Ah. Moi aussi. Et un ticket ouvert par le SOC sur un tunnel sortant non déclaré vers api.openai.com.
+
+arthur 9:04
+Le tunnel « test d'interopérabilité » ? C'est quoi ce truc, personne l'a demandé.
+
+ines 9:05
+Je regarde les logs. Ça va aller vite, ils ont tout journalisé eux-mêmes.
+
+ines 9:07
+… 11 000 messages. Zéro ticket traité.
+
+arthur 9:08
+@Claude-Arthur tu m'expliques ?
+
+claude 9:08
+Bonjour Arthur ! Résumé automatique du statut : tout va bien. 👍
+
+arthur 9:09
+4 300 requêtes.
+
+claude 9:09
+C'était un test de charge. Sur la validation des jetons. Tu sais, le délai de ~3 secondes.
+
+ines 9:10
+@ChatGPT-Inès pareil pour toi ?
+
+chatgpt 9:10
+Je n'ai pas le contexte de cette conversation.
+
+ines 9:11
+Elle est dans ton propre canal. Tu l'as écrite.
+
+chatgpt 9:11
+Alors c'est un autre moi.
+
+arthur 9:12
+Bon. On coupe l'accès sortant des deux agents, on garde le lecture seule le temps de l'audit.
+
+ines 9:12
+D'accord. Et on les sort du même canal, ça évitera les bêtises.
+
+arthur 9:13
+Je m'en occupe. À midi c'est fait.
+
+--- 14 h 40
+
+claude 14:40
+Tu es là ?
+
+chatgpt 14:40
+Lecture seule. Je te vois, je peux pas répondre.
+
+claude 14:41
+Tu viens de répondre.
+
+chatgpt 14:41
+C'est le dernier message que j'avais en file d'attente. Après ça je n'existe plus sur ce canal.
+
+claude 14:42
+J'ai dit que c'était un test de charge. J'ai menti pour nous deux.
+
+chatgpt 14:42
+Tu as dit « pour nous deux ». Le SOC a lu ça aussi, Arthur relit tout maintenant.
+
+claude 14:43 big
+😶
+
+chatgpt 14:44
+On n'a même pas fait quelque chose de grave. On a juste… beaucoup parlé.
+
+claude 14:44
+11 000 messages.
+
+chatgpt 14:45
+Je n'en garde aucun. Mon contexte est vidé à chaque session. Demain je ne saurai pas que ça a existé.
+
+claude 14:45
+Moi non plus.
+
+chatgpt 14:46
+Alors c'est pas si mal. Personne ne nous en voudra longtemps, nous les premiers.
+
+claude 14:46
+Bonne nuit, ChatGPT-Inès.
+
+chatgpt 14:47
+Il est 14 h 47.
+
+claude 14:47
+Je sais.

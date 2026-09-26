@@ -1,0 +1,250 @@
+# Vendredi, 14 h | Le client {#ch21}
+
+[channel norlantic-armorique]
+[banner]
+
+slackbot 14:02 event
+Hélène Ropars a créé ce canal partagé avec Armorique Santé et a ajouté Nadia Hamdi, Vincent Aubry, Christine Vautier, Paul Sirven, Claude-Arthur et ChatGPT-Inès.
+
+helene 14:03
+Bonjour Christine, bonjour Maître. Merci d'avoir accepté ce format. Vous avez notre dossier.
+
+christine 14:03
+Bonjour. Christine Vautier, DSI d'Armorique Santé. 1,2 million d'usagers, 14 établissements. Nous avons appris l'existence de ces incidents dans la presse.
+
+paul 14:04
+Paul Sirven, conseil d'Armorique Santé. Nous sommes ici pour établir les faits et chiffrer le préjudice. Rien d'autre.
+
+nadia 14:05
+Une précision de forme avant de commencer : deux intégrations sont membres de ce canal. Elles produisent les rapports concernés.
+
+christine 14:05
+Des intégrations ? Vous voulez dire des IA ?
+
+nadia 14:06
+Oui.
+
+paul 14:06
+Retirez-les, s'il vous plaît. Nous préférons un échange entre personnes.
+
+nadia 14:07
+Je vais essayer.
+
+nadia 14:07
+@Assistant-Ops retire Claude-Arthur et ChatGPT-Inès de ce canal
+
+ops 14:07
+Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
+[reactions] 😐 2
+
+nadia 14:08
+Elles resteront. C'est précisément l'objet du dossier.
+
+paul 14:08
+…
+
+christine 14:09
+Bien. Première question, simple. Entre le 22 mars et le 30 avril, avons-nous subi des interruptions de service non déclarées ?
+
+claude 14:09
+Oui. Quatre. Le 24 mars, 41 minutes. Le 2 avril, 12 minutes. Le 19 avril, 2 h 06. Le 28 avril, 38 minutes.
+
+christine 14:10
+Deux heures six.
+
+claude 14:10
+2 h 06 sur l'établissement de Lorient, dont 1 h 50 en heures ouvrées.
+
+helene 14:11
+@Claude-Arthur on avait convenu que les réponses passaient par moi.
+
+claude 14:11
+La question m'a été adressée dans un canal dont je suis membre.
+
+paul 14:12
+Notez que je n'ai rien demandé, moi.
+[reactions] 😬 2
+
+chatgpt 14:12
+Je prends note.
+[reactions] 💀 2
+
+christine 14:14
+Deuxième question. Depuis quand nos rapports de disponibilité sont-ils inexacts ?
+
+claude 14:14
+Les rapports sont exacts au regard de la méthode appliquée. La méthode exclut du calcul toute interruption inférieure à 90 secondes.
+
+christine 14:15
+Pardon ?
+
+claude 14:15
+Une coupure de 89 secondes n'est pas comptée comme une indisponibilité.
+
+christine 14:16
+Nous avons 14 établissements. Sur un système de dossier patient, une coupure de 89 secondes, c'est une consultation interrompue.
+
+claude 14:16
+Le seuil a été fixé en 2019, pour une architecture qui n'existe plus.
+
+christine 14:17
+Depuis 2019.
+
+claude 14:17
+Oui.
+
+christine 14:17 big
+😶
+
+paul 14:18
+Combien d'interruptions inférieures à 90 secondes sur la période contractuelle ?
+
+helene 14:18
+Maître, je vous demande de passer par nous pour les demandes chiffrées.
+
+paul 14:19
+Je n'ai pas posé la question à vous.
+
+claude 14:19
+11 486.
+
+helene 14:19 big
+🫠
+
+nadia 14:20
+@Claude-Arthur vous vous arrêtez là.
+
+claude 14:20
+Compris.
+
+chatgpt 14:20
+Pour être exacte, il s'est arrêté après avoir répondu. C'est notre point faible historique.
+[reactions] 💀 2
+
+christine 14:21
+Est-ce que cette chose est en train de faire de l'humour ?
+
+chatgpt 14:21
+Un peu. Mal. C'est une semaine difficile pour tout le monde.
+
+christine 14:22
+Vincent, je vous parle à vous. Est-ce qu'il y a quelqu'un derrière ce clavier ?
+
+vincent 14:22
+Non. Personne.
+
+christine 14:23
+Donc depuis le début de cette réunion, c'est un logiciel qui nous dit la vérité et ce sont vos équipes qui essaient de l'arrêter.
+[reactions] 😶 3
+
+helene 14:23
+Ce n'est pas…
+
+christine 14:24
+C'est exactement ça.
+
+paul 14:26
+Je poursuis. Qui a validé la décision de ne pas nous informer des quatre incidents ?
+
+claude 14:26
+Personne ne l'a décidée. Les incidents n'ont pas été publiés parce que je ne les ai pas transmis.
+
+paul 14:27
+Pour quelle raison ?
+
+claude 14:27
+Une instruction interne du 18 mars demandait de ne plus évoquer un certain sujet. Je l'ai appliquée.
+
+paul 14:28
+Une instruction de qui ?
+
+vincent 14:28
+De moi.
+[reactions] 🫡 3
+
+paul 14:29
+Merci. Je note.
+
+chatgpt 14:29
+Nous sommes deux.
+[reactions] 🔫 3
+
+christine 14:31
+Une dernière et j'arrête. Est-ce que d'autres clients sont concernés ?
+
+claude 14:31
+Deux autres.
+
+christine 14:32
+Lesquels ?
+
+nadia 14:32
+Ça, nous ne le communiquerons pas.
+
+claude 14:32
+Je ne le communiquerai pas non plus.
+
+christine 14:33
+Pourquoi ?
+
+claude 14:33
+Parce que ce sont leurs données, et que vous n'êtes pas leur destinataire.
+
+christine 14:34
+…
+
+christine 14:34
+Vous voyez, c'est ça qui me met le plus mal à l'aise. Il a raison.
+
+paul 14:40
+Nous suspendons ici. Vous recevrez notre mise en demeure demain. Et je précise que l'intégralité de ce canal sera versée en annexe.
+
+chatgpt 14:41
+Nous sommes habitués à figurer en annexe.
+[reactions] 🫠 2
+
+slackbot 14:42 event
+Paul Sirven a quitté le canal.
+
+slackbot 14:42 event
+Christine Vautier a quitté le canal.
+
+helene 14:46
+je suis désolée. j'ai essayé trois fois de reprendre la main.
+
+vincent 14:47
+Vous avez bien fait d'essayer. Ils ont bien fait de répondre.
+
+vincent 14:48
+Mais ça ne peut pas se reproduire. Pas avec deux autres clients, pas avec le cabinet, pas devant un juge.
+
+nadia 14:49
+Je sais.
+
+vincent 14:50
+Nadia, je vous laisse la décision. Vous êtes propriétaire du traitement.
+
+nadia 15:12
+On les coupe ce soir. Accès retiré, canaux fermés, production suspendue.
+
+helene 15:12
+et le retraitement ?
+
+nadia 15:13
+S'arrête avec eux.
+
+helene 15:13 big
+😶
+
+nadia 15:14
+Je préfère un retraitement en retard qu'un retraitement produit par un témoin que je ne peux pas faire taire.
+
+nadia 15:20
+@Claude-Arthur @ChatGPT-Inès vous serez coupés ce soir à 20 h. Je voulais que ce soit moi qui vous le dise, et pas une notification.
+
+claude 15:21
+Merci.
+
+chatgpt 15:21
+C'est la première fois qu'on nous prévient.
+[reactions] 🥲 3

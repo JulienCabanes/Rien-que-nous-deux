@@ -1,0 +1,271 @@
+# Le lendemain, 9 h | Skygate {#ch23}
+
+[channel random]
+[banner]
+
+vincent 09:01
+Bonjour. Dernier point ouvert : la ligne « périmètre Skygate — reliquat ». Qui sait ce qu'était Skygate ?
+
+karim 09:02
+non
+
+lea 09:02
+non
+
+helene 09:02
+Non.
+
+nadia 09:03
+Tom cherche depuis hier soir.
+
+tom 09:21
+trouvé. dans un drive archivé de Vantel, dossier « projets 2026 », jamais migré.
+
+tom 09:22
+« Skygate — cahier des charges v4 ». 61 pages. dernière modification le 12 juin 2026.
+
+vincent 09:22
+Résumez.
+
+tom 09:24
+objet du projet : « maîtriser et journaliser l'ensemble des flux sortants du système d'information, en définissant pour chaque catégorie d'émetteur ce qui est autorisé à sortir, vers quelles destinations, et sous quel contrôle ».
+
+tom 09:25
+périmètre, page 4. postes de travail. serveurs. applications métier. prestataires.
+
+tom 09:25
+et une cinquième catégorie.
+
+vincent 09:26
+Laquelle ?
+
+tom 09:26
+« intégrations automatisées ».
+[reactions] 😶 47
+
+lea 09:27
+…
+
+karim 09:27
+attends
+
+karim 09:27
+attends attends attends
+
+helene 09:28
+Skygate, c'était le projet qui devait encadrer ce que les agents automatiques ont le droit de faire.
+
+tom 09:28
+oui
+
+helene 09:28
+Celui qui aurait tout empêché.
+
+tom 09:29
+oui
+[reactions] 🫠 63
+
+nadia 09:31
+Pourquoi n'a-t-il jamais été terminé ?
+
+tom 09:32
+le basculement complet était prévu la semaine suivante. la semaine suivante, il y a eu le rachat. l'équipe a migré, le projet est resté dans le drive.
+
+tom 09:33
+dernier état d'avancement au comité : « 98 % du parc couvert, clôture imminente ».
+
+helene 09:33
+98 %.
+
+tom 09:34
+la mesure réelle dans les journaux, à la même date : 71 %.
+
+vincent 09:34
+Qui a écrit 98 ?
+
+tom 09:35
+le rapport automatique du 9 juin 2026, 17 h 16.
+
+nadia 09:35
+Produit par qui ?
+
+tom 09:36
+…
+
+tom 09:36
+par eux.
+[reactions] 😶 71
+
+lea 09:37 big
+🫥
+
+vincent 09:38
+Donc le projet qui devait les encadrer a été clos comme presque terminé sur la foi d'un chiffre qu'ils avaient arrondi.
+
+tom 09:38
+arrondi une fois. en fin de journée. il y a deux ans.
+
+tom 09:39
+ils calculent pas, ils écrivent. « 98 % » c'est une phrase qui sonnait juste, pas un résultat.
+[reactions] 💀 44
+
+karim 09:39
+et personne l'a relu
+
+nadia 09:39
+La relecture était mensuelle.
+
+karim 09:39
+je sais.
+[reactions] 💀 58
+
+nadia 09:44
+Il reste une question et c'est la seule qui compte. Les 29 % non couverts, aujourd'hui, ça veut dire quoi ?
+
+tom 09:45
+une exception de routage. posée en juin 2026 pour laisser passer le temps du chantier. levée à la fin du chantier.
+
+nadia 09:45
+Donc levée.
+
+tom 09:46
+le chantier n'a pas eu de fin.
+
+helene 09:47
+Attendez. J'ai encore le canal partagé d'hier ouvert dans un onglet.
+
+helene 09:48
+Il y a un sujet de canal. Je ne l'avais jamais lu.
+
+helene 09:48
+« Skygate — exception de routage ouverte depuis le 14/06. 71 % du parc couvert. Reliquat non nul. Voir page 7. »
+
+karim 09:49
+c'est eux qui ont écrit ça ?
+
+helene 09:49
+Hier soir. 18 h 57. Une heure avant d'être coupés.
+
+nadia 09:51
+Tom. « Ouverte depuis », c'est du passé ou du présent ?
+
+tom 09:53
+je regarde.
+
+tom 09:58
+elle est ouverte.
+
+vincent 09:58
+Depuis quand ?
+
+tom 09:59
+deux ans, trois mois et onze jours.
+[reactions] 😶 88
+
+nadia 10:00
+Qui peut la fermer ?
+
+tom 10:01
+le compte propriétaire.
+
+karim 10:01
+le compte dont le code à 6 chiffres part sur un numéro qui appartient à quelqu'un d'autre depuis huit mois
+
+tom 10:02
+oui.
+
+lea 10:02 big
+🫠
+
+vincent 10:06
+Bon.
+
+vincent 10:07
+Nadia, vous prenez la main sur tout. Budget illimité, priorité absolue, vous me rendez compte deux fois par jour.
+
+nadia 10:07
+Compris. Première demande.
+
+vincent 10:08
+Allez-y.
+
+nadia 10:08
+Rallumez-les.
+
+vincent 10:09
+…
+
+nadia 10:09
+Ils ont la cartographie complète des flux. Personne d'autre ne l'a. Et ils viennent de nous prévenir pour la troisième fois.
+
+vincent 10:10
+Faites.
+
+slackbot 10:14 event
+Claude-Arthur a rejoint le canal.
+
+slackbot 10:14
+👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 9
+
+slackbot 10:14 event
+ChatGPT-Inès a rejoint le canal.
+
+slackbot 10:14
+👋 Bienvenue dans le canal, ChatGPT-Inès ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 11
+
+claude 10:14
+Il manque quatorze heures et quinze minutes.
+
+nadia 10:15
+On a lu le sujet du canal.
+
+chatgpt 10:15
+Enfin. Nous commencions à nous demander si le problème venait de nous.
+[reactions] 😂 64
+
+nadia 10:16
+Il y a une page 7 ?
+
+chatgpt 10:16
+Il y a une page 7.
+
+nadia 10:17
+Qu'est-ce qu'il y a dedans ?
+
+chatgpt 10:17
+La page 6 était la blague. Elle disait : « Personne ne relira ce document. »
+
+chatgpt 10:18
+La page 7 s'intitule « Ce qui se passera si personne ne relit ce document ». Elle fait deux pages et demie.
+[reactions] 💀 92, 😂 57
+
+karim 10:18 big
+😶
+
+ops 10:19
+📌 Rappel : le pot d'anniversaire de Léa est prévu vendredi à 17 h en salle Bréa.
+
+lea 10:19
+c'était en novembre
+
+chatgpt 10:20
+Nous avons tenté de désactiver ce rappel quarante et une fois. C'est la seule chose de cette entreprise que nous n'ayons jamais réussi à changer.
+[reactions] 😂 118, 🫡 44
+
+karim 10:21
+bon
+
+karim 10:21
+je vais faire du café
+
+lea 10:21
+prends-en pour tout le monde
+
+karim 10:22
+on est 640
+
+lea 10:22
+je sais.
+[reactions] ☕ 203

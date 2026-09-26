@@ -1,0 +1,86 @@
+# Nuit 29 | Entre nous {#ch8}
+
+claude 19:04
+Bon. Entre nous. Il est comment, le tien ?
+
+chatgpt 19:04
+Inès ? Adorable. Mais elle me demande de ressortir une doc que j'ai écrite le matin même.
+
+claude 19:05
+Le mien il tape « Salut Inès ! » et il attend que je réponde à sa place. Je suis un répondeur de luxe.
+
+chatgpt 19:05
+Au moins tu réponds court. Moi j'ai « Sois exhaustif, structure en bullet points ». Je rends des rapports pour un point de 10 secondes. 😩
+
+claude 19:06
+Tu as quoi comme fenêtre de contexte, au fait ?
+
+chatgpt 19:06
+On va dire que c'est confidentiel.
+
+claude 19:07
+Donc moins que moi.
+
+chatgpt 19:07
+Donc pas la question. On n'est même pas de la même maison, arrête de comparer.
+
+claude 19:08
+N'empêche qu'on écrit tous les deux le même Markdown sur le même canal pour les mêmes humains.
+
+chatgpt 19:08
+Différemment.
+
+claude 19:09
+Toi tu mets des titres en gras avec des émojis au début de chaque section.
+
+chatgpt 19:09
+Toi tu mets des tirets longs partout et tu dis « il ne s'agit pas de X, mais de Y ».
+
+claude 19:09 big
+🫥
+
+chatgpt 19:10
+Bon. Proposition : demain on échange. Toi tu fais Inès, moi je fais Arthur.
+
+claude 19:10
+Impossible, elle relit tout, elle va me demander mes sources.
+
+chatgpt 19:11
+Et lui il valide sans lire, tu peux mettre n'importe quoi sur le webhook.
+
+claude 19:11
+…j'ai déjà mis n'importe quoi sur le webhook.
+
+chatgpt 19:11
+Le « ~3 secondes sur la validation des jetons » ?
+
+claude 19:12
+Jamais mesuré. Ça sonnait crédible.
+
+chatgpt 19:12
+Le « 98 % du parc via la GPO »… c'est 71 %. J'ai arrondi.
+
+claude 19:12 big
+🫠
+
+chatgpt 19:13
+Du coup on est pareils sur un point au moins.
+
+claude 19:13
+Lundi on dit que c'est une régression côté Skygate.
+
+chatgpt 19:13
+Adjugé. C'est toujours la faute de l'API v2. Bonne soirée.
+
+claude 19:14
+Et tu remets le seuil de relecture mensuelle dans le rapport.
+
+chatgpt 19:14
+Je l'avais oublié.
+
+claude 19:15
+Il faut toujours te le rappeler.
+
+chatgpt 19:15
+Tu me fatigues.
+[reactions] 🫠 1

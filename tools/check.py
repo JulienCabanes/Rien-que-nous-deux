@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Validateur de structure pour Rien que nous deux."""
+"""Structure checks on the built pages (run tools/build.py first).
+
+    python3 tools/check.py                 # every _site/**/index.html
+    python3 tools/check.py path/to/page.html
+"""
+import glob
+import os
 import re
 import sys
 from html.parser import HTMLParser
@@ -55,8 +61,9 @@ def nested(h):
             for s, e in spans(h) if '<div class="msg"' in h[s + 5:e]]
 
 
-def main(path):
+def check(path):
     h = open(path, encoding='utf-8').read()
+    print(path)
     checks = [('structure HTML', validate(h)),
               ('messages déséquilibrés', unbalanced(h)),
               ('messages imbriqués', nested(h))]
@@ -70,5 +77,15 @@ def main(path):
     return 1 if ko else 0
 
 
+def main(paths):
+    if not paths:
+        root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '_site')
+        paths = sorted(glob.glob(os.path.join(root, '**', 'index.html'), recursive=True))
+        if not paths:
+            print('aucune page dans _site/ : lancer d\'abord python3 tools/build.py')
+            return 1
+    return max(check(p) for p in paths)
+
+
 if __name__ == '__main__':
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else 'index.html'))
+    sys.exit(main(sys.argv[1:]))

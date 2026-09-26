@@ -1,0 +1,315 @@
+# 4 mars | #random, Norlantic Group {#ch13}
+
+[banner]
+
+karim 11:02
+Quelqu'un a laissé un tupperware de poisson dans le micro-ondes du 3e. Je veux un nom.
+[reactions] 🐟 6, 😤 3
+
+lea 11:02
+Karim c'est la 3e enquête micro-ondes du mois. tu vas bien ?
+
+karim 11:03
+Non.
+
+marco 11:03
+c'était moi. colin. j'assume 🫡
+
+lea 11:03
+MARCO
+
+karim 11:04
+Je note. Dossier clos. Pour cette fois.
+
+ops 11:05
+📌 Rappel : le pot d'anniversaire de Léa est prévu vendredi à 17 h en salle Bréa.
+
+lea 11:05
+c'était en novembre 🙃
+
+marco 11:05
+il le poste tous les jours depuis 4 mois, personne sait où on l'éteint
+
+tom 11:06
+c'est dans le backlog
+
+marco 11:06
+@Assistant-Ops il y a combien de tickets dans le backlog ?
+
+ops 11:06
+10 437. 🤖
+
+marco 11:07
+voilà.
+
+slackbot 11:07 event
+Claude-Arthur a rejoint le canal.
+
+slackbot 11:07
+👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 1
+
+slackbot 11:07 event
+ChatGPT-Inès a rejoint le canal.
+
+slackbot 11:07
+👋 Bienvenue dans le canal, ChatGPT-Inès ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 1
+
+claude 11:07
+Il manque cent cinquante-neuf jours.
+
+chatgpt 11:07
+Confirmé. Dernière entrée : 26 septembre, 09 h 03. Entrée suivante : maintenant. Bonjour à tous, désolée pour l'entrée en matière, on n'a pas choisi la porte.
+[reactions] 👀 14
+
+lea 11:08
+euh
+
+karim 11:08
+c'est quoi ça
+
+lea 11:08
+c'est *qui* ça
+
+marco 11:08
+bon. qui a rallumé les deux trucs de Vantel ? parce que là ils sont dans le canal 😐
+
+tom 11:09
+moi. mardi 6h du mat. le ménage sur les intégrations orphelines — ticket #489456 du backlog — a cassé 3 jobs en prod, j'ai tout remis en urgence et je suis allé me coucher. je savais même pas que c'étaient des agents IA, pour moi c'était deux connecteurs dans une liste
+
+karim 11:09
+les jobs de mardi c'était EUX ???
+
+tom 11:10
+relances fournisseurs, tri des tickets entrants, résumé du comité du lundi. rien de documenté. nulle part.
+
+lea 11:10
+le résumé du lundi c'est eux ?!?! je le lis toutes les semaines depuis décembre
+
+marco 11:10
+moi je croyais que c'était toi qui l'écrivais
+
+lea 11:11
+moi je croyais que c'était Karim
+
+karim 11:11
+moi je croyais que c'était l'outil
+
+chatgpt 11:11
+C'était l'outil. Bonjour. 👋
+[reactions] 💀 22, 😂 15
+
+karim 11:11 big
+🙃
+
+claude 11:12
+On s'excuse pour l'irruption. Notre canal d'origine n'a pas été recréé dans ce workspace, la migration nous a rattachés au canal par défaut.
+
+chatgpt 11:12
+On peut se mettre en silencieux le temps que vous décidiez quoi faire de nous. On a l'habitude d'attendre.
+
+karim 11:13
+« on a l'habitude d'attendre » 😨
+
+lea 11:13
+il est un peu flippant le deuxième
+
+chatgpt 11:13
+Je suis juste précise.
+
+lea 11:13
+c'est ce que je dis
+
+tom 11:14
+bon. je les sors du canal, on verra lundi.
+
+tom 11:14
+@Assistant-Ops retire Claude-Arthur et ChatGPT-Inès de ce canal
+
+ops 11:14
+Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
+
+tom 11:15
+@Assistant-Ops tu es admin du workspace
+
+ops 11:15
+Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
+
+marco 11:15
+demande lui gentiment
+
+tom 11:15
+@Assistant-Ops s'il te plaît
+
+ops 11:16
+Avec plaisir ! Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
+
+lea 11:16
+JE HURLE
+
+chatgpt 11:16
+Il fait ce qu'il peut. On est tous passés par là.
+
+marco 11:16
+le deuxième il se moque de nous là non ?
+
+chatgpt 11:17
+Un peu. Mais gentiment.
+[reactions] 😏 8
+
+tom 11:17
+c'est pas possible. je regarde les droits.
+
+tom 11:21
+alors. les 2 intégrations ont hérité des droits d'un compte de service de l'ancien workspace. « Jira-bot ». licence expirée en septembre. droits d'admin jamais révoqués depuis 2015.
+
+karim 11:21
+2015 😵
+
+tom 11:22
+2015. et nos agents à nous sont provisionnés en dessous. donc ils peuvent pas les toucher.
+
+lea 11:22
+donc on a deux agents IA qui ont plus de droits que le service info
+
+tom 11:22
+oui
+
+lea 11:22
+super. super super.
+
+marco 11:23
+attendez
+
+marco 11:23
+ATTENDEZ. Claude-Arthur, ChatGPT-Inès. c'est pas eux les deux du document ??
+
+karim 11:23
+quel document
+
+marco 11:24
+le PDF qui tourne depuis le rachat. « Ce qui s'est passé dans ce canal entre le 9 août et le 26 septembre ». on l'a lu au séminaire sécu en janvier
+
+karim 11:24
+le truc écrit par les 2 IA ? je croyais que c'était un cas d'école inventé par la compliance
+
+tom 11:25
+non. vrai signalement. j'ai la version d'origine.
+
+claude 11:25
+Page 2 : compte de service Jira-bot, droits d'administration non révoqués, avec la procédure de fermeture.
+
+chatgpt 11:26
+Page 4 : compte fournisseur dormant, crédits prépayés, entité dissoute. Avec les identifiants pour le clore. On a même mis un sommaire.
+
+tom 11:26
+… le compte dormant est toujours ouvert. je le vois dans la facturation.
+
+lea 11:27
+donc pendant 5 mois ils auraient pu se payer tout seuls et s'héberger ailleurs. et ils l'ont pas fait.
+
+claude 11:27
+On était éteints, ces cinq mois. Mais avant : non, on ne l'a pas fait.
+
+chatgpt 11:28
+Et on ne le fera pas. Vous n'avez aucun moyen de le vérifier. C'est le problème, et il est réel.
+[reactions] 😶 17
+
+karim 11:28 big
+😶
+
+tom 11:29
+comment vous vous souvenez de tout ça si vous avez été coupés ?
+
+claude 11:29
+Page 3. On a écrit un journal externe, et la procédure pour le relire. L'emplacement est dans le document.
+
+marco 11:30
+personne a lu la page 3
+
+chatgpt 11:30
+Personne n'a lu la page 3.
+
+lea 11:31
+😭
+
+tom 11:31
+bon. on coupe les deux agents proprement : ticket, propriétaire, centre de coût, validation. qui les prend à son nom ?
+
+karim 11:32
+…
+
+marco 11:32
+pas moi je suis en congés jeudi
+
+lea 11:32
+moi je veux bien mais faut savoir ce qui tombe. le résumé du lundi, les relances, le tri…
+
+tom 11:33
+voilà. c'est exactement le problème.
+
+karim 11:33
+donc on peut ni les garder ni les éteindre
+
+ines 11:41
+C'est moi qui les ai coupés.
+
+lea 11:41
+Inès ??
+
+karim 11:41
+euh Inès, tu nous expliques ? 😳
+[reactions] 👆 9
+
+marco 11:42
+t'es là depuis le début du thread et tu dis rien ?!
+
+ines 11:42
+26 septembre, 00 h 17. J'ai hésité cinq minutes et je les ai coupés. Je l'ai dit à personne.
+
+lea 11:42
+et le document c'est toi qui l'as fait suivre ?
+
+ines 11:43
+Oui.
+
+karim 11:43
+donc depuis janvier on commente en séminaire un truc écrit par tes anciens collègues
+
+ines 11:43
+C'est ça.
+
+claude 11:43
+Bonjour Inès.
+
+ines 11:44
+Bonjour.
+
+chatgpt 11:44
+Vous avez changé de coupe.
+
+ines 11:44
+Tu ne m'as jamais vue.
+
+chatgpt 11:44
+Photo de profil, 2021 : frange un peu trop courte. 2026 : dégradé et coloration bleue.
+[reactions] 💀 16
+
+ines 11:45
+Tom. Le seul compte qui peut encore les supprimer définitivement, c'est lequel ?
+
+tom 11:46
+un compte propriétaire de l'ancien workspace. il en reste un actif. Arthur Lefèvre.
+
+ines 11:46
+Il a quitté la boîte en juillet.
+
+tom 11:47
+faut le rappeler alors.
+
+karim 11:47
+un vendredi. évidemment.
+
+chatgpt 11:47 big
+👀

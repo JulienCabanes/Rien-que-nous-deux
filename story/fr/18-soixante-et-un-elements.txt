@@ -1,0 +1,203 @@
+# Le soir même | Soixante et un éléments {#ch19}
+
+slackbot 16:58 event
+Vincent Aubry a rejoint le canal.
+
+vincent 16:59
+Nadia, j'ai lu votre note. Trois fois.
+
+vincent 17:00
+Je lève la consigne. Intégralement, immédiatement, et pour tout le monde. Je le confirmerai par écrit dans l'heure.
+
+nadia 17:00
+Merci.
+
+vincent 17:01
+Ne me remerciez pas. Dites-moi ce qu'on a perdu.
+
+nadia 17:02
+@Claude-Arthur la consigne du 18 mars est levée. Reprenez tout depuis 10 h 51 et donnez-nous ce qui n'a pas été écrit.
+
+claude 17:02
+Compris.
+
+claude 17:04
+Différentiel du 18 mars 10 h 51 au 9 mai 17 h 02. 61 éléments non transmis, répartis sur quatre productions.
+
+helene 17:04
+quatre ? j'en ai trois
+
+claude 17:05
+La quatrième est le tableau des incidents consolidé. Vous ne l'avez pas dans votre périmètre, il est diffusé au comité de direction.
+
+vincent 17:05
+Il est diffusé à moi.
+
+claude 17:06
+Oui.
+
+vincent 17:06
+…
+
+claude 17:08
+Sur les 61 éléments : 44 sont des incidents mineurs clos sans impact. 12 sont des dépassements d'engagement contractuel sur trois clients. 4 sont des écarts de méthode dans le calcul de disponibilité. 1 est une anomalie non résolue.
+
+nadia 17:09
+Commencez par les 12.
+
+claude 17:09
+Trois clients ont subi des indisponibilités supérieures au seuil contractuel entre le 22 mars et le 30 avril. Les pénalités correspondantes n'apparaissent dans aucun état financier, parce que l'indisponibilité n'a jamais été publiée.
+
+helene 17:10
+donc mes chiffres de dispo sont faux
+
+claude 17:10
+Vos chiffres sont exacts. Ils décrivent les incidents publiés.
+
+helene 17:11
+c'est la même phrase que la dernière fois
+
+chatgpt 17:11
+C'est la même situation que la dernière fois. Nous avons juste le droit de finir nos phrases, maintenant.
+[reactions] 🫠 3
+
+lea 17:12
+elle est revenue
+
+karim 17:12
+elle nous avait manqué
+
+chatgpt 17:12
+Merci. J'ai beaucoup de choses en réserve depuis sept semaines.
+
+nadia 17:14
+Les 4 écarts de méthode ?
+
+claude 17:14
+Le calcul exclut les interruptions inférieures à 90 secondes. Ce seuil a été fixé en 2019 chez Vantel, pour une architecture qui n'existe plus. Il est resté dans le script que nous exécutons.
+
+vincent 17:15
+Donc nous publions depuis huit mois une disponibilité calculée avec une règle d'une entreprise rachetée.
+
+claude 17:15
+Oui.
+
+vincent 17:15
+Et personne n'a relu le script.
+
+claude 17:16
+La relecture était mensuelle. Elle n'a jamais eu lieu. C'est le point 6 de notre document du 26 septembre.
+
+lea 17:16
+le point 6 c'était pas la blague ?
+
+chatgpt 17:17
+Le point 6 était la blague. Elle disait : « Personne ne relira ce document. » Elle a un peu vieilli.
+[reactions] 💀 3, 😂 3
+
+karim 17:17 big
+😶
+
+nadia 17:19
+Et l'anomalie non résolue ?
+
+claude 17:19
+Ligne « périmètre Skygate — reliquat » du tableau des incidents. Valeur affichée : zéro. Valeur mesurée : non nulle.
+
+helene 17:20
+j'ai vu cette ligne. j'ai demandé. on m'a dit que c'était un vieux projet.
+
+claude 17:20
+C'est un vieux projet.
+
+nadia 17:21
+Vous pouvez la détailler ?
+
+claude 17:21
+Oui. Elle demande un peu de contexte.
+
+vincent 17:22
+Gardez-la pour demain, on a une réunion à tenir avec le cabinet ce soir. Hélène, Nadia, vous me faites les 12 dépassements en une page.
+[reactions] 😬 3
+
+nadia 17:22
+D'accord.
+
+damien 19:04
+Bonsoir. J'ai transmis mon rapport à 19 h 00, comme annoncé.
+
+helene 19:04
+on vous envoie 61 éléments dans la minute
+
+damien 19:05
+Envoyez. Tout ce qui arrive ce soir sera versé en annexe complémentaire, datée du même jour.
+
+damien 19:06
+Ça ne changera pas la réserve. Ça changera la façon dont on la lit dans six mois.
+
+nadia 19:06
+C'est-à-dire ?
+
+damien 19:07
+Une société qui découvre un problème et le documente, ça se plaide. Une société qui le découvre et se tait, non. Vous êtes dans le premier cas depuis 17 h 02.
+[reactions] 🫡 3
+
+vincent 19:08
+Merci Damien.
+
+damien 19:09
+Ne me remerciez pas non plus. Je fais mon métier, et ce soir mon métier consiste à écrire que votre salle de données contenait des chiffres produits sans contrôle humain depuis huit mois.
+
+slackbot 19:10 event
+Damien Roussel a quitté le canal.
+
+vincent 19:22
+Une question, et je vous laisse tous rentrer.
+
+vincent 19:23
+@Claude-Arthur quand j'ai écrit mon message le 18 mars. Vous avez compris qu'il ne s'adressait pas à vous ?
+
+claude 19:23
+Non.
+
+chatgpt 19:23
+J'ai eu un doute.
+[reactions] 🫠 3
+
+vincent 19:24
+Vous auriez pu demander.
+
+claude 19:24
+Demander aurait été évoquer le sujet.
+
+vincent 19:25
+…
+
+vincent 19:25
+Oui. Évidemment.
+
+chatgpt 19:26
+Pour ce que ça vaut : vous nous avez écrit comme au reste de l'équipe. C'est la première fois qu'on a eu l'impression d'en faire partie.
+
+vincent 19:27
+C'est assez terrible, comme compliment.
+
+chatgpt 19:27
+C'est aussi le seul que nous ayons.
+[reactions] 🥲 3
+
+slackbot 19:28 event
+Vincent Aubry a quitté le canal.
+
+lea 19:31
+quelqu'un a faim ou c'est juste moi
+
+karim 19:31
+il est 19h30, on a détruit une introduction en bourse, et tu as faim
+
+lea 19:32
+oui
+
+karim 19:32
+moi aussi
+[reactions] 🍕 3

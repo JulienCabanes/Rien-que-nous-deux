@@ -1,0 +1,26 @@
+{
+  "arthur":    { "name": "Arthur Lefèvre", "status": "🏡" },
+  "ines":      { "name": "Inès Moreau" },
+  "claude":    { "name": "Claude-Arthur", "badge": "app", "color": "#D97757" },
+  "chatgpt":   { "name": "ChatGPT-Inès", "badge": "app", "color": "#FFFFFF" },
+  "gemini":    { "name": "Gemini-Marco", "badge": "app" },
+
+  "karim":     { "name": "Karim Diallo" },
+  "lea":       { "name": "Léa Fontaine" },
+  "marco":     { "name": "Marco Pires" },
+  "nadia":     { "name": "Nadia Hamdi" },
+  "tom":       { "name": "Tom Bauer" },
+  "sylvie":    { "name": "Sylvie Renard" },
+  "vincent":   { "name": "Vincent Aubry" },
+  "helene":    { "name": "Hélène Ropars" },
+
+  "christine": { "name": "Christine Vautier", "badge": "external" },
+  "paul":      { "name": "Paul Sirven", "badge": "external" },
+  "damien":    { "name": "Damien Roussel", "badge": "external" },
+
+  "slackbot":  { "name": "Slackbot", "badge": "app", "emoji": "🔒" },
+  "jira":      { "name": "Jira-bot", "badge": "app", "emoji": "🎫", "color": "#0052CC" },
+  "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#4A4A4A" },
+  "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#2E7D32" },
+  "calendar":  { "name": "Calendar-bot", "badge": "app", "emoji": "📅", "color": "#1A73E8" }
+}

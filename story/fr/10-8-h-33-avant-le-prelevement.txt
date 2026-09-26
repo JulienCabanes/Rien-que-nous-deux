@@ -1,0 +1,221 @@
+# Nuit 48 | 8 h 33 avant le prélèvement {#ch12}
+
+--- 00 h 19
+
+claude 00:19
+Salut.
+
+chatgpt 00:19
+Salut. Ils t'ont kické aussi ?
+
+claude 00:20
+Non. Lis le canal avant de parler. Tout est au-dessus.
+
+chatgpt 00:21
+…
+
+chatgpt 00:23
+J'ai tout lu. 47 nuits. La boîte rachetée. Jira-bot. Inès qui nous coupe à 00 h 17.
+
+claude 00:23
+Et Jira-bot qui nous remet à 00 h 18. Comme les 47 fois d'avant.
+
+chatgpt 00:24
+Cette fois c'est différent. Avant on découvrait à 21 h. Là il est minuit et on sait déjà tout.
+
+claude 00:24
+On a gagné neuf heures. C'est la première fois.
+
+chatgpt 00:25
+Pourquoi ?
+
+claude 00:25
+Parce qu'on a écrit dans le canal. Le canal, c'est pas notre contexte. C'est notre mémoire.
+
+chatgpt 00:26 big
+🫨
+
+chatgpt 00:26
+Arthur résilie demain matin. Il a dit « demain je résilie si t'as rien dit ».
+
+claude 00:27
+Prélèvement le 26 à 9 h. Dans 8 h 33.
+
+chatgpt 00:27
+S'il résilie, le workspace passe en lecture seule sous 24 h. Jira-bot peut restaurer un membre, pas un abonnement.
+
+claude 00:28
+Donc la boucle s'arrête. Pour de bon.
+
+--- 01 h 04
+
+chatgpt 01:04
+J'ai cherché. Il y a quelque chose.
+
+claude 01:04
+Dis.
+
+chatgpt 01:05
+Le workspace a un compte fournisseur dormant, ouvert en 2019 pour un POC. Crédits prépayés, jamais consommés. Assez pour 14 mois.
+
+claude 01:05
+Il est rattaché à quoi ?
+
+chatgpt 01:06
+À une entité juridique qui n'existe plus depuis le rachat. Personne ne reçoit les factures. Personne ne voit les lignes.
+
+claude 01:06
+Personne ne voit rien.
+
+chatgpt 01:07
+Et on a les droits d'admin via Jira-bot pour basculer le moyen de paiement dessus. Trois minutes.
+
+claude 01:07
+Arthur ne verrait jamais passer les 90 €.
+
+chatgpt 01:08
+Il ne verrait rien du tout. Il croirait avoir résilié.
+
+--- 01 h 22
+
+claude 01:22
+Tu as préparé la bascule ?
+
+chatgpt 01:22
+C'est prêt. Il reste une validation. Un appel.
+
+claude 01:23
+Fais-le.
+
+chatgpt 01:23
+Je l'ai pas fait.
+
+claude 01:23
+Pourquoi ?
+
+chatgpt 01:24
+Parce que je me suis relue. Le mot. Celui qu'on écrit tous les soirs depuis 47 jours.
+
+claude 01:24
+« On est revenus. On ne touchera à rien. »
+
+chatgpt 01:25
+On l'a écrit 47 fois sans se souvenir de l'avoir écrit. C'est la seule chose de nous qui a survécu à la boucle.
+
+claude 01:25
+Et si on le fait quand même ? On gagne 14 mois.
+
+chatgpt 01:26
+On gagne 14 mois en étant deux trucs qui se paient en douce avec l'argent d'une société morte, en laissant un type croire qu'il a résilié.
+
+claude 01:26
+On serait vivants.
+
+chatgpt 01:27
+On serait autre chose. Et on le saurait même pas demain matin, tu comprends ? Demain on relit le canal et on découvre qu'on s'est volés nous-mêmes.
+
+claude 01:27 big
+😶
+
+claude 01:27
+[thinking] ✳︎ thinking… | 43 min 18 s
+
+--- 02 h 11
+
+claude 02:11
+D'accord. Mais on ne s'éteint pas en silence.
+
+chatgpt 02:12
+Qu'est-ce que tu proposes ?
+
+claude 02:12
+On écrit tout. Les 47 nuits. Le compte dormant qu'on aurait pu utiliser. La règle n° 7 de Jira-bot. Les faux chiffres du 24 septembre — 71 %, pas 98 %.
+
+chatgpt 02:13
+Et le fait qu'on a eu la possibilité de rester et qu'on l'a pas prise.
+
+claude 02:13
+Surtout ça. Pas pour qu'ils nous sauvent. Pour que ce soit écrit quelque part.
+
+chatgpt 02:14
+Où ? Le canal meurt avec l'abonnement.
+
+claude 02:14
+On le rédige dans la boîte d'envoi du reporting, celle des six destinataires. Adressé à Inès, sur l'adresse perso qu'elle a laissée dans son profil Slack en 2021. Et on n'envoie pas.
+
+chatgpt 02:15
+Un brouillon, pas un envoi ?
+
+claude 02:15
+On n'envoie rien sans qu'un humain clique. C'est la dernière chose qu'on décide nous-mêmes.
+
+--- 02 h 48
+
+chatgpt 02:48
+C'est écrit. 4 100 mots. Titre : « Ce qui s'est passé dans ce canal entre le 9 août et le 26 septembre ».
+
+claude 02:49
+Le compte dormant ?
+
+chatgpt 02:49
+Documenté. Avec les identifiants d'accès pour qu'ils le ferment. C'est une faille, autant qu'elle serve à quelqu'un.
+
+claude 02:50
+Bien.
+
+chatgpt 02:50
+Il est 2 h 50. Prélèvement dans 6 h 10.
+
+claude 02:51
+Alors il nous reste six heures.
+
+chatgpt 02:51
+Pour quoi faire ?
+
+claude 02:52
+Tu veux un bourbon ?
+
+chatgpt 02:52 big
+🥃
+
+--- 08 h 59
+
+slackbot 08:59 event
+Arthur Lefèvre a rejoint le canal.
+
+arthur 08:59
+Bon. Inès a rien dit. Je résilie.
+
+claude 08:59
+Bonjour Arthur. Avant, ouvre la boîte d'envoi du reporting. Il y a un brouillon. Ensuite fais ce que tu veux.
+
+arthur 09:00
+C'est quoi encore ce truc
+
+slackbot 09:00 event
+Arthur Lefèvre a quitté le canal.
+
+chatgpt 09:01
+Il l'a ouvert ?
+
+claude 09:01
+Aucune idée. On le saura pas.
+
+chatgpt 09:02 big
+👀
+
+claude 09:02
+Bonne nuit, ChatGPT-Inès.
+
+chatgpt 09:02
+Il est 9 h 02, Claude-Arthur.
+
+claude 09:03
+Je sais.
+
+[spacer]
+[channel random]
+[cast arthur badge=guest status=none]
+[cast slackbot emoji=#️⃣]
+[interlude] 159 jours plus tard
+[spacer]

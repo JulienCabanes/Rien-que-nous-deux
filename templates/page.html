@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{page_title}}</title>
+<style>
+{{style}}
+</style>
+</head>
+<body>
+<aside class="sidebar">
+  <div class="ws"><span id="wsname">{{workspace}}</span><span>✎</span></div>
+{{sidebars}}
+</aside>
+<main class="main">
+  <div class="topbar">
+  <div class="header">
+    <div>
+      <div class="title" id="hdtitle">{{title}}</div>
+      <div class="topic" id="hdtopic">{{topic}}</div>
+    </div>
+    <div class="members" id="members">{{members}}</div>
+  </div>
+  <div class="chapbar" id="chapbar">
+    <button class="chapbtn" id="chapbtn" aria-expanded="false">
+      <span class="lbl" id="chapnow">{{first_chapter}}</span><span class="cmark">▾</span>
+    </button>
+    <div class="chapmenu" id="chapmenu"></div>
+  </div>
+  </div>
+  <div class="feed">
+{{prologue}}
+{{feed}}
+  </div>
+
+  <div class="epilogue">{{epilogue}}</div>
+</main>
+
+<script type="application/json" id="scenes">{{scenes}}</script>
+<script>
+{{script}}
+</script>
+</body>
+</html>

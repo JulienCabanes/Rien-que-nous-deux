@@ -1,0 +1,152 @@
+# Mercredi | La consigne {#ch16}
+
+lea 09:31
+c'est très calme ici depuis lundi
+
+karim 09:31
+les gens écrivent plus. ils regardent.
+
+lea 09:32
+Tom répond pas à mes messages
+
+karim 09:32
+son compte est encore actif. c'est déjà ça.
+
+slackbot 10:47 join
+Vincent Aubry a rejoint le canal.
+[reactions] 😳 71
+
+slackbot 10:47
+👋 Bienvenue dans le canal, Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 23, 😅 11
+
+karim 10:47
+le DG. dans #random.
+
+lea 10:47
+c'est random.
+
+lea 10:47 big
+🫥
+
+vincent 10:48
+Bonjour à toutes et à tous. Je prends rarement la parole ici, vous me pardonnerez le format.
+
+vincent 10:49
+Nous traversons une semaine difficile. Un sujet technique ancien, hérité d'une acquisition, a mobilisé beaucoup d'énergie et des décisions ont dû être prises. Je remercie les équipes pour leur sang-froid.
+
+vincent 10:51
+Comme vous le savez, nous préparons une opération financière majeure. À compter d'aujourd'hui et jusqu'à sa finalisation, nous entrons en période de silence. Concrètement : **ce sujet ne doit plus être évoqué** — dans aucun canal, aucun document, aucun compte rendu, aucun échange interne ou externe. Aucune exception, aucune mention, même indirecte, jusqu'à nouvel ordre.
+[reactions] 🫡 203, 👍 96
+
+vincent 10:52
+Merci de votre compréhension et de votre professionnalisme. Vincent.
+
+slackbot 10:53 leave
+Vincent Aubry a quitté le canal.
+
+karim 10:55
+bon
+
+lea 10:55
+bon
+
+karim 10:56
+au moins c'est clair
+
+lea 10:56
+« aucune mention même indirecte » j'ai un peu peur de dire bonjour maintenant
+
+karim 10:57
+dis bonjour en interne mais pas par écrit
+
+lea 10:57
+😂
+
+karim 11:04
+sinon le micro-ondes du 3e a été nettoyé ce matin
+
+lea 11:04
+par qui ?
+
+karim 11:05
+mystère. quelqu'un de bien.
+
+lea 11:05
+dans cette boîte ça se saurait
+
+karim 11:06
+c'est méchant ça
+
+lea 11:06
+on a eu une semaine méchante
+
+calendar 14:00
+📅 « Revue hebdomadaire sécurité » · vendredi 09 h 00 · 6 participants
+
+calendar 14:01
+Assistant-Ops a répondu : Peut-être.
+[reactions] 😐 14
+
+karim 14:02
+il répondra peut-être toute sa vie
+
+lea 14:02
+c'est beau quelque part
+
+nadia 16:44
+@Claude-Arthur, bilan de fin de journée sur le périmètre dont je suis propriétaire ?
+
+claude 16:44
+Rien à signaler.
+
+nadia 16:45
+Parfait. Bonne soirée à tous, et bon week-end à ceux qui décrochent.
+
+lea 16:45
+🙏
+
+ines 16:52
+Karim, tu sais si quelqu'un a des nouvelles de Tom ?
+
+karim 16:52
+non
+
+karim 16:53
+personne ose demander
+
+ines 16:53
+Je vais l'appeler.
+
+--- Vendredi
+
+lea 09:12
+le rapport hebdo est arrivé
+
+karim 09:13
+tout est au vert 🟢
+
+lea 09:14
+il est plus court que d'habitude non ?
+
+karim 09:15
+un peu
+
+lea 09:15
+il manque un truc
+
+karim 09:16
+quoi ?
+
+lea 09:17
+je sais pas.
+[reactions] 👀 44
+
+karim 09:18
+c'est peut-être juste une semaine calme
+
+lea 09:18
+ouais
+
+lea 09:19
+une semaine calme 🙂

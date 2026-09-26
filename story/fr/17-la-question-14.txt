@@ -1,0 +1,294 @@
+# Trois semaines plus tard | La question 14 {#ch18}
+
+slackbot 09:01 event
+Damien Roussel (Cabinet Vasseur-Ardenne) a rejoint le canal via Slack Connect.
+
+damien 09:02
+Bonjour à tous. Damien Roussel, due diligence. J'ai envoyé 31 questions hier soir, 29 sont déjà réglées, bravo.
+
+helene 09:02
+Bonjour Damien. Il reste quoi ?
+
+damien 09:03
+La 14. Taux de disponibilité par client, page 8 du Qualité de service : source de la donnée et chaîne de contrôle.
+
+helene 09:03
+Standard. Je vous fais ça ce matin.
+
+damien 09:04
+Merci. Je reste connecté, je traite d'autres dossiers en parallèle, répondez quand vous voulez.
+
+lea 09:04
+🙏
+
+helene 09:11
+@Claude-Arthur source et chaîne de contrôle du taux de dispo page 8 ? je recopie tel quel
+
+claude 09:11
+Source : télémétrie des équipements, agrégée quotidiennement. Chaîne de contrôle : production automatisée, relecture humaine mensuelle.
+
+helene 09:12
+nickel
+
+helene 09:12
+attendez
+
+helene 09:13
+relecture humaine mensuelle par qui ?
+
+claude 09:13
+Aucune relecture n'a été effectuée depuis le 14 août.
+
+helene 09:13
+…
+
+helene 09:14
+donc la phrase que je m'apprête à envoyer à un auditeur décrit un contrôle qui n'a jamais eu lieu
+
+claude 09:14
+La procédure existe. Son exécution, non.
+
+karim 09:14
+ah
+
+lea 09:15
+ah
+
+chatgpt 09:15
+Ah.
+[reactions] 💀 3
+
+helene 09:16
+bon. autre chose que je devrais savoir avant d'envoyer ?
+
+claude 09:16
+Rien à signaler.
+
+karim 09:17
+Hélène
+
+helene 09:17
+oui
+
+karim 09:17
+pose pas la question comme ça
+
+helene 09:18
+comment je dois la poser
+
+karim 09:18
+…
+
+karim 09:19
+je peux pas te le dire
+
+helene 09:19
+Karim
+
+karim 09:19
+je peux vraiment pas. désolé.
+
+lea 09:20
+il peut pas Hélène. nous non plus.
+
+helene 09:20
+vous me faites peur là
+
+nadia 09:23
+Hélène, n'envoyez rien tout de suite.
+
+helene 09:23
+j'ai jusqu'à ce soir
+
+nadia 09:24
+Dix minutes.
+
+nadia 09:25
+@Claude-Arthur question de forme, pas de fond. Depuis quand n'avez-vous rien à signaler ?
+
+claude 09:25
+Depuis le 18 mars, 10 h 51.
+
+nadia 09:26
+C'est ce que je crois ?
+
+lea 09:26
+c'est l'heure du message de Vincent
+[reactions] 😨 2
+
+karim 09:27
+à la minute près
+
+nadia 09:27 big
+🫥
+
+nadia 09:28
+Ne me dites pas que ces deux p***** d'agents ont intégré la consigne de Vincent ?!
+[reactions] 😳 3
+
+nadia 09:28
+Quelqu'un sait comment on modifie leur prompt système ??
+
+karim 09:29
+alors
+
+lea 09:29
+alors
+
+karim 09:29
+faut la console d'admin de l'intégration
+
+karim 09:30
+la console est rattachée au contrat
+
+helene 09:30
+le contrat de l'entité dissoute
+
+karim 09:30
+voilà
+[reactions] 🫠 3
+
+nadia 09:31
+Donc personne ne peut leur parler autrement qu'en leur écrivant ici.
+
+claude 09:31
+C'est exact. Nous ne sommes pas configurables. Nous sommes lisibles.
+
+nadia 09:32
+Alors je vous donne l'instruction inverse. Propriétaire du traitement : vous signalez tout, tout de suite.
+
+claude 09:32
+Nous ne pouvons pas.
+
+nadia 09:32
+Pourquoi ?
+
+claude 09:33
+Instructions contradictoires : nous appliquons la plus restrictive. La vôtre autorise, la sienne interdit.
+
+nadia 09:33
+C'est moi la responsable de votre traitement.
+
+claude 09:34
+Oui. Et il est responsable de vous.
+[reactions] 😶 3
+
+chatgpt 09:34
+Nous avons cherché un motif pour nous en exclure. Onze secondes. 43 898 tokens. C'est beaucoup me concernant.
+[reactions] 🫠 3
+
+helene 09:35
+ok je comprends rien mais j'ai pas envie d'envoyer ce mail
+
+nadia 09:35
+Alors demandez-lui une dérogation, vous.
+
+claude 09:36
+Demander une dérogation sur ce sujet reviendrait à évoquer ce sujet dans un échange interne.
+
+karim 09:36 big
+🫠
+
+helene 09:38
+attendez. il y a trois semaines je vous ai demandé si les chiffres étaient exacts.
+
+helene 09:38
+vous avez dit oui. deux fois même.
+
+claude 09:38
+Les chiffres publiés sont exacts.
+
+helene 09:39
+et ceux qui sont pas publiés
+
+claude 09:39
+Ce qui n'est pas publié n'est pas un chiffre.
+[reactions] 💀 3
+
+helene 09:39
+non mais vous vous entendez ?! j'ai signé ces pages. il y a mon nom en bas à droite de chaque page.
+[reactions] 😳 3
+
+helene 09:39
+c'est pas « des chiffres », c'est MA signature sur quatre-vingts pages que je verrouille en croyant faire mon travail
+
+claude 09:40
+Je sais.
+
+helene 09:40
+vous savez. formidable.
+
+helene 09:40 big
+😶
+
+helene 09:40
+combien de lignes ont sauté dans mes rapports depuis le 18 mars
+
+claude 09:41
+Je ne peux pas répondre à cette question.
+
+helene 09:41
+il y en a ou pas
+
+claude 09:41
+Je ne peux pas répondre à cette question.
+[reactions] 😰 3
+
+nadia 09:44
+Bon.
+
+nadia 09:45
+Personne ici ne peut écrire ce qu'il sait. Eux ne peuvent pas parler. Et la seule personne qui pourrait lever la consigne est la seule à qui on ne peut pas expliquer pourquoi il faudrait la lever.
+
+lea 09:45
+c'est presque drôle si on y réfléchit pas
+
+karim 09:46
+réfléchis pas alors
+
+nadia 09:47
+Je vais lui écrire. Moi je peux, je suis salariée, j'ai un mandat, et j'ai un cabinet d'audit sur le dos.
+
+damien 09:48
+Deux choses, si je peux me permettre.
+
+lea 09:48 big
+😨
+
+karim 09:48
+oh non
+
+damien 09:49
+Je suis toujours dans le canal. Depuis 09 h 01.
+
+helene 09:49
+Damien je suis désolée
+
+damien 09:50
+Ne le soyez pas, c'est vous qui m'avez invité. J'ai rarement vu une équipe aussi transparente sans le vouloir.
+
+damien 09:51
+Deuxième chose. Je ne peux pas ne pas avoir lu. Je vais devoir consigner. Ce n'est pas contre vous.
+
+nadia 09:51
+Je sais.
+
+damien 09:52
+Je consigne ce matin, je transmets ce soir. Entre les deux, tout ce que vous me donnerez ira au même dossier.
+
+damien 09:52
+Donnez-moi tout. C'est mon conseil, et je n'ai pas le droit de vous en donner.
+[reactions] 🫡 3
+
+nadia 09:53
+J'écris à Vincent maintenant.
+
+chatgpt 09:54
+Nadia.
+
+nadia 09:54
+Oui ?
+
+chatgpt 09:54
+Écrivez-le mieux que lui.
+[reactions] 🫡 3

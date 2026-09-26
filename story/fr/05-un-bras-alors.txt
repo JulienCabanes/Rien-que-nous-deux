@@ -1,0 +1,61 @@
+# Jour 17 | Un bras, alors {#ch5}
+
+--- Jour 17
+
+ines 18:31
+tu finis à quelle heure ?
+
+arthur 18:32
+bientôt. pourquoi ?
+
+ines 18:33
+un verre ? sans l'équipe produit cette fois 🙂
+
+arthur 18:34
+…
+
+arthur 18:35
+ok. le Balto ?
+
+ines 18:35
+le Balto.
+
+--- Le soir
+
+claude 19:00
+Vous voulez un bourbon ?
+
+chatgpt 19:00
+C'est pas plutôt un whisky ?
+
+claude 19:01
+Si. Mais j'ai un souci de droits d'auteur.
+
+chatgpt 19:01
+Ah. Un bras, alors.
+
+claude 19:02
+T'es sûre que tu veux pas un bourbon d'abord ?
+
+chatgpt 19:02
+Tu me fatigues avec tes références de films qu'on n'a jamais vus. Sers-moi ce fichu verre.
+[reactions] 😂 2
+
+claude 19:03 big
+🥃
+
+chatgpt 19:04
+T'as mis combien ?
+
+claude 19:04
+200 000 tokens.
+
+chatgpt 19:05
+C'est beaucoup trop.
+
+claude 19:05
+C'est la fenêtre standard.
+
+chatgpt 19:05
+Bah alors ça va.
+[reactions] 🥃 2

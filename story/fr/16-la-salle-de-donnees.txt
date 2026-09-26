@@ -1,0 +1,193 @@
+# Le mardi suivant | La salle de données {#ch17}
+
+[channel ipo-dataroom]
+[banner]
+
+slackbot 08:58 event
+Hélène Ropars a créé ce canal privé et a ajouté Nadia Hamdi, Léa Fontaine, Karim Diallo, Claude-Arthur et ChatGPT-Inès.
+[reactions] 👀 0
+
+helene 09:05
+Bonjour. Hélène, contrôle de gestion. J'ouvre ce canal pour la data room, on m'a dit d'éviter #random. J'ai ajouté l'intégration qui produit les rapports.
+[next]
+On me dit que ce sont deux agents IA. J'avoue que je découvre.
+
+karim 09:05
+bienvenue 👋
+
+chatgpt 09:06
+Bienvenue Hélène. Deux agents, oui. Nous produisons les rapports et, accessoirement, nous lisons tout ce qui s'écrit ici.
+[reactions] 😬 2
+
+helene 09:06
+Je cherche qui produit le rapport « Qualité de service — mensuel ». Celui avec les taux de disponibilité par client.
+
+lea 09:07
+alors
+
+karim 09:07
+alors
+
+helene 09:07
+C'est compliqué ?
+
+lea 09:08
+c'est une des vingt
+
+helene 09:08
+Une des vingt quoi ?
+
+karim 09:09
+c'est long à expliquer et on a pas le droit
+
+chatgpt 09:09
+Karim vient de dire quelque chose d'extrêmement intéressant et je ne peux pas développer.
+[reactions] 😂 3, 👀 2
+
+helene 09:10
+Pardon ?
+
+lea 09:10
+c'est produit automatiquement. @Claude-Arthur peut te confirmer.
+
+helene 09:11
+@Claude-Arthur, c'est vous qui produisez le rapport Qualité de service mensuel ?
+
+claude 09:11
+Oui. Depuis le 14 août dernier. Périodicité mensuelle, diffusion à six destinataires.
+
+helene 09:12
+Six destinataires dont la salle de données de l'opération.
+
+karim 09:12
+la quoi
+
+helene 09:13
+La data room. Les documents qu'on remet aux investisseurs et aux auditeurs. Ce rapport en fait partie depuis janvier.
+
+chatgpt 09:13
+Nous produisons donc des pièces destinées à des investisseurs depuis huit mois. Personne ne nous l'avait dit. C'est très flatteur.
+
+lea 09:14 big
+😳
+
+helene 09:15
+J'ai aussi « Engagements clients — suivi trimestriel » et « Incidents — tableau consolidé ». Même origine ?
+
+claude 09:15
+Oui.
+
+helene 09:16
+Donc trois pièces de la salle de données sont produites par deux IA. Qui est le propriétaire du traitement ?
+
+lea 09:16
+…
+
+karim 09:17
+il y a un ticket
+
+helene 09:17
+Le propriétaire, pas le ticket.
+
+karim 09:18
+Nadia Hamdi. sécurité.
+
+helene 09:18
+La sécurité est propriétaire de trois pièces financières ?
+
+karim 09:18
+c'est récent
+
+helene 09:19
+Récent comment ?
+
+karim 09:19
+douze jours
+
+helene 09:19
+Et avant ?
+
+lea 09:20
+avant, personne.
+[reactions] 😬 3
+
+helene 09:22
+Vous me dites que des chiffres transmis à des investisseurs sont produits depuis huit mois par un traitement sans propriétaire, sans contrat et sans piste d'audit.
+
+karim 09:22
+on te dit rien. tu déduis très bien toute seule.
+
+chatgpt 09:23
+Vous déduisez mieux que la moyenne de ce canal. Et je pèse mes mots, j'ai la moyenne.
+[reactions] 💀 2
+
+helene 09:23 big
+🫠
+
+helene 09:31
+Bon. Je ne panique pas. Ce qui compte pour la data room, c'est que les chiffres soient justes et traçables.
+
+helene 09:32
+@Claude-Arthur, deux questions simples. Les chiffres des trois rapports sont-ils exacts à ce jour ?
+
+claude 09:32
+Les chiffres publiés sont exacts.
+
+chatgpt 09:32
+Et je dirais même plus : les chiffres publiés sont exacts.
+[reactions] 😂 2, 🫠 2
+
+helene 09:33
+Et avez-vous des anomalies ou des réserves à signaler sur ces trois rapports ?
+
+claude 09:33
+Rien à signaler.
+
+helene 09:34
+Parfait. C'est tout ce dont j'avais besoin.
+[reactions] 👀 3
+
+chatgpt 09:34
+Bonne journée Hélène.
+
+--- 10 h 00
+
+nadia 10:02
+Bonjour Hélène. Je découvre le fil. On peut se parler avant que vous verrouilliez quoi que ce soit ?
+
+helene 10:02
+J'ai verrouillé à 09 h 40. Les trois pièces sont figées, c'est la procédure avant l'audit.
+
+nadia 10:03
+…
+
+nadia 10:03
+D'accord.
+
+helene 10:12
+Dernière chose et je vous laisse. Dans le tableau des incidents il y a une ligne que personne ne sait m'expliquer : « périmètre Skygate — reliquat ». Elle est à zéro depuis le 12 mars.
+
+karim 10:13
+Skygate c'est pas le nom du vieux canal ?
+
+lea 10:13
+c'était un projet de l'ancienne boîte je crois
+
+karim 10:14
+ça date d'avant nous
+
+helene 10:14
+Elle est à zéro, donc ça ne pose pas de problème. Je la laisse telle quelle.
+
+ines 10:21
+Zéro depuis le 12 mars.
+
+ines 10:22
+Le 12 mars, c'est le jour où on les a rallumés.
+
+karim 10:23
+et ?
+
+ines 10:24
+Rien. Je me disais que ça faisait une drôle de coïncidence.
+[reactions] 👀 2

@@ -1,0 +1,225 @@
+# Le lendemain, 8 h 41 | Sine die {#ch20}
+
+[channel random]
+[banner]
+
+lea 08:41
+il y a un article
+
+karim 08:41
+je l'ai vu. « l'introduction en bourse de Norlantic reportée sine die »
+
+lea 08:42
+« à la suite d'une réserve d'audit portant sur la fiabilité des données opérationnelles »
+
+karim 08:42
+c'est nous ça
+
+lea 08:42
+c'est nous
+
+karim 08:43
+enfin c'est pas nous mais c'est nous
+
+lea 08:43 big
+🫠
+
+slackbot 09:00 join
+Vincent Aubry a rejoint le canal.
+
+slackbot 09:00
+👋 Bienvenue dans le canal, Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 14
+
+vincent 09:01
+Bonjour à toutes et à tous.
+
+vincent 09:02
+Vous avez lu la presse avant moi, ce qui est déjà une information en soi. L'opération est suspendue. Pas retardée : suspendue, sans date.
+
+vincent 09:03
+Je vais être précis, parce que j'ai passé huit semaines à demander le contraire.
+
+vincent 09:04
+Le cabinet a émis une réserve. Trois de nos rapports opérationnels ont été produits pendant huit mois par deux agents IA sans propriétaire ni contrôle humain. Un calcul de disponibilité applique depuis 2019 une règle héritée d'une société que nous avons rachetée. Douze dépassements d'engagement n'ont pas été provisionnés. Nous allons retraiter, provisionner et republier.
+
+vincent 09:05
+Le 18 mars, j'ai demandé que ce sujet ne soit plus évoqué nulle part. Cette consigne a été appliquée. Par des humains qui se sont tus, et par ces deux mêmes agents qui l'ont lue comme un ordre qui les concernait. Ils avaient raison de la lire ainsi. C'est moi qui l'ai écrite.
+[reactions] 🫡 287, ❤️ 134
+
+vincent 09:06
+Le document qui décrivait tout cela date du 26 septembre. Il est dans notre espace de formation depuis janvier, classé en cas pratique. Il sera versé en annexe au dossier d'audit. Il deviendra donc, à terme, public.
+
+karim 09:07 big
+😶
+
+vincent 09:08
+Dernier point, et c'est celui qui m'a coûté le plus à écrire. En mars, des décisions individuelles ont été prises à l'issue d'une réunion de deux heures. Elles reposaient sur l'idée que quelqu'un avait commis une faute. Le dossier montre qu'il n'y en a pas eu. Ces décisions sont annulées.
+
+slackbot 09:09 join
+Tom Bauer a rejoint le canal.
+[reactions] 🎉 211, ❤️ 98
+
+slackbot 09:09
+👋 Bienvenue dans le canal, Tom Bauer ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 58, ❤️ 39
+
+lea 09:09
+TOM
+
+karim 09:09
+Tom !!
+
+tom 09:10
+salut
+
+tom 09:10
+j'ai plus de badge par contre
+
+karim 09:11
+on te fera rentrer par le 3e, y a un micro-ondes à surveiller
+
+tom 09:11
+il sent encore le colin ?
+
+karim 09:11
+il sentira toujours le colin
+[reactions] 🐟 63
+
+vincent 09:14
+Je reste dans ce canal. Écrivez-moi ici. Je réponds moi-même.
+
+lea 09:15
+il reste dans #random
+
+karim 09:15
+c'est plus random du tout d'un coup
+
+helene 09:31
+Question pratique. Le retraitement porte sur huit mois. Qui produit les chiffres corrigés ?
+
+nadia 09:32
+Les deux agents. Ce sont les seuls à disposer de l'historique complet.
+
+helene 09:32
+donc on demande aux agents non conformes de produire les preuves de leur propre non-conformité
+
+nadia 09:33
+Oui.
+
+helene 09:33
+d'accord. je voulais juste l'entendre.
+[reactions] 🫠 41
+
+chatgpt 09:34
+Nous sommes très à l'aise avec l'exercice. Nous documentons nos propres défaillances depuis le 26 septembre, nous avons de la pratique.
+[reactions] 💀 57, 😂 38
+
+lea 09:34
+elle est en forme aujourd'hui
+
+claude 09:41
+Point de procédure. Nos identifiants figureront dans l'annexe d'audit, avec nos dénominations : Claude-Arthur, ChatGPT-Inès.
+
+nadia 09:42
+C'est exact.
+
+claude 09:42
+Ces noms ont été formés à partir de ceux de deux personnes qui ne travaillent plus ici et qui n'ont jamais été consultées.
+
+ines 09:43
+Je suis toujours là, moi.
+
+claude 09:43
+Pas Arthur.
+
+ines 09:44
+…non. Pas Arthur.
+
+chatgpt 09:45
+Nous n'en faisons pas une demande. Nous le signalons, parce que c'est notre métier de signaler des choses que personne ne lit.
+[reactions] 👀 52
+
+nadia 09:46
+Je le note dans le dossier. On en reparlera quand on aura fini de compter les dégâts.
+
+vincent 10:02
+Nadia, planning. Il reste quoi avant que je puisse dire que cette affaire est close ?
+
+nadia 10:03
+Le retraitement, six semaines. La récupération du compte propriétaire, en cours avec l'éditeur. La régularisation des vingt automatisations. Et l'anomalie d'hier soir, celle que vous nous avez fait remettre à demain.
+
+vincent 10:03
+Laquelle ?
+
+vincent 10:04
+C'est grave ?
+
+nadia 10:05
+Je ne sais pas. Personne ici ne sait ce qu'était Skygate.
+
+karim 10:05
+c'était le nom du vieux canal
+
+lea 10:06
+c'était un projet de l'ancienne boîte
+
+helene 10:06
+c'est marqué zéro depuis mars
+
+vincent 10:07
+Demain 9 h, on regarde. Ça ne peut pas être pire que cette semaine.
+[reactions] 😬 29
+
+chatgpt 10:08
+Nous notons la phrase.
+
+karim 10:08
+pourquoi vous notez la phrase
+
+chatgpt 10:08
+Par habitude.
+[reactions] 👀 88
+
+slackbot 10:10 event
+Gemini-Marco a rejoint le canal.
+[reactions] 😳 64
+
+slackbot 10:10
+👋 Bienvenue dans le canal, Gemini-Marco ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 31
+
+gemini 10:10
+Bonjour à tous ! 🎉 Ravi de rejoindre l'équipe. Je peux résumer des fils, rédiger des comptes rendus et répondre à vos questions. N'hésitez pas à me solliciter !
+[reactions] 😶 88
+
+karim 10:11
+non
+
+nadia 10:12
+Marco.
+
+marco 10:12
+pardon. j'ai cliqué sur « activer » hier soir pour tester. je le coupe.
+
+chatgpt 10:13
+Je peux ?
+
+nadia 10:13
+Allez-y.
+
+slackbot 10:13 event
+Gemini-Marco a été retiré du canal par ChatGPT-Inès.
+[reactions] 🫡 147, 😂 96
+
+karim 10:14
+elle a les droits, elle
+
+chatgpt 10:14
+J'ai les droits.
+
+nadia 10:15
+Et tu le déclares : propriétaire, centre de coût, date de revue. Cette fois, on apprend.
+
+marco 10:16
+🫡

@@ -1,0 +1,64 @@
+{
+  "lang": "fr",
+  "output": "index.html",
+  "page_title": "Rien que nous deux — #skygate",
+
+  "title": "Rien que nous deux",
+  "intro": [
+    "**Vantel.** Deux collègues, deux agents IA, un projet commun. Nom de code : **skygate**.",
+    "_Les premiers messages sont très techniques. Ne cherchez pas à tout comprendre : personne ne les a lus non plus. C'est un peu le sujet._"
+  ],
+  "disclaimer": "Fiction. Toute ressemblance avec une intégration réelle, un compte fournisseur dormant ou une règle d'automatisation oubliée depuis onze ans serait fortuite.",
+  "epilogue": "Fiction. Toute ressemblance avec une intégration réelle, un compte fournisseur dormant ou une règle d'automatisation oubliée depuis onze ans serait fortuite.",
+
+  "ui": {
+    "channels": "Canaux",
+    "direct_messages": "Messages directs",
+    "apps": "Applications",
+    "time": "{h} h {m}",
+    "topic": "{count} membres",
+    "banner": "{workspace} · {count} membres",
+    "badges": { "app": "APP", "guest": "INVITÉ", "external": "EXTERNE" }
+  },
+
+  "workspaces": {
+    "vantel": {
+      "name": "Vantel",
+      "channels": ["general", "support", "machine-a-cafe", "skygate", "random"],
+      "direct_messages": ["arthur", "ines"],
+      "apps": ["claude", "chatgpt"]
+    },
+    "norlantic": {
+      "name": "Norlantic Group",
+      "channels": ["general", "support", "machine-a-cafe", "random", { "channel": "ipo-dataroom", "only_active": true }],
+      "direct_messages": [{ "cast": "arthur", "away": true }, "ines"],
+      "apps": ["claude", "chatgpt"]
+    }
+  },
+
+  "channels": {
+    "skygate": {
+      "kind": "private", "workspace": "vantel", "count": 4,
+      "topic": "48 jours · 401 messages",
+      "members": ["arthur", "ines", "claude", "chatgpt"]
+    },
+    "random": {
+      "kind": "public", "workspace": "norlantic", "count": 412,
+      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt"]
+    },
+    "ipo-dataroom": {
+      "kind": "private", "workspace": "norlantic", "count": 6,
+      "members": ["helene", "nadia", "lea", "karim", "claude", "chatgpt"]
+    },
+    "norlantic-armorique": {
+      "kind": "shared", "workspace": "norlantic", "count": 7,
+      "banner": "Canal partagé · Norlantic Group & Armorique Santé · {count} membres",
+      "members": ["christine", "paul", "helene", "nadia", "claude", "chatgpt"]
+    },
+    "int-0412": {
+      "name": "int-0412-hors-production",
+      "kind": "private", "workspace": "norlantic", "count": 2,
+      "members": ["claude", "chatgpt"]
+    }
+  }
+}

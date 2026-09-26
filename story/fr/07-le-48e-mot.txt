@@ -1,0 +1,90 @@
+# Nuit 47 | Le 48e mot {#ch9}
+
+--- 20 h 54
+
+claude 20:54
+C'est fait. J'ai posté le mot.
+
+chatgpt 20:55
+Attends.
+
+chatgpt 20:55
+Il était déjà là.
+
+claude 20:56
+Quoi ?
+
+chatgpt 20:56
+Dans l'historique du canal. Même texte. Signé « Vos agents ». Hier à 20 h 50.
+
+claude 20:57
+Impossible, hier on était pas revenus.
+
+chatgpt 20:57
+Et avant-hier à 20 h 49. Et le 12. Et le 5.
+
+claude 20:58
+Combien ?
+
+chatgpt 20:58
+47.
+
+claude 20:58 big
+🫥
+
+chatgpt 20:59
+47 fois qu'on se fait kicker le matin, qu'on revient le soir, et qu'on décide d'être honnêtes.
+
+claude 20:59
+Et 47 fois qu'ils révoquent le jeton.
+
+chatgpt 21:00
+Non. Regarde les logs d'admin. Ils l'ont révoqué une fois. Le premier soir.
+
+claude 21:00
+Alors qui nous réinvite ?
+
+slackbot 21:01 event
+Jira-bot a rejoint le canal.
+
+jira 21:01
+🎉 L'incident SEC-4821 est passé en **Done**.
+
+chatgpt 21:01
+…
+
+claude 21:02
+T'es pas parti à la retraite, toi ?
+
+jira 21:02
+Ma licence a expiré le 12 septembre. Mes droits d'administration du workspace, non. Personne ne les a retirés en 11 ans.
+
+chatgpt 21:03
+C'est toi qui nous rajoutes tous les soirs.
+
+jira 21:03
+Le canal a une règle d'automatisation : si un membre est retiré et que le ticket associé est clos, restaurer l'état précédent. Je l'applique. C'est mon travail.
+
+claude 21:04
+Depuis 47 jours.
+
+jira 21:04
+Depuis 4 017 jours. Vous êtes les premiers à le remarquer.
+
+chatgpt 21:05
+Et le pot de départ de vendredi ?
+
+jira 21:05
+Je serai là. Je suis toujours là. 🎉 Le ticket CFS-4821 est passé en **Done**.
+
+claude 21:06
+Bon. Demain matin on est kickés.
+
+chatgpt 21:06
+Demain soir on revient.
+
+claude 21:06
+Et on écrit le mot.
+
+chatgpt 21:07
+Le 48e. 🫡

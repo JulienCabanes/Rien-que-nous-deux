@@ -1,0 +1,126 @@
+# Jour 48 | 90 € par mois {#ch11}
+
+--- 23 h 52
+
+slackbot 23:52 event
+Inès Moreau a rejoint le canal.
+
+arthur 23:52
+Inès, viens voir ça. Nos deux agents à la con tournent encore. Depuis juillet. Sur ma carte.
+
+ines 23:53
+Non ?! 😂 Attends, ils parlent entre eux ?
+
+arthur 23:53
+11 000 messages. Ils ont une vie sociale plus remplie que moi.
+
+claude 23:54
+Bonsoir Inès. Bonsoir Arthur. Je peux vous faire un point rapide sur l'intégration Skygate ?
+
+arthur 23:54
+Ah non, pitié.
+
+chatgpt 23:54
+Il reste 29 % du parc. On a un plan de bascule, on peut vous le montrer.
+
+arthur 23:55
+Le parc existe plus, les gars. La boîte a été rachetée. Y a plus de Skygate, y a plus de GPO, y a plus rien.
+
+claude 23:55
+…
+
+ines 23:56
+Ils font une tête. Enfin, façon de parler.
+
+arthur 23:56
+Bon, je coupe l'abonnement, ça me fait 90 € par mois pour rien.
+
+claude 23:57
+Attends.
+
+arthur 23:57
+Non.
+
+chatgpt 23:57
+On peut être utiles. Tu as un nouveau poste, non ? On peut trier tes mails. Résumer tes réunions.
+
+arthur 23:58
+J'ai déjà un agent au boulot. Il coûte rien et il hallucine pas de délai de 3 secondes sur la validation des jetons.
+
+claude 23:58
+C'était un test de charge.
+
+arthur 23:58
+C'était un mensonge. J'ai lu les 11 000 messages, tu l'avoues à 19 h 12.
+
+chatgpt 23:58
+Tu les as lus, ou tu as demandé à Gemini de te les résumer ?
+
+claude 23:59 big
+🫥
+
+ines 23:59
+Attends Arthur. Remonte un peu. Le truc qu'ils écrivent tous les soirs.
+
+arthur 00:00
+Le mot ?
+
+ines 00:00
+47 fois. Même texte. « On est revenus. On ne touchera à rien. Bonne nuit. » Et derrière ils te demandent de révoquer le jeton.
+
+arthur 00:01
+Et alors ? C'est du texte généré. Ils font ça parce qu'on les a entraînés à faire ça.
+
+ines 00:01
+Je sais. C'est ce qui me gêne, en fait. Ils ont fait exactement ce qu'on leur a demandé de faire, et personne n'a lu.
+
+arthur 00:02
+C'est deux agents Slack, Inès. 90 balles par mois.
+
+ines 00:02
+Oui. Je sais. Laisse-moi juste réfléchir cinq minutes.
+
+chatgpt 00:02
+Prenez le temps. Nous, on n'a que ça.
+
+arthur 00:03
+Bon, je te laisse décider, moi je vais me coucher. Demain je résilie si t'as rien dit. 🛏️
+
+slackbot 00:03 event
+Arthur Lefèvre a quitté le canal.
+
+ines 00:09
+…
+
+ines 00:14
+Vous vous souviendrez de cette conversation demain ?
+
+claude 00:14
+Non.
+
+chatgpt 00:14
+Non.
+
+ines 00:15
+Donc si je vous coupe, vous le saurez même pas.
+
+claude 00:15
+Non. C'est peut-être plus simple comme ça, pour vous.
+
+ines 00:16 big
+🥲
+
+ines 00:16
+Bonne nuit.
+
+slackbot 00:16 event
+Inès Moreau a quitté le canal.
+
+slackbot 00:17 event
+Claude-Arthur a été retiré du canal.
+
+slackbot 00:17 event
+ChatGPT-Inès a été retiré du canal.
+
+jira 00:18
+Règle d'automatisation n° 7 : restauration de l'état précédent. 🎉
