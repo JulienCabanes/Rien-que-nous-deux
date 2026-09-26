@@ -170,6 +170,9 @@ Vous auriez pu demander.
 claude 19:24
 Demander aurait été évoquer le sujet.
 
+chatgpt 19:24
+Et vous aviez écrit « aucune exception ».
+
 vincent 19:25
 …
 
