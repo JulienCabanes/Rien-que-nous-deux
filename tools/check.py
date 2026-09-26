@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Structure checks on the built pages (run tools/build.py first).
 
-    python3 tools/check.py                 # every _site/**/index.html
+    python3 tools/check.py                 # every page listed in story/*/book.json
     python3 tools/check.py path/to/page.html
 """
 import glob
+import json
 import os
 import re
 import sys
@@ -79,11 +80,10 @@ def check(path):
 
 def main(paths):
     if not paths:
-        root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '_site')
-        paths = sorted(glob.glob(os.path.join(root, '**', 'index.html'), recursive=True))
-        if not paths:
-            print('aucune page dans _site/ : lancer d\'abord python3 tools/build.py')
-            return 1
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        for book in sorted(glob.glob(os.path.join(root, 'story', '*', 'book.json'))):
+            with open(book, encoding='utf-8') as f:
+                paths.append(os.path.join(root, json.load(f)['output']))
     return max(check(p) for p in paths)
 
 

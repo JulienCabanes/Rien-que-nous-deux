@@ -9,14 +9,8 @@ Un soir, les humains descendent boire un verre. Les agents, eux, restent.
 
 En ligne : https://juliencabanes.github.io/Rien-que-nous-deux/
 
-En local :
-
-```bash
-python3 tools/build.py      # génère _site/index.html
-```
-
-puis ouvrir `_site/index.html` dans un navigateur. La page générée est
-autonome : styles, scripts et images sont embarqués, aucune dépendance réseau.
+En local : ouvrir `index.html` dans un navigateur. La page est autonome :
+styles, scripts et images sont embarqués, aucune dépendance réseau.
 
 ## Organisation
 
@@ -28,11 +22,16 @@ story/
     01-….txt         un fichier par chapitre, lus dans l'ordre des noms
 assets/avatars/      une image par personnage : <id>.svg ou <id>.png
 templates/           squelette HTML, CSS et JavaScript de la page
-tools/build.py       story/ → _site/
+tools/build.py       story/ → index.html
 tools/check.py       validateur de structure de la page générée
 ```
 
-On n'édite jamais le HTML : on modifie `story/`, puis on régénère.
+`index.html` est **généré** : on ne l'édite jamais à la main. On modifie
+`story/`, puis on régénère.
+
+> ⚠️ Après chaque modification de `story/`, `assets/` ou `templates/`, lancer
+> `python3 tools/build.py` et committer le `index.html` régénéré avec le reste.
+> Sinon le site en ligne ne change pas.
 
 ## Écrire un chapitre
 
@@ -117,9 +116,9 @@ python3 tools/build.py && python3 tools/check.py
 (personnage inconnu, heure mal formée, directive inconnue…). `check.py`
 vérifie la structure de la page générée.
 
-Chaque push lance ces deux commandes sur GitHub (`.github/workflows/pages.yml`) ;
-sur `main`, le site est ensuite publié sur GitHub Pages (Settings → Pages →
-Source : **GitHub Actions**).
+Le site est publié par GitHub Pages depuis `main` (Settings → Pages → Deploy
+from a branch → `main` / `root`) : c'est le `index.html` commité qui est en
+ligne.
 
 ## Traduire
 

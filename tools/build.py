@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the site from the story sources.
 
-    python3 tools/build.py            # writes _site/
+    python3 tools/build.py            # writes index.html (and en/index.html…)
     python3 tools/build.py --out DIR
 
 Every story/<lang>/book.json is one edition of the story; its chapters are
@@ -369,7 +369,7 @@ class Edition:
 
 
 def main(argv):
-    out_dir = os.path.join(ROOT, '_site')
+    out_dir = ROOT
     if len(argv) > 2 and argv[1] == '--out':
         out_dir = os.path.abspath(argv[2])
     try:

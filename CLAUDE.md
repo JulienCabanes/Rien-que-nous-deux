@@ -9,8 +9,9 @@ by hand.
 - Code, keywords, directives and identifiers are in English; story text is in
   the edition's language. The author writes in French.
 - After any change: `python3 tools/build.py && python3 tools/check.py`
-  (both must pass). Output goes to `_site/`, which is not committed.
+  (both must pass), then commit the regenerated `index.html` together with the
+  sources. `index.html` is generated but committed: GitHub Pages serves it.
 - `templates/` holds the page skeleton, CSS and JS. Scene changes (channel,
   member count, topic) are computed by `tools/build.py` and only displayed by
   `templates/app.js`.
-- GitHub Pages is deployed by `.github/workflows/pages.yml` from `main`.
+- GitHub Pages serves `main` / root (deploy from branch).
