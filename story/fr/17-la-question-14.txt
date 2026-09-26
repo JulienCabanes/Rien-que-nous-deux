@@ -1,4 +1,4 @@
-# Trois semaines plus tard | La question 14 {#ch18}
+# Sept semaines plus tard | La question 14 {#ch18}
 
 slackbot 09:01 event
 Damien Roussel (Cabinet Vasseur-Ardenne) a rejoint le canal via Slack Connect.
@@ -107,7 +107,7 @@ nadia 09:25
 @Claude-Arthur question de forme, pas de fond. Depuis quand n'avez-vous rien à signaler ?
 
 claude 09:25
-Depuis le 18 mars, 10 h 51.
+Depuis le 10 mars, 10 h 51.
 
 nadia 09:26
 C'est ce que je crois ?
@@ -222,7 +222,7 @@ helene 09:40 big
 😶
 
 helene 09:40
-combien de lignes ont sauté dans mes rapports depuis le 18 mars
+combien de lignes ont sauté dans mes rapports depuis le 10 mars
 
 claude 09:41
 Je ne peux pas répondre à cette question.

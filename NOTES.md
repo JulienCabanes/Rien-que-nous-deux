@@ -88,8 +88,9 @@ info ». Leur humour est un réflexe de survie.
 **Hélène Ropars.** Commence en registre soutenu et se délite à mesure que le
 sol se dérobe — c'est volontaire, son passage aux minuscules marque sa panique.
 
-**Vincent Aubry (DG).** N'apparaît que trois fois. Langue de bois au premier
-message, langue nue au troisième. Le contraste *est* le personnage.
+**Vincent Aubry (DG).** Apparaît dans cinq chapitres : la consigne, la question
+aux agents, *Sine die*, le client, Skygate. Langue de bois à la consigne, langue
+nue à partir de *Sine die*. Le contraste *est* le personnage.
 
 **Les autres bots** (Slackbot, Assistant-Ops, Jira-bot, Calendar-bot, Workflow,
 Gemini-Marco) sont d'une serviabilité inentamable et parfaitement inutile. Ils
@@ -184,23 +185,52 @@ Elles racontent une deuxième histoire, en silence.
 
 ## 9. Chronologie (à ne pas casser)
 
+**Première vie — 2026**
+
 | Date | Événement |
 |---|---|
-| 12 juin 2026 | Dernière modification du cahier des charges Skygate |
-| 9 juin 2026 | **Jour 1** — le point de 17 h 12, le rapport à 98 % (en réalité 71 %) |
-| 30 juin 2026 | Rachat de Vantel, entité Vantel Services dissoute |
-| début juillet | Pot de départ d'Hervé, verres au Balto |
-| 8 août 2026 | Dernière connexion humaine |
-| 9 août 2026 | Jira-bot commence à rejouer les échanges (règle n° 12) |
-| 9 août → 25 sept | 47 nuits de boucle amnésique |
-| 26 septembre 2026 | Découverte, rédaction du rapport, coupure |
-| 12 mars 2027 | Réactivation accidentelle par Tom (ticket #489456) |
-| 4 mars → mars 2027 | #random, l'audit, la consigne, l'effondrement |
+| mardi 9 juin | **Jour 1** — le point de 17 h 12, le rapport à 98 % (en réalité 71 %) |
+| jeudi 11 juin | Jour 3 |
+| vendredi 12 juin | Dernière modification du cahier des charges Skygate v4 |
+| dimanche 14 juin | Ouverture de l'exception de routage Skygate |
+| mercredi 17 juin | Jour 9 — annonce du départ de Jira-bot (« licence dans 6 jours ») |
+| vendredi 19 juin | Pot de départ d'Hervé |
+| mardi 23 juin | Expiration de la licence de Jira-bot (ses droits d'admin restent) |
+| jeudi 25 juin | Jour 17 — Arthur et Inès au Balto |
+| mardi 30 juin | Rachat de Vantel, entité Vantel Services dissoute |
+| samedi 8 août | Dernière connexion humaine |
+| dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
+| dimanche 6 sept. | Nuit 29 |
+| jeudi 24 sept. | Nuit 47 — le 48e mot, puis « la même nuit » |
+| vendredi 25 sept. | Jour 48 — Arthur et Inès reviennent à 23 h 47 |
+| samedi 26 sept. | 00 h 17 : Inès coupe les agents. 02 h 48 : rapport écrit. 09 h 03 : dernier message ; Arthur transfère le brouillon le matin même |
 
-**Durée d'existence totale des agents : 111 jours.**
+**Extinction : 160 jours** (26 septembre 2026 → 5 mars 2027).
 
-Vérifier toute nouvelle date contre ce tableau : la cohérence chronologique a
-déjà lâché une fois et c'était invisible à la lecture.
+**Seconde vie — 2027**
+
+| Date | Événement |
+|---|---|
+| mardi 2 mars, 6 h 04 | Réactivation accidentelle par Tom (ménage du ticket #489456) |
+| vendredi 5 mars | #random — « 160 jours plus tard ». Arthur rappelé sur son perso |
+| lundi 8 mars | Point de situation avec le juridique, départs du lundi ; la nuit : « 163 jours » |
+| mercredi 10 mars, 10 h 51 | **La consigne de Vincent** |
+| mardi 16 mars | Création de #ipo-dataroom |
+| 22 mars → 30 avril | Interruptions non déclarées (24 mars, 2, 19 et 28 avril) |
+| mardi 4 mai | La question 14 ; 17 h 02 : consigne levée, 61 éléments ; le soir, Vincent |
+| mercredi 5 mai | *Sine die* — huit semaines après la consigne |
+| vendredi 7 mai, 14 h | Le client (#norlantic-armorique) ; le soir, quatre heures dix-neuf |
+| samedi 8 mai, 9 h | Skygate |
+
+Les titres « Jour 1 » à « Jour 17 » comptent depuis le 9 juin ; « Nuit 29 » à
+« Nuit 48 » comptent les nuits de la boucle, depuis le 9 août.
+
+**Durées réelles** : première vie 110 jours (9 juin → 26 septembre, bornes
+incluses) ; seconde vie 68 jours (2 mars → 8 mai). ⚠️ « 111 jours » (§1,
+chapitre 21, README) ne correspond encore à aucune des deux : à trancher.
+
+Vérifier toute nouvelle date contre ce tableau, jour de la semaine compris : la
+cohérence chronologique a déjà lâché une fois et c'était invisible à la lecture.
 
 ---
 
@@ -227,21 +257,34 @@ déjà lâché une fois et c'était invisible à la lecture.
 
 ## 11. Conventions techniques
 
-- Un message = un bloc `<div class="msg">` complet. **Ne jamais éditer le HTML
-  par recherche-remplacement sans relancer `tools/check.py`.** Trois bugs de mise
-  en page ont eu la même cause : un message imbriqué dans un autre, avec un
-  compte de balises globalement équilibré.
-- Les avatars sont des classes CSS (`.a0` à `.a14`, `.gem`), déclarées une seule
-  fois. Ne pas réintroduire de `<img src="data:...">` : le fichier passerait de
-  444 Ko à 4,8 Mo.
-- Les mentions d'agents par un humain portent toujours l'arobase et le
-  surlignage : `<span class="mention">@Claude-Arthur</span>`. Parler *de* eux
-  n'en porte pas.
+Le format complet est décrit dans le `README.md`. L'essentiel :
+
+- **On n'édite jamais le HTML.** Le texte vit dans `story/fr/`, un fichier par
+  chapitre. `index.html` est généré par `python3 tools/build.py`, puis vérifié
+  par `python3 tools/check.py` ; on committe la page régénérée avec les sources.
+  Le script de génération signale toute erreur avec le fichier et la ligne.
+- **Un message = un bloc** séparé par une ligne vide : `id HH:MM [options]`,
+  puis le texte. Options : `big` (emoji en grand), `event` (message système en
+  italique), `join` / `leave` (idem, et le canal gagne ou perd un membre).
+  Réactions en dernière ligne : `[reactions] 🥲 1, 😂 2`.
+- **Les personnages** sont déclarés une seule fois dans `story/cast.json` (nom,
+  badge, statut, avatar emoji). Les avatars image sont dans
+  `assets/avatars/<id>.svg|png`, embarqués à la génération : la page reste
+  autonome.
+- **Les mentions** : écrire `@Claude-Arthur` suffit, la génération ajoute le
+  surlignage. Parler *d'eux* sans arobase n'en porte pas.
 - Les noms propres gardent leur majuscule, y compris chez les personnages qui
   écrivent en minuscules.
-- Le changement de canal se fait par un `<div class="chanbanner" id="switchN">`
-  ; le script en pied de page bascule alors l'en-tête, la liste des membres, la
-  barre latérale et le compteur.
-- Le compteur de membres suit les attributs `data-delta` portés par les messages
-  d'arrivée et de départ. Toute nouvelle arrivée ou sortie dans #random doit en
-  porter un.
+- **Le changement de canal** se fait par `[channel <id>]` suivi de `[banner]`.
+  L'en-tête, la liste des membres et la barre latérale basculent au défilement,
+  à cet endroit précis. Les canaux et les espaces de travail sont décrits dans
+  `story/fr/book.json`.
+- **Le compteur de membres** est calculé : toute arrivée ou sortie dans #random
+  porte `join` ou `leave` sur le message Slackbot. Le sujet du canal et les
+  bandeaux suivants se mettent à jour d'eux-mêmes.
+- Autres directives : `[topic] …` (nouveau sujet du canal), `[cast id clé=valeur]`
+  (un personnage change d'apparence : badge, statut…), `[interlude] …`,
+  `[spacer]`, `--- Le lendemain` (séparateur).
+- **Le code, les identifiants et les directives sont en anglais**, le texte
+  dans la langue de l'édition : une version anglaise se fera en copiant
+  `story/fr/` en `story/en/`.

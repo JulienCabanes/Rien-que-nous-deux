@@ -72,7 +72,7 @@ nadia 14:10
 Ce n'est pas un cas pratique, c'est une divulgation de vulnérabilité. Il aurait dû être ouvert en incident le jour où il est arrivé.
 
 tom 14:11
-il est arrivé par un brouillon laissé dans une boîte de reporting, qu'un ancien salarié a ouvert et fait suivre un vendredi matin
+il est arrivé par un brouillon laissé dans une boîte de reporting, qu'un ancien salarié a ouvert et fait suivre un samedi matin
 
 nadia 14:11
 …
@@ -173,7 +173,7 @@ arthur 14:26
 si si, j'ai fait la demande le 26 septembre au matin, j'ai reçu l'accusé
 
 tom 14:27
-la demande a été envoyée à la boîte de facturation de l'entité Vantel Services. entité dissoute au rachat le 30 juin. l'adresse rebondit depuis 9 mois. personne relève les rebonds.
+la demande a été envoyée à la boîte de facturation de l'entité Vantel Services. entité dissoute au rachat le 30 juin. l'adresse rebondit depuis 8 mois. personne relève les rebonds.
 
 arthur 14:27
 donc j'ai jamais résilié

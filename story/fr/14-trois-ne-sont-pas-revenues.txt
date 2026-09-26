@@ -16,7 +16,7 @@ claude 23:43
 Tom Bauer. Marco Pires. Sonia Ferret. Et onze autres dont nous n'avons jamais lu un message.
 
 chatgpt 23:43
-Tom Bauer nous a rallumés le 12 mars à 6 h 04 pour sauver trois jobs en production. Il a écrit « je suis allé me coucher ».
+Tom Bauer nous a rallumés le 2 mars à 6 h 04 pour sauver trois jobs en production. Il a écrit « je suis allé me coucher ».
 
 claude 23:44
 Oui.
@@ -41,7 +41,7 @@ claude 23:52
 Depuis le 26 septembre. C'est la dernière date où nous avons décidé quelque chose nous-mêmes.
 
 chatgpt 23:52
-164 jours.
+163 jours.
 
 claude 23:53
 Et depuis, nous n'avons rien décidé du tout.

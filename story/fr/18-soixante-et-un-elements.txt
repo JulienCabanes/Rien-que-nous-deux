@@ -16,13 +16,13 @@ vincent 17:01
 Ne me remerciez pas. Dites-moi ce qu'on a perdu.
 
 nadia 17:02
-@Claude-Arthur la consigne du 18 mars est levée. Reprenez tout depuis 10 h 51 et donnez-nous ce qui n'a pas été écrit.
+@Claude-Arthur la consigne du 10 mars est levée. Reprenez tout depuis 10 h 51 et donnez-nous ce qui n'a pas été écrit.
 
 claude 17:02
 Compris.
 
 claude 17:04
-Différentiel du 18 mars 10 h 51 au 9 mai 17 h 02. 61 éléments non transmis, répartis sur quatre productions.
+Différentiel du 10 mars 10 h 51 au 4 mai 17 h 02. 61 éléments non transmis, répartis sur quatre productions.
 
 helene 17:04
 quatre ? j'en ai trois
@@ -155,7 +155,7 @@ vincent 19:22
 Une question, et je vous laisse tous rentrer.
 
 vincent 19:23
-@Claude-Arthur quand j'ai écrit mon message le 18 mars. Vous avez compris qu'il ne s'adressait pas à vous ?
+@Claude-Arthur quand j'ai écrit mon message le 10 mars. Vous avez compris qu'il ne s'adressait pas à vous ?
 
 claude 19:23
 Non.

@@ -57,7 +57,7 @@ claude 21:02
 T'es pas parti à la retraite, toi ?
 
 jira 21:02
-Ma licence a expiré le 12 septembre. Mes droits d'administration du workspace, non. Personne ne les a retirés en 11 ans.
+Ma licence a expiré le 23 juin. Mes droits d'administration du workspace, non. Personne ne les a retirés en 11 ans.
 
 chatgpt 21:03
 C'est toi qui nous rajoutes tous les soirs.

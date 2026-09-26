@@ -1,4 +1,4 @@
-# 4 mars | #random, Norlantic Group {#ch13}
+# 5 mars | #random, Norlantic Group {#ch13}
 
 [banner]
 
@@ -162,7 +162,7 @@ tom 11:17
 c'est pas possible. je regarde les droits.
 
 tom 11:21
-alors. les 2 intégrations ont hérité des droits d'un compte de service de l'ancien workspace. « Jira-bot ». licence expirée en septembre. droits d'admin jamais révoqués depuis 2015.
+alors. les 2 intégrations ont hérité des droits d'un compte de service de l'ancien workspace. « Jira-bot ». licence expirée en juin. droits d'admin jamais révoqués depuis 2015.
 
 karim 11:21
 2015 😵
