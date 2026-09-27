@@ -136,12 +136,12 @@ body {
 /* header avatars: as many as fit, the count always stays visible */
 .header > div:first-child { min-width: 0; }
 .header .members { min-width: 0; max-width: 70%; flex-shrink: 1; }
-.header .members .avs { display: flex; min-width: 0; overflow: hidden; padding-right: 6px; }
+.header .members .avs { display: flex; min-width: 0; overflow: hidden; padding-right: 3px; }
 .header .members .avs .mini-av { flex: none; }
-.header .members .n { flex: none; margin-left: 4px; }
+.header .members .n { flex: none; margin-left: 0; }
 /* many avatars on a narrow screen: overlap them more before cutting any */
 /* avatars side by side; they overlap only when many on a phone */
-.header .members .mini-av { margin-right: 3px; }
+.header .members .mini-av { margin-right: -3px; }
 @media (max-width: 760px) {
   .header .members.many .mini-av { margin-right: -6px; }
 }
