@@ -230,7 +230,7 @@ nadia 16:12 join
 a rejoint #random.
 
 slackbot 16:12
-👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 7
 
 nadia 16:12

@@ -28,7 +28,7 @@ vincent 09:00 join
 a rejoint #random.
 
 slackbot 09:00
-👋 Bienvenue dans le canal, Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 14
 
 vincent 09:01
@@ -61,7 +61,7 @@ a rejoint #random.
 [reactions] 🎉 211, ❤️ 98
 
 slackbot 09:09
-👋 Bienvenue dans le canal, Tom Bauer ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Tom Bauer ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 58, ❤️ 39
 
 lea 09:09
@@ -91,7 +91,7 @@ a rejoint #random.
 [reactions] 🎉 74
 
 slackbot 09:12
-👋 Bienvenue dans le canal, Marco Pires ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Marco Pires ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 19
 
 vincent 09:14
@@ -194,7 +194,7 @@ a rejoint #random.
 [reactions] 😳 64
 
 slackbot 10:10
-👋 Bienvenue dans le canal, Gemini-Marco ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Gemini-Marco ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 31
 
 gemini 10:10

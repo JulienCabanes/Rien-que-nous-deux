@@ -17,7 +17,7 @@ a rejoint #random.
 [reactions] 😳 71
 
 slackbot 10:47
-👋 Bienvenue dans le canal, Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 23, 😅 11
 
 karim 10:47

@@ -4,7 +4,7 @@ nadia 14:01 join
 a rejoint #random.
 
 slackbot 14:01
-👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 4
 
 nadia 14:02
@@ -145,7 +145,7 @@ arthur 14:24 join
 a rejoint #random.
 
 slackbot 14:24
-👋 Bienvenue dans le canal, Arthur Lefèvre ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Arthur Lefèvre ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 3, 😮‍💨 2
 
 arthur 14:24

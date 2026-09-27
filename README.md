@@ -78,7 +78,7 @@ claude 11:07
 a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 11:07
-👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, @Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
 
 nadia 14:29 big
 😐
