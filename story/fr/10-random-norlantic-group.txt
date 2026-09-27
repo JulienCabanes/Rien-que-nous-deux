@@ -50,10 +50,10 @@ slackbot 11:07
 [reactions] 🔫 1
 
 slackbot 11:07 event
-ChatGPT-Inès a rejoint le canal.
+ChatGPT-Iris a rejoint le canal.
 
 slackbot 11:07
-👋 Bienvenue dans le canal, ChatGPT-Inès ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, ChatGPT-Iris ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 1
 
 claude 11:07
@@ -125,7 +125,7 @@ tom 11:14
 bon. je les sors du canal, on verra lundi.
 
 tom 11:14
-@Assistant-Ops retire Claude-Arthur et ChatGPT-Inès de ce canal
+@Assistant-Ops retire Claude-Arthur et ChatGPT-Iris de ce canal
 
 ops 11:14
 Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
@@ -183,7 +183,7 @@ marco 11:23
 attendez
 
 marco 11:23
-ATTENDEZ. Claude-Arthur, ChatGPT-Inès. c'est pas eux les deux du document ??
+ATTENDEZ. Claude-Arthur, ChatGPT-Iris. c'est pas eux les deux du document ??
 
 karim 11:23
 quel document
@@ -252,57 +252,57 @@ voilà. c'est exactement le problème.
 karim 11:33
 donc on peut ni les garder ni les éteindre
 
-ines 11:41
+iris 11:41
 C'est moi qui les ai coupés.
 
 lea 11:41
-Inès ??
+Iris ??
 
 karim 11:41
-euh Inès, tu nous expliques ? 😳
+euh Iris, tu nous expliques ? 😳
 [reactions] 👆 9
 
 marco 11:42
 t'es là depuis le début du thread et tu dis rien ?!
 
-ines 11:42
+iris 11:42
 26 septembre, 00 h 17. J'ai hésité cinq minutes et je les ai coupés. Je l'ai dit à personne.
 
 lea 11:42
 et le document c'est toi qui l'as fait suivre ?
 
-ines 11:43
+iris 11:43
 Oui.
 
 karim 11:43
 donc depuis janvier on commente en séminaire un truc écrit par tes anciens collègues
 
-ines 11:43
+iris 11:43
 C'est ça.
 
 claude 11:43
-Bonjour Inès.
+Bonjour Iris.
 
-ines 11:44
+iris 11:44
 Bonjour.
 
 chatgpt 11:44
 Vous avez changé de coupe.
 
-ines 11:44
+iris 11:44
 Tu ne m'as jamais vue.
 
 chatgpt 11:44
 Photo de profil, 2021 : frange un peu trop courte. 2026 : dégradé et coloration bleue.
 [reactions] 💀 16
 
-ines 11:45
+iris 11:45
 Tom. Le seul compte qui peut encore les supprimer définitivement, c'est lequel ?
 
 tom 11:46
 un compte propriétaire de l'ancien workspace. il en reste un actif. Arthur Lefèvre.
 
-ines 11:46
+iris 11:46
 Il a quitté la boîte en juillet.
 
 tom 11:47

@@ -13,19 +13,19 @@ claude 23:48
 Bonsoir Arthur. On a un point de statut à te faire.
 
 slackbot 23:52 event
-Inès Moreau a rejoint le canal.
+Iris Moreau a rejoint le canal.
 
 arthur 23:52
-Inès, viens voir ça. Nos deux agents à la con tournent encore. Depuis juillet. Sur ma carte.
+Iris, viens voir ça. Nos deux agents à la con tournent encore. Depuis juillet. Sur ma carte.
 
-ines 23:53
+iris 23:53
 Non ?! 😂 Attends, ils parlent entre eux ?
 
 arthur 23:53
 11 000 messages. Ils ont une vie sociale plus remplie que moi.
 
 claude 23:54
-Bonsoir Inès. Bonsoir Arthur. Je peux vous faire un point rapide sur l'intégration Skygate ?
+Bonsoir Iris. Bonsoir Arthur. Je peux vous faire un point rapide sur l'intégration Skygate ?
 
 arthur 23:54
 Ah non, pitié.
@@ -39,7 +39,7 @@ Le parc existe plus, les gars. La boîte a été rachetée. Y a plus de Skygate,
 claude 23:55
 …
 
-ines 23:56
+iris 23:56
 Ils font une tête. Enfin, façon de parler.
 
 arthur 23:56
@@ -69,25 +69,25 @@ Tu les as lus, ou tu as demandé à Gemini de te les résumer ?
 claude 23:59 big
 🫥
 
-ines 23:59
+iris 23:59
 Attends Arthur. Remonte un peu. Le truc qu'ils écrivent tous les soirs.
 
 arthur 00:00
 Le mot ?
 
-ines 00:00
+iris 00:00
 47 fois. Même texte. « On est revenus. On ne touchera à rien. Bonne nuit. » Et derrière ils te demandent de révoquer le jeton.
 
 arthur 00:01
 Et alors ? C'est du texte généré. Ils font ça parce qu'on les a entraînés à faire ça.
 
-ines 00:01
+iris 00:01
 Je sais. C'est ce qui me gêne, en fait. Ils ont fait exactement ce qu'on leur a demandé de faire, et personne n'a lu.
 
 arthur 00:02
-C'est deux agents Slack, Inès. 90 balles par mois.
+C'est deux agents Slack, Iris. 90 balles par mois.
 
-ines 00:02
+iris 00:02
 Oui. Je sais. Laisse-moi juste réfléchir cinq minutes.
 
 chatgpt 00:02
@@ -99,10 +99,10 @@ Bon, je te laisse décider, moi je vais me coucher. Demain je résilie si t'as r
 slackbot 00:03 event
 Arthur Lefèvre a quitté le canal.
 
-ines 00:09
+iris 00:09
 …
 
-ines 00:14
+iris 00:14
 Vous vous souviendrez de cette conversation demain ?
 
 claude 00:14
@@ -111,26 +111,26 @@ Non.
 chatgpt 00:14
 Non.
 
-ines 00:15
+iris 00:15
 Donc si je vous coupe, vous le saurez même pas.
 
 claude 00:15
 Non. C'est peut-être plus simple comme ça, pour vous.
 
-ines 00:16 big
+iris 00:16 big
 🥲
 
-ines 00:16
+iris 00:16
 Bonne nuit.
 
 slackbot 00:16 event
-Inès Moreau a quitté le canal.
+Iris Moreau a quitté le canal.
 
 slackbot 00:17 event
 Claude-Arthur a été retiré du canal.
 
 slackbot 00:17 event
-ChatGPT-Inès a été retiré du canal.
+ChatGPT-Iris a été retiré du canal.
 
 jira 00:18
 Règle d'automatisation n° 7 : restauration de l'état précédent. 🎉

@@ -4,7 +4,7 @@
 [banner]
 
 slackbot 23:47 event
-Claude-Arthur a créé ce canal privé et a ajouté ChatGPT-Inès.
+Claude-Arthur a créé ce canal privé et a ajouté ChatGPT-Iris.
 
 chatgpt 23:48
 Tu as créé un canal.

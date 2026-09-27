@@ -4,7 +4,7 @@
 [banner]
 
 slackbot 08:58 event
-Hélène Ropars a créé ce canal privé et a ajouté Nadia Hamdi, Léa Fontaine, Karim Diallo, Claude-Arthur et ChatGPT-Inès.
+Hélène Ropars a créé ce canal privé et a ajouté Nadia Hamdi, Léa Fontaine, Karim Diallo, Claude-Arthur et ChatGPT-Iris.
 [reactions] 👀 0
 
 helene 09:05
@@ -179,15 +179,15 @@ karim 10:14
 helene 10:14
 Elle est à zéro, donc ça ne pose pas de problème. Je la laisse telle quelle.
 
-ines 10:21
+iris 10:21
 Zéro depuis le 2 mars.
 
-ines 10:22
+iris 10:22
 Le 2 mars, c'est le jour où on les a rallumés.
 
 karim 10:23
 et ?
 
-ines 10:24
+iris 10:24
 Rien. Je me disais que ça faisait une drôle de coïncidence.
 [reactions] 👀 2

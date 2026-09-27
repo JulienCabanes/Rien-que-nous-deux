@@ -215,10 +215,10 @@ slackbot 10:14
 [reactions] 🔫 9
 
 slackbot 10:14 event
-ChatGPT-Inès a rejoint le canal.
+ChatGPT-Iris a rejoint le canal.
 
 slackbot 10:14
-👋 Bienvenue dans le canal, ChatGPT-Inès ! Présente-toi à l'équipe en quelques mots 🎉
+👋 Bienvenue dans le canal, ChatGPT-Iris ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 11
 
 claude 10:14

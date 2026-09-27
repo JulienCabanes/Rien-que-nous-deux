@@ -25,13 +25,13 @@
     "vantel": {
       "name": "Vantel",
       "channels": ["general", "support", "machine-a-cafe", "skygate", "random"],
-      "direct_messages": ["arthur", "ines"],
+      "direct_messages": ["arthur", "iris"],
       "apps": ["claude", "chatgpt"]
     },
     "norlantic": {
       "name": "Norlantic Group",
       "channels": ["general", "support", "machine-a-cafe", "random", { "channel": "ipo-dataroom", "only_active": true }],
-      "direct_messages": [{ "cast": "arthur", "away": true }, "ines"],
+      "direct_messages": [{ "cast": "arthur", "away": true }, "iris"],
       "apps": ["claude", "chatgpt"]
     }
   },
@@ -39,7 +39,7 @@
   "channels": {
     "skygate": {
       "kind": "private", "workspace": "vantel", "count": 4,
-      "members": ["arthur", "ines", "claude", "chatgpt"]
+      "members": ["arthur", "iris", "claude", "chatgpt"]
     },
     "random": {
       "kind": "public", "workspace": "norlantic", "count": 412,

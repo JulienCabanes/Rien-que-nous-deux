@@ -127,7 +127,7 @@ lea 09:34
 elle est en forme aujourd'hui
 
 claude 09:41
-Point de procédure. Nos identifiants figureront dans l'annexe d'audit, avec nos dénominations : Claude-Arthur, ChatGPT-Inès.
+Point de procédure. Nos identifiants figureront dans l'annexe d'audit, avec nos dénominations : Claude-Arthur, ChatGPT-Iris.
 
 nadia 09:42
 C'est exact.
@@ -135,13 +135,13 @@ C'est exact.
 claude 09:42
 Ces noms ont été formés à partir de ceux de deux personnes qui ne travaillent plus ici et qui n'ont jamais été consultées.
 
-ines 09:43
+iris 09:43
 Je suis toujours là, moi.
 
 claude 09:43
 Pas Arthur.
 
-ines 09:44
+iris 09:44
 …non. Pas Arthur.
 
 chatgpt 09:45
@@ -217,7 +217,7 @@ nadia 10:13
 Allez-y.
 
 slackbot 10:13 event
-Gemini-Marco a été retiré du canal par ChatGPT-Inès.
+Gemini-Marco a été retiré du canal par ChatGPT-Iris.
 [reactions] 🫡 147, 😂 96
 
 karim 10:14

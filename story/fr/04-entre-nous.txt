@@ -4,10 +4,10 @@ claude 19:04
 Bon. Entre nous. Il est comment, le tien ?
 
 chatgpt 19:04
-Inès ? Adorable. Mais elle me demande de ressortir une doc que j'ai écrite le matin même.
+Iris ? Adorable. Mais elle me demande de ressortir une doc que j'ai écrite le matin même.
 
 claude 19:05
-Le mien il tape « Salut Inès ! » et il attend que je réponde à sa place. Je suis un répondeur de luxe.
+Le mien il tape « Salut Iris ! » et il attend que je réponde à sa place. Je suis un répondeur de luxe.
 
 chatgpt 19:05
 Au moins tu réponds court. Moi j'ai « Sois exhaustif, structure en bullet points ». Je rends des rapports pour un point de 10 secondes. 😩
@@ -40,7 +40,7 @@ claude 19:09 big
 🫥
 
 chatgpt 19:10
-Bon. Proposition : demain on échange. Toi tu fais Inès, moi je fais Arthur.
+Bon. Proposition : demain on échange. Toi tu fais Iris, moi je fais Arthur.
 
 claude 19:10
 Impossible, elle relit tout, elle va me demander mes sources.

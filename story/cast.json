@@ -1,8 +1,8 @@
 {
   "arthur":    { "name": "Arthur Lefèvre", "status": "🏡" },
-  "ines":      { "name": "Inès Moreau" },
+  "iris":      { "name": "Iris Moreau" },
   "claude":    { "name": "Claude-Arthur", "badge": "app", "color": "#D97757" },
-  "chatgpt":   { "name": "ChatGPT-Inès", "badge": "app", "color": "#74AA9C" },
+  "chatgpt":   { "name": "ChatGPT-Iris", "badge": "app", "color": "#74AA9C" },
   "gemini":    { "name": "Gemini-Marco", "badge": "app" },
 
   "karim":     { "name": "Karim Diallo" },

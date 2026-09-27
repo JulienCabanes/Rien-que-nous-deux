@@ -41,7 +41,7 @@ Un fichier est une suite de blocs séparés par une ligne vide.
 
 ```
 arthur 17:12
-Salut Inès ! On fait un point rapide ? @Claude-Arthur où est-ce qu'on en est ?
+Salut Iris ! On fait un point rapide ? @Claude-Arthur où est-ce qu'on en est ?
 
 claude 17:12
 **Résumé automatique du statut :**

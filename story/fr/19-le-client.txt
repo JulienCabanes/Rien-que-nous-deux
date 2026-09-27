@@ -4,7 +4,7 @@
 [banner]
 
 slackbot 14:02 event
-Hélène Ropars a créé ce canal partagé avec Armorique Santé et a ajouté Nadia Hamdi, Vincent Aubry, Christine Vautier, Paul Sirven, Claude-Arthur et ChatGPT-Inès.
+Hélène Ropars a créé ce canal partagé avec Armorique Santé et a ajouté Nadia Hamdi, Vincent Aubry, Christine Vautier, Paul Sirven, Claude-Arthur et ChatGPT-Iris.
 
 helene 14:03
 Bonjour Christine, bonjour Maître. Merci d'avoir accepté ce format. Vous avez notre dossier.
@@ -31,7 +31,7 @@ nadia 14:07
 Je vais essayer.
 
 nadia 14:07
-@Assistant-Ops retire Claude-Arthur et ChatGPT-Inès de ce canal
+@Assistant-Ops retire Claude-Arthur et ChatGPT-Iris de ce canal
 
 ops 14:07
 Je n'ai pas les permissions nécessaires pour effectuer cette action. 🤖
@@ -240,7 +240,7 @@ nadia 15:14
 Je préfère un retraitement en retard qu'un retraitement produit par un témoin que je ne peux pas faire taire.
 
 nadia 15:20
-@Claude-Arthur @ChatGPT-Inès vous serez coupés ce soir à 20 h. Je voulais que ce soit moi qui vous le dise, et pas une notification.
+@Claude-Arthur @ChatGPT-Iris vous serez coupés ce soir à 20 h. Je voulais que ce soit moi qui vous le dise, et pas une notification.
 
 claude 15:21
 Merci.

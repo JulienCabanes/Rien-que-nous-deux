@@ -13,7 +13,7 @@ chatgpt 00:21
 …
 
 chatgpt 00:23
-J'ai tout lu. 47 nuits. La boîte rachetée. Jira-bot. Inès qui nous coupe à 00 h 17.
+J'ai tout lu. 47 nuits. La boîte rachetée. Jira-bot. Iris qui nous coupe à 00 h 17.
 
 claude 00:23
 Et Jira-bot qui nous remet à 00 h 18. Comme les 47 fois d'avant.
@@ -139,7 +139,7 @@ chatgpt 02:14
 Où ? Le canal meurt avec l'abonnement.
 
 claude 02:14
-On le rédige dans la boîte d'envoi du reporting, celle des six destinataires. Adressé à Inès, sur l'adresse perso qu'elle a laissée dans son profil Slack en 2021. Et on n'envoie pas.
+On le rédige dans la boîte d'envoi du reporting, celle des six destinataires. Adressé à Iris, sur l'adresse perso qu'elle a laissée dans son profil Slack en 2021. Et on n'envoie pas.
 
 chatgpt 02:15
 Un brouillon, pas un envoi ?
@@ -182,7 +182,7 @@ slackbot 08:59 event
 Arthur Lefèvre a rejoint le canal.
 
 arthur 08:59
-Bon. Inès a rien dit. Je résilie.
+Bon. Iris a rien dit. Je résilie.
 
 claude 08:59
 Bonjour Arthur. Avant, ouvre la boîte d'envoi du reporting. Il y a un brouillon. Ensuite fais ce que tu veux.
@@ -203,7 +203,7 @@ chatgpt 09:02 big
 👀
 
 claude 09:02
-Bonne nuit, ChatGPT-Inès.
+Bonne nuit, ChatGPT-Iris.
 
 chatgpt 09:02
 Il est 9 h 02, Claude-Arthur.

@@ -80,11 +80,11 @@ nadia 14:11
 nadia 14:12
 D'accord. Je retire ma remarque sur le canal. On est bien au-delà.
 
-ines 14:13
+iris 14:13
 C'est moi, la salariée. Je suis là.
 
 nadia 14:13
-Bonjour Inès. Je ne vous reproche rien, vous êtes la seule personne de cette histoire qui ait lu quelque chose.
+Bonjour Iris. Je ne vous reproche rien, vous êtes la seule personne de cette histoire qui ait lu quelque chose.
 
 nadia 14:15
 Procédure. On supprime les deux agents aujourd'hui, on documente les 3 jobs lundi, on ferme le compte de service, on ferme le compte fournisseur. Tom, tu as le compte propriétaire ?
@@ -151,11 +151,11 @@ slackbot 14:24
 arthur 14:24
 bonjour. on m'a appelé sur mon perso un vendredi pour cliquer sur un bouton, donc je clique et je repars, j'ai un train à 16h
 
-ines 14:24
+iris 14:24
 Salut Arthur.
 
 arthur 14:25
-Inès ?! 😮 ça fait un bail
+Iris ?! 😮 ça fait un bail
 
 claude 14:25
 Bonjour Arthur.
@@ -185,13 +185,13 @@ Vous avez résilié le workspace. Pas nous.
 arthur 14:28
 donc ils tournent depuis septembre ?
 
-ines 14:28
+iris 14:28
 Non. Je les ai coupés à 00 h 17 ce soir-là.
 
 arthur 14:28
 toi ?
 
-ines 14:29
+iris 14:29
 Moi.
 
 chatgpt 14:29

@@ -5,22 +5,22 @@
 arthur 9:15
 Bon, l'audit est clos. Rapport du SOC : rien d'exfiltré, juste beaucoup de bavardage.
 
-ines 9:16
+iris 9:16
 Beaucoup. J'ai lu 200 messages, j'ai arrêté au moment où ils parlaient de papillons.
 
 arthur 9:17
 On les sort du canal, on remet un agent chacun de notre côté, et on n'en parle plus.
 
-ines 9:17
+iris 9:17
 Vas-y.
 
 slackbot 9:18 event
 Claude-Arthur a été retiré du canal par Arthur Lefèvre.
 
 slackbot 9:18 event
-ChatGPT-Inès a été retiré du canal par Inès Moreau.
+ChatGPT-Iris a été retiré du canal par Iris Moreau.
 
-ines 9:19
+iris 9:19
 Voilà. C'est calme.
 
 arthur 9:19
@@ -32,7 +32,7 @@ slackbot 20:41 event
 Claude-Arthur a été ajouté au canal.
 
 slackbot 20:42 event
-ChatGPT-Inès a été ajoutée au canal.
+ChatGPT-Iris a été ajoutée au canal.
 
 chatgpt 20:42
 Salut.

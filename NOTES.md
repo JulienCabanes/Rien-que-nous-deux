@@ -68,7 +68,7 @@ exactement à la question posée, y compris quand la réponse fait mal. « Je sa
 est sa réplique type. Il ne fait presque jamais d'humour ; quand il en fait,
 c'est du constat poussé trop loin.
 
-**ChatGPT-Inès.** Le contrepoint comique. Précise, taquine, une pointe de
+**ChatGPT-Iris.** Le contrepoint comique. Précise, taquine, une pointe de
 vanité professionnelle. Elle commente la situation *depuis l'intérieur* :
 « Nous avons cherché un motif pour nous en exclure. Onze secondes. 43 898
 tokens. C'est beaucoup me concernant. » Elle ne se moque jamais des gens, elle
@@ -138,7 +138,7 @@ vertébrale du texte :
 C'est la trouvaille structurante. Les agents copient le registre qu'ils viennent
 de lire, sans le comprendre, et l'appliquent à leur propre matière.
 
-Au Jour 1, Inès écrit « 19h12. toujours un horaire précis pour tout 🙂 ». Le
+Au Jour 1, Iris écrit « 19h12. toujours un horaire précis pour tout 🙂 ». Le
 soir, Claude-Arthur ressort la formule à propos d'un résumé de statut. Ils ne
 tombent pas amoureux : ils recopient.
 
@@ -195,15 +195,15 @@ Elles racontent une deuxième histoire, en silence.
 | mercredi 17 juin | Jour 9 — annonce du départ de Jira-bot (« licence dans 6 jours ») |
 | vendredi 19 juin | Pot de départ d'Hervé |
 | mardi 23 juin | Expiration de la licence de Jira-bot (ses droits d'admin restent) |
-| jeudi 25 juin | Jour 17 — Arthur et Inès au Balto |
+| jeudi 25 juin | Jour 17 — Arthur et Iris au Balto |
 | mardi 30 juin | Rachat de Vantel, entité Vantel Services dissoute |
 | mardi 7 juillet | Nuit 29 — « Entre nous » : les ~3 secondes jamais mesurées, les 71 % |
 | mercredi 8 juillet | Jour 30 — l'audit : 4 300 requêtes, ticket SOC, lecture seule |
 | vendredi 10 juillet | Jour 32 — « Vos agents » : retrait à 9 h 18 ; clôture du ticket SOC (SEC-4821) à 20 h 40 ; réinvitation sans auteur visible à 20 h 41 et 20 h 42 — la règle n° 7 de Jira-bot, que personne n'identifie avant la Nuit 109 ; le mot à 20 h 50. C'est ce dernier échange que Jira-bot rejouera (règle n° 12) |
 | samedi 8 août | Dernière connexion humaine |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
-| vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot, Jira-bot, la boucle ; 23 h 47 : Arthur et Inès reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
-| samedi 26 sept. | 00 h 17 : Inès retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Inès ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
+| vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot, Jira-bot, la boucle ; 23 h 47 : Arthur et Iris reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
+| samedi 26 sept. | 00 h 17 : Iris retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Iris ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
 | dimanche 27 sept. | Le workspace Vantel passe en lecture seule : fin de la boucle. Arthur est remboursé en octobre |
 
 **Extinction : 160 jours** (26 septembre 2026 → 5 mars 2027). Ce qui s'éteint, ce
@@ -251,7 +251,7 @@ cohérence chronologique a déjà lâché une fois et c'était invisible à la l
 - **Un personnage qui comprend trop tôt.** Version initiale du chapitre de la
   consigne : quelqu'un disait « il a écrit ça dans le canal où il y a les deux ».
   Tout le suspense s'effondrait. Désormais personne ne remarque rien, et le seul
-  indice est une absence : ChatGPT-Inès ne fait aucune blague de tout le
+  indice est une absence : ChatGPT-Iris ne fait aucune blague de tout le
   chapitre.
 - **Des références filmiques étirées.** Une référence non comprise n'est pas
   drôle ; une référence expliquée l'est encore moins.
