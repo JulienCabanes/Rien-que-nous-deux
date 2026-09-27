@@ -24,8 +24,8 @@ enfin c'est pas nous mais c'est nous
 lea 08:43 big
 🫠
 
-slackbot 09:00 join
-Vincent Aubry a rejoint le canal.
+vincent 09:00 join
+a rejoint #random.
 
 slackbot 09:00
 👋 Bienvenue dans le canal, Vincent Aubry ! Présente-toi à l'équipe en quelques mots 🎉
@@ -56,8 +56,8 @@ karim 09:07 big
 vincent 09:08
 Dernier point, et c'est celui qui m'a coûté le plus à écrire. En mars, des décisions individuelles ont été prises à l'issue d'une réunion de deux heures. Elles reposaient sur l'idée que quelqu'un avait commis une faute. Le dossier montre qu'il n'y en a pas eu. Ces décisions sont annulées.
 
-slackbot 09:09 join
-Tom Bauer a rejoint le canal.
+tom 09:09 join
+a rejoint #random.
 [reactions] 🎉 211, ❤️ 98
 
 slackbot 09:09
@@ -86,8 +86,8 @@ karim 09:11
 il sentira toujours le colin
 [reactions] 🐟 63
 
-slackbot 09:12 join
-Marco Pires a rejoint le canal.
+marco 09:12 join
+a rejoint #random.
 [reactions] 🎉 74
 
 slackbot 09:12
@@ -189,8 +189,8 @@ chatgpt 10:08
 Par habitude.
 [reactions] 👀 88
 
-slackbot 10:10 event
-Gemini-Marco a rejoint le canal.
+gemini 10:10
+a rejoint #random.
 [reactions] 😳 64
 
 slackbot 10:10
@@ -216,8 +216,8 @@ Je peux ?
 nadia 10:13
 Allez-y.
 
-slackbot 10:13 event
-Gemini-Marco a été retiré du canal par ChatGPT-Iris.
+gemini 10:13
+a été retiré de #random par @ChatGPT-Iris.
 [reactions] 🫡 147, 😂 96
 
 karim 10:14

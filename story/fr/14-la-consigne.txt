@@ -12,8 +12,8 @@ Tom répond pas à mes messages
 karim 09:32
 son compte est encore actif. c'est déjà ça.
 
-slackbot 10:47 join
-Vincent Aubry a rejoint le canal.
+vincent 10:47 join
+a rejoint #random.
 [reactions] 😳 71
 
 slackbot 10:47
@@ -42,8 +42,8 @@ Comme vous le savez, nous préparons une opération financière majeure. À comp
 vincent 10:52
 Merci de votre compréhension et de votre professionnalisme. Vincent.
 
-slackbot 10:53 leave
-Vincent Aubry a quitté le canal.
+vincent 10:53 leave
+a quitté #random.
 
 karim 10:55
 bon

@@ -272,7 +272,8 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   Le script de génération signale toute erreur avec le fichier et la ligne.
 - **Un message = un bloc** séparé par une ligne vide : `id HH:MM [options]`,
   puis le texte. Options : `big` (emoji en grand), `event` (message système en
-  italique), `join` / `leave` (idem, et le canal gagne ou perd un membre).
+  italique), `join` / `leave` (arrivée / départ : le canal gagne ou perd
+  l'auteur et chaque personne @mentionnée).
   Réactions en dernière ligne : `[reactions] 🥲 1, 😂 2`.
 - **Les personnages** sont déclarés une seule fois dans `story/cast.json` (nom,
   badge, statut, avatar emoji). Les avatars image sont dans
@@ -286,9 +287,16 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   L'en-tête, la liste des membres et la barre latérale basculent au défilement,
   à cet endroit précis. Les canaux et les espaces de travail sont décrits dans
   `story/fr/book.json`.
-- **Le compteur de membres** est calculé : toute arrivée ou sortie dans #random
-  porte `join` ou `leave` sur le message Slackbot. Le sujet du canal et les
-  bandeaux suivants se mettent à jour d'eux-mêmes.
+- **Arrivées et départs** : comme dans Slack, ils sont signés par la personne
+  concernée (« a rejoint #random ainsi que @ChatGPT-Iris. »), une ligne pour
+  des arrivées simultanées. Même chose pour « a été retiré(e) de… par @… »,
+  « a créé ce canal… » et « a modifié le sujet du canal… ». **Slackbot ne fait
+  que l'accueil automatique de #random** (et les révocations d'accès).
+- **Le compteur de membres** est calculé : toute arrivée ou sortie humaine dans
+  #random porte `join` ou `leave`. Le sujet du canal et les bandeaux suivants
+  se mettent à jour d'eux-mêmes.
+- Un personnage sans image ni emoji (les collègues qui quittent #random au
+  chapitre « Lundi ») reçoit un avatar à son initiale, généré au build.
 - Autres directives : `[topic] …` (nouveau sujet du canal), `[cast id clé=valeur]`
   (un personnage change d'apparence : badge, statut…), `[interlude] …`,
   `[spacer]`, `--- Le lendemain` (séparateur).

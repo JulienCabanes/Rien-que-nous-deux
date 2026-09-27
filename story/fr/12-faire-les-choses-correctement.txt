@@ -152,59 +152,59 @@ Nous l'avons écrit. Page 2. Le compte de service est nommé, daté, avec la pro
 nadia 11:45
 Ça le sera. Je le joins au dossier.
 
-slackbot 14:02 leave
-Sylvie Renard a quitté le canal.
+sylvie 14:02 leave
+a quitté #random.
 
-slackbot 14:02 leave
-Nadia Hamdi a quitté le canal.
+nadia 14:02 leave
+a quitté #random.
 [reactions] 😨 22, 🫥 8
 
-slackbot 14:03 leave
-Tom Bauer a quitté le canal.
+tom 14:03 leave
+a quitté #random.
 [reactions] 😨 41, 💔 27, 🫥 14
 
-slackbot 14:03 leave
-Marco Pires a quitté le canal.
+marco 14:03 leave
+a quitté #random.
 [reactions] 😨 11
 
-slackbot 14:04 leave
-Hugo Vasseur a quitté le canal.
+hugo 14:04 leave
+a quitté #random.
 [reactions] 😰 12
 
-slackbot 14:04 leave
-Sonia Ferret a quitté le canal.
+sonia 14:04 leave
+a quitté #random.
 [reactions] 😰 17
 
-slackbot 14:05 leave
-Amine Cherki a quitté le canal.
+amine 14:05 leave
+a quitté #random.
 
-slackbot 14:05 leave
-Claire Dubosc a quitté le canal.
+claire 14:05 leave
+a quitté #random.
 [reactions] 😰 21
 
-slackbot 14:06 leave
-Julien Vasseur a quitté le canal.
+julien 14:06 leave
+a quitté #random.
 
-slackbot 14:06 leave
-Priya Raman a quitté le canal.
+priya 14:06 leave
+a quitté #random.
 [reactions] 💔 34, 🫠 19
 
-slackbot 14:07 leave
-Bastien Ollivier a quitté le canal.
+bastien 14:07 leave
+a quitté #random.
 
-slackbot 14:07 leave
-Nour Benali a quitté le canal.
+nour 14:07 leave
+a quitté #random.
 [reactions] 😰 19
 
-slackbot 14:08 leave
-Gaëlle Pichon a quitté le canal.
+gaelle 14:08 leave
+a quitté #random.
 
-slackbot 14:08 leave
-Youssef Amrani a quitté le canal.
+youssef 14:08 leave
+a quitté #random.
 [reactions] 💔 22
 
-slackbot 14:09 leave
-Damien Lecoq a quitté le canal.
+lecoq 14:09 leave
+a quitté #random.
 [reactions] 😶 28, 🫠 15
 
 lea 14:10
@@ -226,8 +226,8 @@ lea 14:31
 karim 15:48
 ça fait deux heures
 
-slackbot 16:12 join
-Nadia Hamdi a rejoint le canal.
+nadia 16:12 join
+a rejoint #random.
 
 slackbot 16:12
 👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉

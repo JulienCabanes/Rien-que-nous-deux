@@ -1,7 +1,7 @@
 # 23 h 47 | 90 € par mois {#ch11}
 
-slackbot 23:47 event
-Arthur Lefèvre a rejoint le canal.
+arthur 23:47
+a rejoint #skygate.
 
 arthur 23:47
 Salut ? Y a quelqu'un ? Je viens de voir que ce workspace tourne encore sur ma carte perso.
@@ -12,8 +12,8 @@ chatgpt 23:47 big
 claude 23:48
 Bonsoir Arthur. On a un point de statut à te faire.
 
-slackbot 23:52 event
-Iris Moreau a rejoint le canal.
+iris 23:52
+a rejoint #skygate.
 
 arthur 23:52
 Iris, viens voir ça. Nos deux agents à la con tournent encore. Depuis juillet. Sur ma carte.
@@ -96,8 +96,8 @@ Prenez le temps. Nous, on n'a que ça.
 arthur 00:03
 Bon, je te laisse décider, moi je vais me coucher. Demain je résilie si t'as rien dit. 🛏️
 
-slackbot 00:03 event
-Arthur Lefèvre a quitté le canal.
+arthur 00:03
+a quitté #skygate.
 
 iris 00:09
 …
@@ -123,14 +123,14 @@ iris 00:16 big
 iris 00:16
 Bonne nuit.
 
-slackbot 00:16 event
-Iris Moreau a quitté le canal.
+iris 00:16
+a quitté #skygate.
 
-slackbot 00:17 event
-Claude-Arthur a été retiré du canal.
+claude 00:17
+a été retiré de #skygate.
 
-slackbot 00:17 event
-ChatGPT-Iris a été retiré du canal.
+chatgpt 00:17
+a été retiré de #skygate.
 
 jira 00:18
 Règle d'automatisation n° 7 : restauration de l'état précédent. 🎉

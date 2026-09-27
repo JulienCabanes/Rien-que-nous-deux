@@ -18,6 +18,18 @@
   "paul":      { "name": "Paul Sirven", "badge": "external" },
   "damien":    { "name": "Damien Roussel", "badge": "external" },
 
+  "hugo":      { "name": "Hugo Vasseur" },
+  "sonia":     { "name": "Sonia Ferret" },
+  "amine":     { "name": "Amine Cherki" },
+  "claire":    { "name": "Claire Dubosc" },
+  "julien":    { "name": "Julien Vasseur" },
+  "priya":     { "name": "Priya Raman" },
+  "bastien":   { "name": "Bastien Ollivier" },
+  "nour":      { "name": "Nour Benali" },
+  "gaelle":    { "name": "Gaëlle Pichon" },
+  "youssef":   { "name": "Youssef Amrani" },
+  "lecoq":     { "name": "Damien Lecoq" },
+
   "slackbot":  { "name": "Slackbot", "badge": "app" },
   "jira":      { "name": "Jira-bot", "badge": "app" },
   "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#DCE6F2" },

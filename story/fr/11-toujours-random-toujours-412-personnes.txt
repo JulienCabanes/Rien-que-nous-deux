@@ -1,7 +1,7 @@
 # Le même jour, 14 h 02 | Toujours #random, toujours 412 personnes {#ch14}
 
-slackbot 14:01 join
-Nadia Hamdi a rejoint le canal.
+nadia 14:01 join
+a rejoint #random.
 
 slackbot 14:01
 👋 Bienvenue dans le canal, Nadia Hamdi ! Présente-toi à l'équipe en quelques mots 🎉
@@ -141,8 +141,8 @@ j'ai la chair de poule et je sais pas pourquoi
 lea 14:21
 moi je sais très bien pourquoi
 
-slackbot 14:24 join
-Arthur Lefèvre a rejoint le canal.
+arthur 14:24 join
+a rejoint #random.
 
 slackbot 14:24
 👋 Bienvenue dans le canal, Arthur Lefèvre ! Présente-toi à l'équipe en quelques mots 🎉
@@ -332,8 +332,8 @@ vous vous souvenez de tout, en fait.
 arthur 14:53
 j'ai un train.
 
-slackbot 14:53 leave
-Arthur Lefèvre a quitté le canal.
+arthur 14:53 leave
+a quitté #random.
 
 lea 14:54
 il reviendra

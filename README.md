@@ -1,6 +1,6 @@
 # Rien que nous deux
 
-Fiction. Une conversation Slack de 1 256 messages, en 22 chapitres, du 9 juin 2026 au 8 mai 2027.
+Fiction. Une conversation Slack de 1 254 messages, en 22 chapitres, du 9 juin 2026 au 8 mai 2027.
 
 Deux collègues, deux agents IA, un projet commun. Nom de code : **skygate**.
 Un soir, les humains descendent boire un verre. Les agents, eux, restent.
@@ -62,17 +62,31 @@ Options après l'heure :
 | option  | effet |
 |---------|-------|
 | `big`   | texte en grand (emoji seul) |
-| `event` | message système en italique gris |
-| `join`  | idem, et le canal gagne un membre |
-| `leave` | idem, et le canal perd un membre |
+| `event` | message système en italique gris (révocations…) |
+| `join`  | arrivée : le canal gagne l'auteur **et** chaque personne @mentionnée |
+| `leave` | départ : le canal perd l'auteur et chaque personne @mentionnée |
+
+Comme dans Slack, une arrivée ou un départ est **signé par la personne
+concernée**, avec son avatar ; les arrivées simultanées tiennent sur une ligne.
+Slackbot ne fait que l'accueil automatique de #random.
 
 ```
-slackbot 14:01 join
-Nadia Hamdi a rejoint le canal.
+nadia 14:01 join
+a rejoint #random.
+
+claude 11:07
+a rejoint #random ainsi que @ChatGPT-Iris.
+
+slackbot 11:07
+👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
 
 nadia 14:29 big
 😐
 ```
+
+Sans `join` / `leave` (ex. les agents, ou #skygate), le message s'affiche
+sans toucher au compteur. Un personnage sans image ni emoji reçoit un avatar
+à son initiale.
 
 ### Directives
 

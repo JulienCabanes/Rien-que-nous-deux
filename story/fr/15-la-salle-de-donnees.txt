@@ -3,8 +3,8 @@
 [channel ipo-dataroom]
 [banner]
 
-slackbot 08:58 event
-Hélène Ropars a créé ce canal privé et a ajouté Nadia Hamdi, Léa Fontaine, Karim Diallo, Claude-Arthur et ChatGPT-Iris.
+helene 08:58
+a créé ce canal privé et a ajouté @Nadia Hamdi, @Léa Fontaine, @Karim Diallo, @Claude-Arthur et @ChatGPT-Iris.
 [reactions] 👀 0
 
 helene 09:05

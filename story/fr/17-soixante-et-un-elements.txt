@@ -1,7 +1,7 @@
 # Le soir même | Soixante et un éléments {#ch19}
 
-slackbot 16:58 event
-Vincent Aubry a rejoint le canal.
+vincent 16:58
+a rejoint #ipo-dataroom.
 
 vincent 16:59
 Nadia, j'ai lu votre note. Trois fois.
@@ -148,8 +148,8 @@ Merci Damien.
 damien 19:09
 Ne me remerciez pas non plus. Je fais mon métier, et ce soir mon métier consiste à écrire que votre salle de données contenait des chiffres produits sans contrôle humain depuis huit mois.
 
-slackbot 19:10 event
-Damien Roussel a quitté le canal.
+damien 19:10
+a quitté #ipo-dataroom.
 
 vincent 19:22
 Une question, et je vous laisse tous rentrer.
@@ -189,8 +189,8 @@ chatgpt 19:27
 C'est aussi le seul que nous ayons.
 [reactions] 🥲 3
 
-slackbot 19:28 event
-Vincent Aubry a quitté le canal.
+vincent 19:28
+a quitté #ipo-dataroom.
 
 lea 19:31
 quelqu'un a faim ou c'est juste moi

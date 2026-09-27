@@ -207,15 +207,12 @@ Ils ont la cartographie complète des flux. Personne d'autre ne l'a. Et ils vien
 vincent 10:10
 Faites.
 
-slackbot 10:14 event
-Claude-Arthur a rejoint le canal.
+claude 10:14
+a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 10:14
 👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 9
-
-slackbot 10:14 event
-ChatGPT-Iris a rejoint le canal.
 
 slackbot 10:14
 👋 Bienvenue dans le canal, ChatGPT-Iris ! Présente-toi à l'équipe en quelques mots 🎉

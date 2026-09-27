@@ -59,6 +59,24 @@ def prose(text):
     return ITALIC.sub(r'<em>\1</em>', inline(text))
 
 
+# ---------------------------------------------------------------- avatars
+
+PALETTE = ['#5B6C8F', '#7A5C61', '#4F7A6B', '#8A6D3B', '#6B5B95', '#3E7C8C',
+           '#8C5A45', '#5E7D4F', '#76507A', '#4D6A86', '#8A4F5E', '#5C6B73']
+
+
+def palette(cid):
+    return PALETTE[sum(map(ord, cid)) % len(PALETTE)]
+
+
+def letter_avatar(name, color):
+    """Initial on a colored square, for characters without an image."""
+    return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">'
+            '<rect width="144" height="144" fill="%s"/>'
+            '<text x="72" y="72" dy=".35em" text-anchor="middle" fill="#fff" font-size="84" font-weight="700" '
+            'font-family="Lato, Helvetica, Arial, sans-serif">%s</text></svg>') % (attr(color), esc(name[:1].upper()))
+
+
 # ---------------------------------------------------------------- the edition
 
 class Edition:
@@ -234,7 +252,9 @@ class Edition:
             if o not in ('big', 'event', 'join', 'leave'):
                 raise StoryError('%s: unknown message option "%s" (big, event, join, leave)' % (where, o))
         if 'join' in opts or 'leave' in opts:
-            self.state[self.channel]['count'] += 1 if 'join' in opts else -1
+            # the author, plus everyone mentioned in the same line ("… ainsi que @X")
+            people = 1 + len(set(self.mention_re.findall('\n'.join(block[1:]))))
+            self.state[self.channel]['count'] += people if 'join' in opts else -people
         hh, mm = head[1].split(':')
 
         if 'emoji' in c:
@@ -249,7 +269,7 @@ class Edition:
             top += '<span class="app">%s</span>' % esc(self.ui['badges'][c['badge']])
         top += '<span class="time">%s</span>' % esc(self.ui['time'].format(h=hh, m=mm))
 
-        cls = 'text' + (' big' if 'big' in opts else '') + (' event' if {'event', 'join', 'leave'} & set(opts) else '')
+        cls = 'text' + (' big' if 'big' in opts else '') + (' event' if 'event' in opts else '')
         body, para, reacts = [], [], ''
 
         def flush():
@@ -320,7 +340,9 @@ class Edition:
                     break
             else:
                 if 'emoji' not in self.cast[cid]:
-                    raise StoryError('%s has neither an emoji nor assets/avatars/%s.svg|png' % (cid, cid))
+                    svg = letter_avatar(self.cast[cid]['name'], self.cast[cid].get('color') or palette(cid))
+                    rules.append('.av-%s{background-image:url(data:image/svg+xml;base64,%s)}'
+                                 % (cid, base64.b64encode(svg.encode()).decode()))
         return '\n'.join(rules)
 
     def page(self):

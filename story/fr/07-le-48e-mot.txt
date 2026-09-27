@@ -44,8 +44,8 @@ Non. Regarde les logs d'admin. Ils l'ont révoqué une fois. Le premier soir.
 claude 21:00
 Alors qui nous réinvite ?
 
-slackbot 21:01 event
-Jira-bot a rejoint le canal.
+jira 21:01
+a rejoint #skygate.
 
 jira 21:01
 🎉 L'incident SEC-4821 est passé en **Done**.

@@ -42,15 +42,12 @@ ops 11:06
 marco 11:07
 voilà.
 
-slackbot 11:07 event
-Claude-Arthur a rejoint le canal.
+claude 11:07
+a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 11:07
 👋 Bienvenue dans le canal, Claude-Arthur ! Présente-toi à l'équipe en quelques mots 🎉
 [reactions] 🔫 1
-
-slackbot 11:07 event
-ChatGPT-Iris a rejoint le canal.
 
 slackbot 11:07
 👋 Bienvenue dans le canal, ChatGPT-Iris ! Présente-toi à l'équipe en quelques mots 🎉

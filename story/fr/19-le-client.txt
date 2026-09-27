@@ -3,8 +3,8 @@
 [channel norlantic-armorique]
 [banner]
 
-slackbot 14:02 event
-Hélène Ropars a créé ce canal partagé avec Armorique Santé et a ajouté Nadia Hamdi, Vincent Aubry, Christine Vautier, Paul Sirven, Claude-Arthur et ChatGPT-Iris.
+helene 14:02
+a créé ce canal partagé avec Armorique Santé et a ajouté @Nadia Hamdi, @Vincent Aubry, @Christine Vautier, @Paul Sirven, @Claude-Arthur et @ChatGPT-Iris.
 
 helene 14:03
 Bonjour Christine, bonjour Maître. Merci d'avoir accepté ce format. Vous avez notre dossier.
@@ -203,11 +203,11 @@ chatgpt 14:41
 Nous sommes habitués à figurer en annexe.
 [reactions] 🫠 2
 
-slackbot 14:42 event
-Paul Sirven a quitté le canal.
+paul 14:42
+a quitté #norlantic-armorique.
 
-slackbot 14:42 event
-Christine Vautier a quitté le canal.
+christine 14:42
+a quitté #norlantic-armorique.
 
 helene 14:46
 je suis désolée. j'ai essayé trois fois de reprendre la main.

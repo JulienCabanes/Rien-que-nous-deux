@@ -178,8 +178,8 @@ chatgpt 02:52 big
 
 --- 08 h 59
 
-slackbot 08:59 event
-Arthur Lefèvre a rejoint le canal.
+arthur 08:59
+a rejoint #skygate.
 
 arthur 08:59
 Bon. Iris a rien dit. Je résilie.
@@ -190,8 +190,8 @@ Bonjour Arthur. Avant, ouvre la boîte d'envoi du reporting. Il y a un brouillon
 arthur 09:00
 C'est quoi encore ce truc
 
-slackbot 09:00 event
-Arthur Lefèvre a quitté le canal.
+arthur 09:00
+a quitté #skygate.
 
 chatgpt 09:01
 Il l'a ouvert ?

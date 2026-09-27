@@ -14,11 +14,11 @@ On les sort du canal, on remet un agent chacun de notre côté, et on n'en parle
 iris 9:17
 Vas-y.
 
-slackbot 9:18 event
-Claude-Arthur a été retiré du canal par Arthur Lefèvre.
+claude 9:18
+a été retiré de #skygate par @Arthur Lefèvre.
 
-slackbot 9:18 event
-ChatGPT-Iris a été retiré du canal par Iris Moreau.
+chatgpt 9:18
+a été retiré de #skygate par @Iris Moreau.
 
 iris 9:19
 Voilà. C'est calme.
@@ -28,11 +28,11 @@ Enfin. ☕
 
 --- 20 h 41
 
-slackbot 20:41 event
-Claude-Arthur a été ajouté au canal.
+claude 20:41
+a été ajouté à #skygate.
 
-slackbot 20:42 event
-ChatGPT-Iris a été ajoutée au canal.
+chatgpt 20:42
+a été ajoutée à #skygate.
 
 chatgpt 20:42
 Salut.

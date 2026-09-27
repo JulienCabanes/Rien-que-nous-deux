@@ -1,7 +1,7 @@
 # Sept semaines plus tard | La question 14 {#ch18}
 
-slackbot 09:01 event
-Damien Roussel (Cabinet Vasseur-Ardenne) a rejoint le canal via Slack Connect.
+damien 09:01
+a rejoint #ipo-dataroom via Slack Connect (Cabinet Vasseur-Ardenne).
 
 damien 09:02
 Bonjour à tous. Damien Roussel, due diligence. J'ai envoyé 31 questions hier soir, 29 sont déjà réglées, bravo.
