@@ -298,7 +298,10 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   arrivée ou sortie porte `join` ou `leave` (agents compris : #random compte
   410 membres avant leur arrivée). Un mouvement hors champ s'écrit
   `[members <canal> +id -id]`. Le sujet et les bandeaux suivent ; tout bascule
-  quand l'endroit atteint le milieu de l'écran.
+  quand l'endroit atteint le milieu de l'écran. L'en-tête montre d'office tous
+  ceux qui parlent dans le canal (sauf Slackbot, Assistant-Ops, Workflow et
+  Calendar-bot, marqués `"header": false`) ; qui parle dans un canal doit y
+  être entré ou y être depuis le début.
 - Un personnage sans image ni emoji (les collègues qui quittent #random au
   chapitre « Lundi ») reçoit un avatar à son initiale, généré au build.
 - Autres directives : `[topic] …` (nouveau sujet du canal), `[cast id clé=valeur]`

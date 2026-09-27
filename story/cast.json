@@ -30,9 +30,9 @@
   "youssef":   { "name": "Youssef Amrani" },
   "lecoq":     { "name": "Damien Lecoq" },
 
-  "slackbot":  { "name": "Slackbot", "badge": "app" },
+  "slackbot":  { "name": "Slackbot", "badge": "app", "header": false },
   "jira":      { "name": "Jira-bot", "badge": "app" },
-  "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#DCE6F2" },
-  "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#D4EDDA" },
-  "calendar":  { "name": "Calendar-bot", "badge": "app" }
+  "ops":       { "name": "Assistant-Ops", "badge": "app", "header": false, "emoji": "🤖", "color": "#DCE6F2" },
+  "workflow":  { "name": "Workflow", "badge": "app", "header": false, "emoji": "⚙️", "color": "#D4EDDA" },
+  "calendar":  { "name": "Calendar-bot", "badge": "app", "header": false }
 }

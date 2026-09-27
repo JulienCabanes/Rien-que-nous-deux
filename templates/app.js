@@ -18,8 +18,9 @@
     ws.textContent = data.workspaces[ch.workspace];
     title.innerHTML = ch.title;
     topic.textContent = s.topic;
-    members.innerHTML = s.avatars.map(function (id) { return '<span class="mini-av av-' + id + '"></span>'; }).join('')
-      + '<span style="margin-left:10px">' + s.count + '</span>';
+    members.innerHTML = '<span class="avs">' + s.avatars.map(function (id) {
+      return '<span class="mini-av av-' + id + '"></span>';
+    }).join('') + '</span><span class="n">' + s.count + '</span>';
     sidebars.forEach(function (sb) {
       sb.style.display = sb.getAttribute('data-ws') === ch.workspace ? '' : 'none';
       [].forEach.call(sb.querySelectorAll('[data-channel]'), function (item) {

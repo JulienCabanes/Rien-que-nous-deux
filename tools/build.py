@@ -150,7 +150,7 @@ class Edition:
         if cid not in self.state:
             ch = self.channels[cid]
             self.state[cid] = dict(topic=ch.get('topic'), count=ch['count'],
-                                   present=list(ch.get('present', ch.get('members', []))))
+                                   present=list(self.initially[cid]))
         return self.state[cid]
 
     def move(self, cid, ids, joining, where):
@@ -166,7 +166,7 @@ class Edition:
 
     def scene(self):
         s = self.state[self.channel]
-        shown = [m for m in self.channels[self.channel].get('members', []) if m in s['present']]
+        shown = [m for m in self.shown[self.channel] if m in s['present']]
         default = self.ui.get('topic_one', self.ui['topic']) if s['count'] == 1 else self.ui['topic']
         return dict(channel=self.channel, topic=s['topic'] or self.fill(default, self.channel),
                     count=s['count'], avatars=shown)
@@ -183,10 +183,59 @@ class Edition:
 
     # -- parsing
 
+    def prescan(self, texts):
+        """Who speaks in each channel, and who arrives there later.
+
+        The header shows everyone who ever speaks in a channel (Slackbot aside);
+        someone whose first move in a channel is a join is absent until then.
+        """
+        order, speaks, first_move = {}, {}, {}
+        channel = None
+        for text in texts:
+            for block in re.split(r'\n\s*\n', text):
+                lines = [l.strip() for l in block.strip().split('\n') if l.strip()]
+                if not lines:
+                    continue
+                if re.match(r'#\s|---|\[', lines[0]):
+                    for l in lines:
+                        m = re.match(r'\[channel (\S+)\]', l)
+                        if m:
+                            channel = m.group(1)
+                        m = re.match(r'\[members (\S+) (.*)\]', l)
+                        if m:
+                            for p in m.group(2).split():
+                                first_move.setdefault((m.group(1), p[1:]), p[0] == '+')
+                    continue
+                head = lines[0].split()
+                if len(head) < 2 or channel is None:
+                    continue
+                who, opts = head[0], head[2:]
+                moving = 'join' in opts or 'leave' in opts
+                for i in [who] + [o[1:] for o in opts if o.startswith('+')]:
+                    order.setdefault(channel, [])
+                    if i not in order[channel]:
+                        order[channel].append(i)
+                    if moving:
+                        first_move.setdefault((channel, i), 'join' in opts)
+                if not moving and self.cast.get(who, {}).get('header', True):
+                    speaks.setdefault(channel, set()).add(who)
+        self.shown, self.initially = {}, {}
+        for cid, ch in self.channels.items():
+            listed = list(ch.get('members', []))
+            extra = [i for i in order.get(cid, []) if i in speaks.get(cid, ()) and i not in listed]
+            self.shown[cid] = listed + extra
+            self.initially[cid] = ch['present'] if 'present' in ch else [
+                i for i in self.shown[cid] if first_move.get((cid, i)) is not True]
+
     def build(self):
         files = sorted(glob.glob(os.path.join(self.dir, '*.txt')))
         if not files:
             raise StoryError('%s: no chapter files' % os.path.relpath(self.dir, ROOT))
+        texts = []
+        for path in files:
+            with open(path, encoding='utf-8') as f:
+                texts.append(f.read())
+        self.prescan(texts)
         for path in files:
             with open(path, encoding='utf-8') as f:
                 self.parse(os.path.relpath(path, ROOT), f.read())
@@ -425,8 +474,8 @@ class Edition:
             'sidebars': '\n'.join(sidebars),
             'title': first_ch['title'],
             'topic': esc(first['topic']),
-            'members': ''.join('<span class="mini-av av-%s"></span>' % m for m in first['avatars'])
-                       + '<span style="margin-left:10px">%d</span>' % first['count'],
+            'members': '<span class="avs">%s</span><span class="n">%d</span>'
+                       % (''.join('<span class="mini-av av-%s"></span>' % m for m in first['avatars']), first['count']),
             'first_chapter': esc(self.first_chapter),
             'prologue': '\n'.join(prologue),
             'feed': '\n'.join(self.out),

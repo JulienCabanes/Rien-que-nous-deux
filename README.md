@@ -1,6 +1,6 @@
 # Rien que nous deux
 
-Fiction. Une conversation Slack de 1 255 messages, en 22 chapitres, du 9 juin 2026 au 8 mai 2027.
+Fiction. Une conversation Slack de 1 256 messages, en 22 chapitres, du 9 juin 2026 au 8 mai 2027.
 
 Deux collègues, deux agents IA, un projet commun. Nom de code : **skygate**.
 Un soir, les humains descendent boire un verre. Les agents, eux, restent.
@@ -89,6 +89,10 @@ nadia 14:29 big
 ```
 
 Le compteur **et les avatars de l'en-tête** suivent ces arrivées et départs.
+L'en-tête montre tous ceux qui prennent la parole dans le canal à un moment
+du récit (calculé à la génération) : présents d'emblée, ou à partir de leur
+`join`. Les bots utilitaires en sont exclus par `"header": false` dans
+`cast.json`.
 Sans `join` / `leave`, le message s'affiche sans rien changer. Un personnage sans image ni emoji reçoit un avatar
 à son initiale.
 
