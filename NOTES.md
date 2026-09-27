@@ -171,6 +171,7 @@ dans leur propre vocabulaire (fenêtre de contexte, jetons, extraction).
 
 Elles racontent une deuxième histoire, en silence.
 
+- **Entre les deux agents seuls, une réaction vaut 1** : chacun ne réagit qu'au message de l'autre. Un 2 ferait croire qu'un humain lisait.
 - **Le nombre doit être cohérent avec la taille du canal.** Dans #ipo-dataroom
   (6 membres), une réaction ne dépasse pas 3. Dans #random (412), elle peut
   monter à 200.
