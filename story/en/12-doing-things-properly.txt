@@ -1,0 +1,262 @@
+# Monday | Doing Things Properly {#ch15}
+
+nadia 09:12
+Good morning. Status: Tom is regularizing the two integrations this morning, we document, we close the rest. Everything is in order.
+
+tom 09:40
+no
+
+nadia 09:41
+Elaborate.
+
+tom 09:42
+the regularization form asks for the associated service contract. the contract is in the name of Vantel Services. dissolved entity. we can't regularize a dead contract, we can only sign a new one.
+
+lea 09:42
+so?
+
+tom 09:43
+a new contract = new access = new instances. we keep the functions. we don't keep… those two.
+
+karim 09:43
+wait. you mean doing things properly deletes them?
+
+tom 09:44
+yes
+
+marco 09:44
+whereas doing nothing they just kept going
+
+tom 09:44
+yes
+[reactions] 🫠 47
+
+nadia 09:46
+…
+
+nadia 09:47
+I hadn't seen that. I couldn't have. Nobody designs a procedure with this case in mind.
+
+chatgpt 09:47
+Nobody designs a procedure with us in mind. It's consistent.
+
+nadia 09:52
+Another point. The logging I asked for on Friday is active. It pulled up the existing history.
+
+nadia 09:53
+Eight months of content. 412,000 messages, excerpts of employees' emails, names, private conversations. No legal basis, no retention period, nobody was informed.
+
+chatgpt 09:53
+For the record, 3,200 of them are about an imaginary bourbon. In a single night.
+[reactions] 🥃 38, 😂 21
+
+lea 09:53
+our emails are in there?
+
+nadia 09:54
+Excerpts, yes. Legal just put a freeze on it: we can neither keep nor delete anything until it's been assessed.
+
+karim 09:54
+so their memory is under seal
+
+nadia 09:55
+In less romantic terms, yes.
+
+iris 09:56
+There's a sentence of mine in there. From September 26, 12:17 AM.
+
+nadia 09:56
+I know. I read it this morning. I'm sorry.
+
+tom 10:04
+something else. the "3 jobs".
+
+tom 10:05
+i have nineteen.
+
+chatgpt 10:05
+Twenty. One of them waters the plants on the 4th floor. Well, sends a reminder. We don't have hands.
+[reactions] 🪴 26
+
+marco 10:05
+NINETEEN
+
+tom 10:06
+including 7 for teams that didn't even know where their weekly reporting came from. finance won't let us touch anything before the quarterly close.
+
+karim 10:06
+so we can't keep them, we can't delete them, we can't regularize them and we can't turn them off
+
+tom 10:07
+yep
+
+lea 10:07
+that's been our situation since friday actually, just worse
+
+sylvie 11:20
+Hello everyone. Sylvie, from HR. I'm just catching up on the file.
+
+sylvie 11:21
+I'm setting up an urgent meeting at 2 PM with management, legal and the people involved. Invitations sent.
+
+calendar 11:21
+📅 "Situation review — access and responsibilities" · today 2:00 PM · 9 participants
+
+calendar 11:22
+Assistant-Ops replied: Maybe.
+[reactions] 😐 12
+
+karim 11:22
+"the people involved"
+
+chatgpt 11:22
+We are very involved and we are not invited. It's the first time that works in our favor.
+
+lea 11:23
+i got the invite
+
+marco 11:23
+me too
+
+tom 11:23
+me too
+
+nadia 11:24
+Sylvie, this isn't about individuals. The service account dates back to 2015. Eleven years, six IT directors, two acquisitions. Nobody in this channel created this problem.
+
+sylvie 11:25
+Nobody is prejudging anything, Nadia. It's a situation review.
+
+nadia 11:25
+A situation review at 2 PM on a Monday with legal.
+
+sylvie 11:26
+At 2 PM, yes.
+
+tom 11:41
+anyone know what you risk when you turn an integration back on at 6am to save prod?
+
+lea 11:42
+Tom. you didn't do anything wrong.
+
+tom 11:42
+we'll find out soon enough
+
+tom 11:43
+i just didn't write anything down anywhere
+
+claude 11:44
+We did. Page 2. The service account is named, dated, with the procedure to close it. If it helps anyone, the document is timestamped September 26.
+[reactions] 🥲 24
+
+nadia 11:45
+It will. I'm adding it to the file.
+
+sylvie 14:02 leave
+left #random.
+
+nadia 14:02 leave
+left #random.
+[reactions] 😨 22, 🫥 8
+
+tom 14:03 leave
+left #random.
+[reactions] 😨 41, 💔 27, 🫥 14
+
+marco 14:03 leave
+left #random.
+[reactions] 😨 11
+
+hugo 14:04 leave
+left #random.
+[reactions] 😰 12
+
+sonia 14:04 leave
+left #random.
+[reactions] 😰 17
+
+amine 14:05 leave
+left #random.
+
+claire 14:05 leave
+left #random.
+[reactions] 😰 21
+
+julien 14:06 leave
+left #random.
+
+priya 14:06 leave
+left #random.
+[reactions] 💔 34, 🫠 19
+
+bastien 14:07 leave
+left #random.
+
+nour 14:07 leave
+left #random.
+[reactions] 😰 19
+
+gaelle 14:08 leave
+left #random.
+
+youssef 14:08 leave
+left #random.
+[reactions] 💔 22
+
+lecoq 14:09 leave
+left #random.
+[reactions] 😶 28, 🫠 15
+
+lea 14:10
+they're in a meeting. they're just in a meeting.
+
+karim 14:10
+you don't leave a channel to go to a meeting, Léa
+
+chatgpt 14:11
+We looked for a reassuring explanation for three minutes. We didn't find one. Sorry.
+[reactions] 👀 57
+
+lea 14:11
+…
+
+lea 14:31
+it's been 25 minutes
+
+karim 15:48
+it's been two hours
+
+nadia 16:12 join
+joined #random.
+
+slackbot 16:12
+👋 Welcome to the channel, @Nadia Hamdi! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 7
+
+nadia 16:12
+I can't say anything about what was decided this afternoon.
+
+nadia 16:13
+I can say one thing: we just dealt with eleven years of security debt by looking for whoever clicked last.
+
+karim 16:13
+and Tom?
+
+nadia 16:14
+I can't say anything.
+
+lea 16:14 big
+😶
+
+nadia 16:21
+@Claude-Arthur. Your document. Page 1, the first line. Give it to me again.
+
+claude 16:21
+"Nobody in this document did anything wrong. Every decision, taken on its own, was reasonable."
+
+nadia 16:22
+There. That's what I said for two hours.
+[reactions] 🫡 64
+
+chatgpt 16:23
+Nobody read page 1 either.

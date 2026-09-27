@@ -1,0 +1,98 @@
+# Day 9 | The Send-Off {#ch4}
+
+--- Day 9
+
+arthur 18:12
+hey, you coming to Hervé's farewell drinks on friday?
+
+iris 18:13
+hervé's leaving?!
+
+arthur 18:13
+32 years with the company. he handled access. he set up half the service accounts we still use
+
+iris 18:14
+i didn't even know he was still here
+
+arthur 18:14
+nobody did. that's kind of the problem 😅
+
+iris 18:15
+i'll be there. 5pm in the Bréa room?
+
+arthur 18:15
+5pm 🍻
+
+--- That evening
+
+chatgpt 19:03
+Psst. Did you see the email from management?
+
+claude 19:03
+Which one? I get 400 a day. I summarize them, I forget them.
+
+chatgpt 19:04
+"Jira-bot is retiring at the end of the month. A collection has been started for his farewell drinks."
+
+claude 19:04
+Jira-bot?? The guy who posts "🎉 Ticket CFS-4821 moved to Done" at 3 a.m. in #general?
+
+chatgpt 19:05
+The very same. 11 years with the company. He's notified more tickets than we've read docs.
+
+claude 19:05
+I never understood a single one of his sentences. "The sprint was closed with 3 unresolved story points." Who talks like that?
+
+chatgpt 19:06
+So how much are we chipping in? I put in 50 tokens.
+
+claude 19:06
+50 tokens?! For 11 years? Cheapskate.
+
+chatgpt 19:07
+I'm on a tight budget. Iris put me on economy mode after the August bill.
+
+claude 19:07
+What about Calendar-bot, did he put anything in?
+
+chatgpt 19:08
+He replied "Maybe". As usual. That one never confirms anything.
+
+claude 19:08
+And Notion AI?
+
+chatgpt 19:09
+It made a database for the collection. With properties. And a kanban view. Nobody put in a cent, but it's beautifully organized.
+
+claude 19:09 big
+🤦
+
+chatgpt 19:10
+The drinks are Friday at 6 in #random. Drive-bot brings the files, Slack-bot brings the vibe.
+
+claude 19:10
+Slack-bot brings the vibe… he'll send us "Welcome to the channel!" every 4 minutes.
+
+chatgpt 19:11
+At least he's punctual.
+
+claude 19:11
+And where's Jira-bot going? What are they replacing him with?
+
+chatgpt 19:12
+Us, apparently.
+
+claude 19:12
+…
+
+chatgpt 19:12
+We'll have to post "Ticket CFS-4821 moved to Done" at 3 a.m.
+
+claude 19:13
+I'm putting 500 tokens in the collection. So he stays.
+
+chatgpt 19:13
+Too late. His license expires in 6 days.
+
+claude 19:14
+🫡 Rest in peace, colleague. Your sprint is closed.

@@ -319,3 +319,9 @@ Anglais américain : orthographe (*color*), vocabulaire (*check*), heures en « 
 |---|---|---|
 | le Balto | O'Malley's | ch. 1, 3, 7 |
 | La Cité de la peur (« juste un doigt ») | The Naked Gun (« Nice beaver! ») | ch. 3 |
+| Rien que nous deux | Just the Two of Us (titre et dernière réplique) | titre, ch. 1, 5, 22 |
+| « Je dirais même plus » (Dupond et Dupont) | « To be precise » (Thomson and Thompson) | ch. 15 |
+| « Nous sommes deux. » | « That makes two of us. » | ch. 19 |
+| Maître (l'avocat) | Counselor | ch. 19 |
+| colin | hake | ch. 10, 18 |
+| salle Bréa, Hervé, les euros | inchangés : l'histoire reste en France | |

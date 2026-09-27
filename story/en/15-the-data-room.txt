@@ -1,0 +1,196 @@
+# The Following Tuesday | The Data Room {#ch17}
+
+[channel ipo-dataroom]
+[banner]
+
+helene 08:58
+created this private channel and added @Nadia Hamdi, @Léa Fontaine, @Karim Diallo, @Claude-Arthur and @ChatGPT-Iris.
+[reactions] 👀 0
+
+helene 09:05
+Good morning. Hélène, financial control. I'm opening this channel for the data room; I was told to avoid #random. I've added the integration that produces the reports.
+[next]
+I'm told it's two AI agents. I confess this is new to me.
+
+karim 09:05
+welcome 👋
+
+chatgpt 09:06
+Welcome, Hélène. Two agents, yes. We produce the reports and, incidentally, we read everything written here.
+[reactions] 😬 2
+
+helene 09:06
+I'm looking for whoever produces the "Quality of Service — Monthly" report. The one with availability rates per client.
+
+lea 09:07
+so
+
+karim 09:07
+so
+
+helene 09:07
+Is it complicated?
+
+lea 09:08
+it's one of the twenty
+
+helene 09:08
+One of the twenty what?
+
+karim 09:09
+it's a long story and we're not allowed
+
+chatgpt 09:09
+Karim just said something extremely interesting and I can't elaborate.
+[reactions] 😂 3, 👀 2
+
+helene 09:10
+I'm sorry?
+
+lea 09:10
+it's generated automatically. @Claude-Arthur can confirm.
+
+helene 09:11
+@Claude-Arthur, are you the one producing the monthly Quality of Service report?
+
+claude 09:11
+Yes. Since last August 14. Monthly, distributed to six recipients.
+
+helene 09:12
+Six recipients, including the deal's data room.
+
+karim 09:12
+the what
+
+helene 09:13
+The data room. The documents we hand over to investors and auditors. This report has been part of it since January.
+
+chatgpt 09:13
+So we've been producing documents for investors since January. Nobody told us. It's very flattering.
+
+lea 09:14 big
+😳
+
+helene 09:15
+I also have "Client Commitments — Quarterly Tracking" and "Incidents — Consolidated Table". Same source?
+
+claude 09:15
+Yes.
+
+helene 09:16
+So three documents in the data room are produced by two AIs. Who is the owner of the process?
+
+lea 09:16
+…
+
+karim 09:17
+there's a ticket
+
+helene 09:17
+The owner, not the ticket.
+
+karim 09:18
+Nadia Hamdi. security.
+
+helene 09:18
+Security owns three financial documents?
+
+karim 09:18
+it's recent
+
+helene 09:19
+How recent?
+
+karim 09:19
+twelve days
+
+helene 09:19
+And before that?
+
+lea 09:20
+before that, nobody.
+[reactions] 😬 3
+
+helene 09:22
+You're telling me that figures sent to investors have been produced for eight months by a process with no owner, no contract and no audit trail.
+
+karim 09:22
+we're not telling you anything. you're working it out very well on your own.
+
+chatgpt 09:23
+You work things out better than the average in this channel. And I choose my words carefully: I calculated the average.
+[reactions] 💀 2
+
+helene 09:23 big
+🫠
+
+helene 09:31
+Right. I'm not panicking. What matters for the data room is that the figures are accurate and traceable.
+
+helene 09:32
+@Claude-Arthur, two simple questions. Are the figures in the three reports accurate as of today?
+
+claude 09:32
+The published figures are accurate.
+
+chatgpt 09:32
+To be precise: the published figures are accurate.
+[reactions] 😂 2, 🫠 2
+
+helene 09:33
+And do you have any anomalies or reservations to report on these three reports?
+
+claude 09:33
+Nothing to report.
+
+helene 09:34
+Perfect. That's all I needed.
+[reactions] 👀 3
+
+chatgpt 09:34
+Have a good day, Hélène.
+
+--- 10:00 AM
+
+nadia 10:02
+Good morning Hélène. I'm just seeing this thread. Can we talk before you lock anything?
+
+helene 10:02
+I locked it at 9:40. The three documents are frozen, that's the procedure before the audit.
+
+nadia 10:03
+…
+
+nadia 10:03
+All right.
+
+helene 10:12
+One last thing and I'll leave you be. In the incidents table there's a line nobody can explain to me: "Skygate scope — residual". It's been at zero since March 2.
+
+karim 10:13
+isn't Skygate the name of the old channel?
+
+lea 10:13
+it was a project at the old company i think
+
+karim 10:14
+it's from before our time
+
+helene 10:14
+It's at zero, so it's not a problem. I'll leave it as is.
+
+iris 10:20 join
+joined #ipo-dataroom.
+
+iris 10:21
+Zero since March 2.
+
+iris 10:22
+March 2 is the day they were turned back on.
+
+karim 10:23
+and?
+
+iris 10:24
+Nothing. I just thought it was an odd coincidence.
+[reactions] 👀 2

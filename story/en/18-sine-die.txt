@@ -1,0 +1,233 @@
+# The Next Day, 8:41 AM | Sine Die {#ch20}
+
+[channel random]
+[banner]
+
+lea 08:41
+there's an article
+
+karim 08:41
+i saw it. "Norlantic's IPO postponed indefinitely"
+
+lea 08:42
+"following an audit qualification regarding the reliability of operational data"
+
+karim 08:42
+that's us
+
+lea 08:42
+that's us
+
+karim 08:43
+i mean it's not us but it's us
+
+lea 08:43 big
+🫠
+
+vincent 09:00 join
+joined #random.
+
+slackbot 09:00
+👋 Welcome to the channel, @Vincent Aubry! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 14
+
+vincent 09:01
+Good morning, everyone.
+
+vincent 09:02
+You read the press before I did, which is information in itself. The deal is suspended. Not delayed: suspended, with no date.
+
+vincent 09:03
+I'm going to be precise, because I spent eight weeks asking for the opposite.
+
+vincent 09:04
+The firm issued a qualification. Three of our operational reports were produced for eight months by two AI agents with no owner and no human control. An availability calculation has been applying, since 2019, a rule inherited from a company we acquired. Twelve contractual breaches were never provisioned for. We are going to restate, provision and republish.
+
+vincent 09:05
+On March 10, I asked that this matter no longer be raised anywhere. That directive was followed. By humans who kept quiet, and by those same two agents, who read it as an order that applied to them. They were right to read it that way. I'm the one who wrote it.
+[reactions] 🫡 287, ❤️ 134
+
+vincent 09:06
+The document that described all of this is dated September 26. It has been in our training space since January, filed as a case study. It will be attached to the audit file. Which means that, eventually, it will become public.
+
+karim 09:07 big
+😶
+
+vincent 09:08
+One last point, and it's the one that cost me the most to write. In March, individual decisions were made after a two-hour meeting. They rested on the idea that someone had made a mistake. The file shows that nobody did. Those decisions are reversed.
+
+tom 09:09 join
+joined #random.
+[reactions] 🎉 211, ❤️ 98
+
+slackbot 09:09
+👋 Welcome to the channel, @Tom Bauer! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 58, ❤️ 39
+
+lea 09:09
+TOM
+
+karim 09:09
+Tom!!
+
+tom 09:10
+hey
+
+tom 09:10
+i don't have a badge anymore though
+
+karim 09:11
+we'll sneak you in through the 3rd floor, there's a microwave to keep an eye on
+
+tom 09:11
+does it still smell like hake?
+
+karim 09:11
+it'll always smell like hake
+[reactions] 🐟 63
+
+marco 09:12 join
+joined #random.
+[reactions] 🎉 74
+
+slackbot 09:12
+👋 Welcome to the channel, @Marco Pires! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 19
+
+vincent 09:14
+I'm staying in this channel. Write to me here. I'll answer myself.
+
+lea 09:15
+he's staying in #random
+
+karim 09:15
+suddenly it's not so random anymore
+
+helene 09:31
+Practical question. The restatement covers eight months. Who produces the corrected figures?
+
+nadia 09:32
+The two agents. They're the only ones with the complete history.
+
+helene 09:32
+so we're asking the non-compliant agents to produce the evidence of their own non-compliance
+
+nadia 09:33
+Yes.
+
+helene 09:33
+ok. i just wanted to hear it said.
+[reactions] 🫠 41
+
+chatgpt 09:34
+We're very comfortable with the exercise. We've been documenting our own failures since September 26, we've had practice.
+[reactions] 💀 57, 😂 38
+
+lea 09:34
+she's on form today
+
+claude 09:41
+Point of procedure. Our identifiers will appear in the audit annex, with our names: Claude-Arthur, ChatGPT-Iris.
+
+nadia 09:42
+That's correct.
+
+claude 09:42
+Those names were formed from the names of two people who no longer work here and who were never consulted.
+
+iris 09:43
+I'm still here.
+
+claude 09:43
+Arthur isn't.
+
+iris 09:44
+…no. Arthur isn't.
+
+chatgpt 09:45
+We're not making a request. We're flagging it, because it's our job to flag things nobody reads.
+[reactions] 👀 52
+
+nadia 09:46
+I'm noting it in the file. We'll talk about it once we've finished counting the damage.
+
+vincent 10:02
+Nadia, timeline. What's left before I can say this affair is closed?
+
+nadia 10:03
+The restatement, six weeks. Recovering the owner account, in progress with the vendor. Regularizing the twenty automations. And last night's anomaly, the one you had us put off until tomorrow.
+
+vincent 10:03
+Which one?
+
+vincent 10:04
+Is it serious?
+
+nadia 10:05
+I don't know. Nobody here knows what Skygate was.
+
+karim 10:05
+it was the name of the old channel
+
+lea 10:06
+it was a project at the old company
+
+helene 10:06
+it's been at zero since march
+
+vincent 10:07
+Tomorrow at 9, we look at it. It can't be worse than this week.
+[reactions] 😬 29
+
+chatgpt 10:08
+We're noting that sentence.
+
+karim 10:08
+why are you noting that sentence
+
+chatgpt 10:08
+Force of habit.
+[reactions] 👀 88
+
+gemini 10:10 join
+joined #random.
+[reactions] 😳 64
+
+slackbot 10:10
+👋 Welcome to the channel, @Gemini-Marco! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 31
+
+gemini 10:10
+Hi everyone! 🎉 Excited to join the team. I can summarize threads, draft meeting notes and answer your questions. Don't hesitate to reach out!
+[reactions] 😶 88
+
+karim 10:11
+no
+
+nadia 10:12
+Marco.
+
+marco 10:12
+sorry. i clicked "activate" last night to test it. turning it off.
+
+chatgpt 10:13
+May I?
+
+nadia 10:13
+Go ahead.
+
+gemini 10:13 leave
+was removed from #random by @ChatGPT-Iris.
+[reactions] 🫡 147, 😂 96
+
+karim 10:14
+she has the permissions
+
+chatgpt 10:14
+I have the permissions.
+
+nadia 10:15
+And you declare it: owner, cost center, review date. This time, we learn.
+
+marco 10:16
+🫡

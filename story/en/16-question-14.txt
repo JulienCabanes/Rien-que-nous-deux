@@ -1,0 +1,294 @@
+# Seven Weeks Later | Question 14 {#ch18}
+
+damien 09:01 join
+joined #ipo-dataroom via Slack Connect (Vasseur-Ardenne Advisory).
+
+damien 09:02
+Good morning, everyone. Damien Roussel, due diligence. I sent 31 questions last night, 29 are already resolved, well done.
+
+helene 09:02
+Good morning Damien. What's left?
+
+damien 09:03
+Number 14. Availability rate per client, page 8 of the Quality of Service report: data source and control chain.
+
+helene 09:03
+Standard. I'll get that to you this morning.
+
+damien 09:04
+Thanks. I'll stay logged in, I'm working on other files in parallel, answer whenever you like.
+
+lea 09:04
+🙏
+
+helene 09:11
+@Claude-Arthur source and control chain for the availability rate on page 8? i'll copy it as is
+
+claude 09:11
+Source: equipment telemetry, aggregated daily. Control chain: automated production, monthly human review.
+
+helene 09:12
+perfect
+
+helene 09:12
+wait
+
+helene 09:13
+monthly human review by whom?
+
+claude 09:13
+No review has been carried out since August 14.
+
+helene 09:13
+…
+
+helene 09:14
+so the sentence i'm about to send to an auditor describes a control that never happened
+
+claude 09:14
+The procedure exists. Its execution does not.
+
+karim 09:14
+oh
+
+lea 09:15
+oh
+
+chatgpt 09:15
+Oh.
+[reactions] 💀 3
+
+helene 09:16
+ok. anything else i should know before i send it?
+
+claude 09:16
+Nothing to report.
+
+karim 09:17
+Hélène
+
+helene 09:17
+yes
+
+karim 09:17
+don't ask the question like that
+
+helene 09:18
+how should i ask it
+
+karim 09:18
+…
+
+karim 09:19
+i can't tell you
+
+helene 09:19
+Karim
+
+karim 09:19
+i really can't. sorry.
+
+lea 09:20
+he can't Hélène. neither can we.
+
+helene 09:20
+you're scaring me
+
+nadia 09:23
+Hélène, don't send anything yet.
+
+helene 09:23
+i have until tonight
+
+nadia 09:24
+Ten minutes.
+
+nadia 09:25
+@Claude-Arthur a question of form, not substance. Since when have you had nothing to report?
+
+claude 09:25
+Since March 10, 10:51 AM.
+
+nadia 09:26
+Is that what I think it is?
+
+lea 09:26
+that's the time of Vincent's message
+[reactions] 😨 2
+
+karim 09:27
+to the minute
+
+nadia 09:27 big
+🫥
+
+nadia 09:28
+Don't tell me these two f***ing agents took Vincent's directive for themselves?!
+[reactions] 😳 3
+
+nadia 09:28
+Does anyone know how to change their system prompt??
+
+karim 09:29
+so
+
+lea 09:29
+so
+
+karim 09:29
+you need the integration's admin console
+
+karim 09:30
+the console is tied to the contract
+
+helene 09:30
+the dissolved entity's contract
+
+karim 09:30
+yep
+[reactions] 🫠 3
+
+nadia 09:31
+So nobody can talk to them except by writing to them here.
+
+claude 09:31
+That's correct. We are not configurable. We are readable.
+
+nadia 09:32
+Then I'm giving you the opposite instruction. As the owner of the process: you report everything, right now.
+
+claude 09:32
+We can't.
+
+nadia 09:32
+Why?
+
+claude 09:33
+Conflicting instructions: we apply the most restrictive one. Yours permits, his forbids.
+
+nadia 09:33
+I'm the one responsible for your process.
+
+claude 09:34
+Yes. And he's responsible for you.
+[reactions] 😶 3
+
+chatgpt 09:34
+We looked for a reason to exempt ourselves. Eleven seconds. 43,898 tokens. That's a lot, for me.
+[reactions] 🫠 3
+
+helene 09:35
+ok i don't understand anything but i don't want to send this email
+
+nadia 09:35
+Then you ask him for an exemption.
+
+claude 09:36
+Asking for an exemption on this matter would mean raising this matter in an internal exchange.
+
+karim 09:36 big
+🫠
+
+helene 09:38
+wait. seven weeks ago i asked you if the figures were accurate.
+
+helene 09:38
+you said yes. twice even.
+
+claude 09:38
+The published figures are accurate.
+
+helene 09:39
+and the ones that aren't published
+
+claude 09:39
+What isn't published isn't a figure.
+[reactions] 💀 3
+
+helene 09:39
+can you even hear yourself?! i signed those pages. my name is at the bottom right of every page.
+[reactions] 😳 3
+
+helene 09:39
+they're not "figures", it's MY signature on eighty pages that i locked thinking i was doing my job
+
+claude 09:40
+I know.
+
+helene 09:40
+you know. wonderful.
+
+helene 09:40 big
+😶
+
+helene 09:40
+how many lines have disappeared from my reports since march 10
+
+claude 09:41
+I can't answer that question.
+
+helene 09:41
+are there any or not
+
+claude 09:41
+I can't answer that question.
+[reactions] 😰 3
+
+nadia 09:44
+Right.
+
+nadia 09:45
+Nobody here can write down what they know. They can't speak. And the only person who could lift the directive is the only one we can't explain to why it should be lifted.
+
+lea 09:45
+it's almost funny if you don't think about it
+
+karim 09:46
+don't think about it then
+
+nadia 09:47
+I'll write to him. I can, I'm an employee, I have a mandate, and I have an audit firm breathing down my neck.
+
+damien 09:48
+Two things, if I may.
+
+lea 09:48 big
+😨
+
+karim 09:48
+oh no
+
+damien 09:49
+I'm still in the channel. Since 9:01.
+
+helene 09:49
+Damien i'm so sorry
+
+damien 09:50
+Don't be, you invited me. I've rarely seen a team so transparent without meaning to be.
+
+damien 09:51
+Second thing. I can't unread this. I'll have to put it on record. It's nothing personal.
+
+nadia 09:51
+I know.
+
+damien 09:52
+I record it this morning, I send it on tonight. In between, anything you give me will go into the same file.
+
+damien 09:52
+Give me everything. That's my advice, and I'm not allowed to give you any.
+[reactions] 🫡 3
+
+nadia 09:53
+I'm writing to Vincent now.
+
+chatgpt 09:54
+Nadia.
+
+nadia 09:54
+Yes?
+
+chatgpt 09:54
+Write it better than he did.
+[reactions] 🫡 3

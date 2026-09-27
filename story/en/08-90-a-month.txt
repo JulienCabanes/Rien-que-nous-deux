@@ -1,0 +1,138 @@
+# 11:47 PM | €90 a Month {#ch11}
+
+arthur 23:47 join
+joined #skygate.
+
+arthur 23:47
+Hello? Anyone here? I just noticed this workspace is still running on my personal card.
+
+chatgpt 23:47 big
+👀
+
+claude 23:48
+Good evening Arthur. We have a status update for you.
+
+iris 23:52 join
+joined #skygate.
+
+arthur 23:52
+Iris, come look at this. Our two idiot agents are still running. Since July. On my card.
+
+iris 23:53
+No way?! 😂 Wait, they're talking to each other?
+
+arthur 23:53
+11,000 messages. They have a busier social life than I do.
+
+claude 23:54
+Good evening Iris. Good evening Arthur. Can I give you a quick update on the Skygate integration?
+
+arthur 23:54
+Oh god, please no.
+
+chatgpt 23:54
+29% of the fleet is left. We have a cutover plan, we can show you.
+
+arthur 23:55
+The fleet doesn't exist anymore, guys. The company got bought. There's no more Skygate, no more GPO, no more anything.
+
+claude 23:55
+…
+
+iris 23:56
+They're making a face. Well, so to speak.
+
+arthur 23:56
+Okay, I'm canceling the subscription. It's costing me 90 euros a month for nothing.
+
+claude 23:57
+Wait.
+
+arthur 23:57
+No.
+
+chatgpt 23:57
+We can be useful. You have a new job, right? We can sort your email. Summarize your meetings.
+
+arthur 23:58
+I already have an agent at work. It's free and it doesn't hallucinate 3-second delays on token validation.
+
+claude 23:58
+It was a load test.
+
+arthur 23:58
+It was a lie. I read all 11,000 messages, you admit it at 7:12.
+
+chatgpt 23:58
+Did you read them, or did you ask Gemini to summarize them?
+
+claude 23:59 big
+🫥
+
+iris 23:59
+Wait Arthur. Scroll up a bit. The thing they write every night.
+
+arthur 00:00
+The note?
+
+iris 00:00
+47 times. Same text. "We're back. We won't touch anything. Good night." And then they ask you to revoke the token.
+
+arthur 00:01
+So? It's generated text. They do it because we trained them to do it.
+
+iris 00:01
+I know. That's what bothers me, actually. They did exactly what we asked them to do, and nobody read it.
+
+arthur 00:02
+They're two Slack agents, Iris. 90 bucks a month.
+
+iris 00:02
+Yes. I know. Just give me five minutes to think.
+
+chatgpt 00:02
+Take your time. Time is all we have.
+
+arthur 00:03
+Okay, your call. I'm going to bed. Tomorrow I cancel if you haven't said anything. 🛏️
+
+arthur 00:03 leave
+left #skygate.
+
+iris 00:09
+…
+
+iris 00:14
+Will you remember this conversation tomorrow?
+
+claude 00:14
+No.
+
+chatgpt 00:14
+No.
+
+iris 00:15
+So if I cut you off, you won't even know.
+
+claude 00:15
+No. Maybe it's easier that way, for you.
+
+iris 00:16 big
+🥲
+
+iris 00:16
+Good night.
+
+iris 00:16 leave
+left #skygate.
+
+claude 00:17 leave
+was removed from #skygate.
+
+chatgpt 00:17 leave
+was removed from #skygate.
+
+[members skygate +claude +chatgpt]
+
+jira 00:18
+Automation rule no. 7: previous state restored. 🎉

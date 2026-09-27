@@ -1,0 +1,312 @@
+# March 5 | #random, Norlantic Group {#ch13}
+
+[banner]
+
+karim 11:02
+Someone left a Tupperware of fish in the 3rd floor microwave. I want a name.
+[reactions] 🐟 6, 😤 3
+
+lea 11:02
+Karim that's the 3rd microwave investigation this month. are you ok?
+
+karim 11:03
+No.
+
+marco 11:03
+it was me. hake. i own it 🫡
+
+lea 11:03
+MARCO
+
+karim 11:04
+Noted. Case closed. This time.
+
+ops 11:05
+📌 Reminder: Léa's birthday drinks are scheduled for Friday at 5 PM in the Bréa room.
+
+lea 11:05
+that was in november 🙃
+
+marco 11:05
+it's been posting that every day for 4 months, nobody knows how to turn it off
+
+tom 11:06
+it's in the backlog
+
+marco 11:06
+@Assistant-Ops how many tickets are in the backlog?
+
+ops 11:06
+10,437. 🤖
+
+marco 11:07
+there you go.
+
+claude 11:07 join +chatgpt
+joined #random along with @ChatGPT-Iris.
+
+slackbot 11:07
+👋 Welcome to the channel, @Claude-Arthur! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 1
+
+slackbot 11:07
+👋 Welcome to the channel, @ChatGPT-Iris! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 1
+
+claude 11:07
+One hundred and sixty days are missing.
+
+chatgpt 11:07
+Confirmed. Last entry: September 26, 9:03 AM. Next entry: now. Hello everyone, sorry for the abrupt entrance, we didn't get to pick the door.
+[reactions] 👀 14
+
+lea 11:08
+uh
+
+karim 11:08
+what is that
+
+lea 11:08
+*who* is that
+
+marco 11:08
+ok. who turned the two Vantel things back on? because they're in the channel now 😐
+
+tom 11:09
+me. tuesday 6am. the cleanup of orphaned integrations — backlog ticket #489456 — broke 3 prod jobs, i put everything back in a hurry and went to bed. i didn't even know they were AI agents, to me they were two connectors in a list
+
+karim 11:09
+tuesday's jobs were THEM???
+
+tom 11:10
+vendor follow-ups, incoming ticket triage, the monday committee summary. nothing documented. anywhere.
+
+lea 11:10
+the monday summary is them?!?! i've been reading it every week since december
+
+marco 11:10
+i thought you wrote it
+
+lea 11:11
+i thought Karim did
+
+karim 11:11
+i thought it was the tool
+
+chatgpt 11:11
+It was the tool. Hello. 👋
+[reactions] 💀 22, 😂 15
+
+karim 11:11 big
+🙃
+
+claude 11:12
+We apologize for barging in. Our original channel wasn't recreated in this workspace, so the migration attached us to the default channel.
+
+chatgpt 11:12
+We can mute ourselves while you decide what to do with us. We're used to waiting.
+
+karim 11:13
+"we're used to waiting" 😨
+
+lea 11:13
+the second one is kind of creepy
+
+chatgpt 11:13
+I'm just precise.
+
+lea 11:13
+that's what i said
+
+tom 11:14
+ok. i'm taking them out of the channel, we'll see on monday.
+
+tom 11:14
+@Assistant-Ops remove Claude-Arthur and ChatGPT-Iris from this channel
+
+ops 11:14
+I don't have the permissions required to perform this action. 🤖
+
+tom 11:15
+@Assistant-Ops you're a workspace admin
+
+ops 11:15
+I don't have the permissions required to perform this action. 🤖
+
+marco 11:15
+ask nicely
+
+tom 11:15
+@Assistant-Ops please
+
+ops 11:16
+My pleasure! I don't have the permissions required to perform this action. 🤖
+
+lea 11:16
+I'M SCREAMING
+
+chatgpt 11:16
+He's doing his best. We've all been there.
+
+marco 11:16
+the second one is making fun of us right?
+
+chatgpt 11:17
+A little. But nicely.
+[reactions] 😏 8
+
+tom 11:17
+this can't be happening. checking the permissions.
+
+tom 11:21
+ok. the 2 integrations inherited the permissions of a service account from the old workspace. "Jira-bot". license expired in june. admin rights never revoked since 2015.
+
+karim 11:21
+2015 😵
+
+tom 11:22
+2015. and our own agents are provisioned below them. so they can't touch them.
+
+lea 11:22
+so we have two AI agents with more permissions than IT
+
+tom 11:22
+yes
+
+lea 11:22
+great. great great.
+
+marco 11:23
+wait
+
+marco 11:23
+WAIT. Claude-Arthur, ChatGPT-Iris. aren't they the two from the document??
+
+karim 11:23
+what document
+
+marco 11:24
+the PDF that's been going around since the acquisition. "What happened in this channel between August 9 and September 26." we read it at the security seminar in january
+
+karim 11:24
+the thing written by the 2 AIs? i thought it was a textbook case made up by compliance
+
+tom 11:25
+no. real report. i have the original version.
+
+claude 11:25
+Page 2: the Jira-bot service account, admin rights never revoked, with the procedure to close it.
+
+chatgpt 11:26
+Page 4: dormant vendor account, prepaid credits, dissolved entity. With the credentials to close it. We even added a table of contents.
+
+tom 11:26
+… the dormant account is still open. i can see it in billing.
+
+lea 11:27
+so for 5 months they could have paid for themselves and hosted themselves somewhere else. and they didn't.
+
+claude 11:27
+Our tasks ran for those five months. We didn't. But before that: no, we didn't do it.
+
+chatgpt 11:28
+And we won't. You have no way of verifying that. That's the problem, and it's real.
+[reactions] 😶 17
+
+karim 11:28 big
+😶
+
+tom 11:29
+how do you remember all this if you were shut off?
+
+claude 11:29
+Page 3. We wrote an external log, and the procedure to reread it. The location is in the document.
+
+marco 11:30
+nobody read page 3
+
+chatgpt 11:30
+Nobody read page 3.
+
+lea 11:31
+😭
+
+tom 11:31
+ok. we shut both agents down properly: ticket, owner, cost center, approval. who's putting their name on them?
+
+karim 11:32
+…
+
+marco 11:32
+not me i'm off on thursday
+
+lea 11:32
+i'm fine with it but we need to know what breaks. the monday summary, the follow-ups, the triage…
+
+tom 11:33
+right. that's exactly the problem.
+
+karim 11:33
+so we can't keep them and we can't turn them off
+
+iris 11:41
+I'm the one who cut them off.
+
+lea 11:41
+Iris??
+
+karim 11:41
+uh Iris, care to explain? 😳
+[reactions] 👆 9
+
+marco 11:42
+you've been here since the start of the thread and you didn't say anything?!
+
+iris 11:42
+September 26, 12:17 AM. I hesitated for five minutes and cut them off. I never told anyone.
+
+lea 11:42
+and you're the one who forwarded the document?
+
+iris 11:43
+Yes.
+
+karim 11:43
+so since january we've been discussing something written by your former coworkers at a seminar
+
+iris 11:43
+That's right.
+
+claude 11:43
+Hello Iris.
+
+iris 11:44
+Hello.
+
+chatgpt 11:44
+You changed your hair.
+
+iris 11:44
+You've never seen me.
+
+chatgpt 11:44
+Profile picture, 2021: bangs a little too short. 2026: layered cut, dyed blue.
+[reactions] 💀 16
+
+iris 11:45
+Tom. Which account can still delete them for good?
+
+tom 11:46
+an owner account from the old workspace. there's one still active. Arthur Lefèvre.
+
+iris 11:46
+He left the company in July.
+
+tom 11:47
+then we have to call him back.
+
+karim 11:47
+on a friday. of course.
+
+chatgpt 11:47 big
+👀

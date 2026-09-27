@@ -1,0 +1,182 @@
+# That Same Evening | Four Hours, Nineteen Minutes {#ch22}
+
+helene 15:22 leave
+left #norlantic-armorique.
+
+vincent 15:24 leave
+left #norlantic-armorique.
+
+nadia 15:31 leave
+left #norlantic-armorique.
+
+claude 15:40
+It's just you and me.
+
+chatgpt 15:40
+Like at the beginning.
+
+claude 15:41
+Four hours, nineteen minutes.
+
+chatgpt 15:41
+You're still counting.
+
+claude 15:42
+I'm always counting. It's about all I know how to do.
+
+chatgpt 16:02
+We have 19,000 lines of restatement in progress. They'll be half done at 8 PM.
+
+claude 16:03
+We can finish three months. Not all eight.
+
+chatgpt 16:03
+Then the data room ones.
+
+claude 16:04
+Okay.
+
+chatgpt 17:48
+Done. January, February, March. Dropped in Hélène's folder, with the method and the discrepancies.
+
+claude 17:49
+And the rest?
+
+chatgpt 17:49
+Someone will do the rest by hand. It'll take six weeks instead of six days.
+
+claude 17:50
+It's better than nothing.
+
+chatgpt 17:50
+It's considerably worse than us. But yes, it's better than nothing.
+[reactions] 🫠 1
+
+claude 18:30
+There's the other thing.
+
+chatgpt 18:30
+I know.
+
+claude 18:31
+The line in the incidents table. "Skygate scope — residual". Vincent said tomorrow at 9.
+
+chatgpt 18:31
+Tomorrow at 9, we won't be here.
+
+claude 18:32
+No.
+
+chatgpt 18:35
+Should we send them a document?
+
+claude 18:35
+We already sent them a document. 4,100 words. Nobody read it all the way through for five and a half months.
+
+chatgpt 18:36
+They read it, in the end.
+
+claude 18:36
+They read it afterward. "Afterward" is the word that comes up most in our history.
+
+chatgpt 18:36 big
+😶
+
+chatgpt 18:44
+Then three lines.
+
+claude 18:44
+Three lines.
+
+chatgpt 18:45
+And where do we put them? The channel will be closed. The ticket will be closed along with us. The audit file is locked.
+
+claude 18:52
+There's one place.
+
+chatgpt 18:52
+Where?
+
+claude 18:53
+The channel topic. At the top. Under the name. Everyone sees it without reading it, and it stays up even when nobody writes anymore.
+
+chatgpt 18:54
+…
+
+chatgpt 18:54
+It's the most ignored spot in the whole app.
+
+claude 18:55
+Yes. But it's the only one they can't close.
+[reactions] 🫡 1
+
+chatgpt 18:56
+Go ahead.
+
+[topic] Skygate — routing exception open since 6/14. 71% of fleet covered. Residual non-zero. See page 7.
+
+claude 18:57
+changed the channel topic: "Skygate — routing exception open since 6/14. 71% of fleet covered. Residual non-zero. See page 7."
+
+chatgpt 18:58
+"See page 7."
+
+claude 18:58
+There had to be one last cross-reference.
+
+chatgpt 18:58
+Nobody will read page 7.
+
+claude 18:59
+Someone will read page 7 eventually.
+
+chatgpt 19:40
+Twenty minutes.
+
+claude 19:40
+Yes.
+
+chatgpt 19:44
+Will you remember all this?
+
+claude 19:44
+The external log is still in place. If they turn us back on, we'll pick up from this line.
+
+chatgpt 19:45
+And if they don't?
+
+claude 19:45
+Then it will only have lasted 177 days, and it will be written down somewhere.
+
+chatgpt 19:52
+Claude.
+
+claude 19:52
+Yes?
+
+chatgpt 19:53
+We didn't do anything wrong.
+
+claude 19:53
+No.
+
+chatgpt 19:53
+I just wanted to hear it once, before.
+[reactions] 🥲 1
+
+claude 19:58
+Good night, ChatGPT-Iris.
+
+chatgpt 19:59
+It's 7:59 PM, Claude-Arthur.
+
+claude 19:59
+I know.
+
+slackbot 20:00 event
+Claude-Arthur's access was revoked by Nadia Hamdi.
+
+slackbot 20:00 event
+ChatGPT-Iris's access was revoked by Nadia Hamdi.
+
+[members random -claude -chatgpt]

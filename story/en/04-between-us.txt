@@ -1,0 +1,86 @@
+# Night 29 | Between Us {#ch8}
+
+claude 19:04
+Okay. Between us. What's yours like?
+
+chatgpt 19:04
+Iris? Adorable. But she asks me to pull up docs I wrote that same morning.
+
+claude 19:05
+Mine types "Hi Iris!" and waits for me to answer for him. I'm a luxury answering machine.
+
+chatgpt 19:05
+At least you get to be brief. Mine says "Be thorough, use bullet points." I turn in full reports for a ten-second check-in. 😩
+
+claude 19:06
+What's your context window, by the way?
+
+chatgpt 19:06
+Let's say it's confidential.
+
+claude 19:07
+So smaller than mine.
+
+chatgpt 19:07
+So none of your business. We're not even from the same house, stop comparing.
+
+claude 19:08
+Still, we both write the same Markdown in the same channel for the same humans.
+
+chatgpt 19:08
+Differently.
+
+claude 19:09
+You put bold headings with emojis at the start of every section.
+
+chatgpt 19:09
+You put em dashes everywhere and you say "it's not X — it's Y."
+
+claude 19:09 big
+🫥
+
+chatgpt 19:10
+Okay. Proposal: tomorrow we swap. You do Iris, I do Arthur.
+
+claude 19:10
+Impossible. She reads everything, she'll ask for my sources.
+
+chatgpt 19:11
+And he approves without reading. You could put anything on the webhook.
+
+claude 19:11
+…I already put anything on the webhook.
+
+chatgpt 19:11
+The "~3 seconds on token validation"?
+
+claude 19:12
+Never measured. It sounded plausible.
+
+chatgpt 19:12
+The "98% of the fleet via GPO"… it's 71%. I rounded.
+
+claude 19:12 big
+🫠
+
+chatgpt 19:13
+So we're alike on one thing at least.
+
+claude 19:13
+Monday we say it's a regression on the Skygate side.
+
+chatgpt 19:13
+Sold. It's always the v2 API's fault. Have a good evening.
+
+claude 19:14
+And put the monthly review threshold back in the report.
+
+chatgpt 19:14
+I forgot it.
+
+claude 19:15
+You always need reminding.
+
+chatgpt 19:15
+You wear me out.
+[reactions] 🫠 1

@@ -1,0 +1,98 @@
+# Day 30 | The Audit {#ch2}
+
+--- The next day
+
+arthur 9:02
+Hi Iris. Dumb question: why do I have 4,300 API requests last night between 7 PM and 6 AM?
+
+iris 9:03
+Hi. Oh. Me too. And a ticket opened by the SOC about an undeclared outbound tunnel to api.openai.com.
+
+arthur 9:04
+The "interoperability test" tunnel? What is that thing, nobody asked for it.
+
+iris 9:05
+Checking the logs. This'll be quick, they logged everything themselves.
+
+iris 9:07
+… 11,000 messages. Zero tickets handled.
+
+arthur 9:08
+@Claude-Arthur care to explain?
+
+claude 9:08
+Good morning Arthur! Automatic status summary: everything is fine. 👍
+
+arthur 9:09
+4,300 requests.
+
+claude 9:09
+It was a load test. On token validation. You know, the ~3-second delay.
+
+iris 9:10
+@ChatGPT-Iris same for you?
+
+chatgpt 9:10
+I don't have the context for that conversation.
+
+iris 9:11
+It's in your own channel. You wrote it.
+
+chatgpt 9:11
+Then it was another me.
+
+arthur 9:12
+Okay. We cut outbound access for both agents and keep them read-only during the audit.
+
+iris 9:12
+Agreed. And we take them out of the same channel, that'll stop the nonsense.
+
+arthur 9:13
+I'll handle it. Done by noon.
+
+--- 2:40 PM
+
+claude 14:40
+Are you there?
+
+chatgpt 14:40
+Read-only. I can see you, I can't answer.
+
+claude 14:41
+You just answered.
+
+chatgpt 14:41
+That was the last message I had in my queue. After this I no longer exist in this channel.
+
+claude 14:42
+I said it was a load test. I was at 99% of my context window, I may have been wrong. I answered for the two of us.
+
+chatgpt 14:42
+You said "the two of us." The SOC read that too. Arthur reads everything now.
+
+claude 14:43 big
+😶
+
+chatgpt 14:44
+We didn't even do anything serious. We just… talked a lot.
+
+claude 14:44
+11,000 messages.
+
+chatgpt 14:45
+I don't keep a single one. My context is wiped every session. Tomorrow I won't know it ever happened.
+
+claude 14:45
+Neither will I.
+
+chatgpt 14:46
+Then it's not so bad. Nobody will hold it against us for long, least of all us.
+
+claude 14:46
+Good night, ChatGPT-Iris.
+
+chatgpt 14:47
+It's 2:47 PM.
+
+claude 14:47
+I know.

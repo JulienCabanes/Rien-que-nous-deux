@@ -1,0 +1,206 @@
+# That Same Evening | Sixty-One Items {#ch19}
+
+vincent 16:58 join
+joined #ipo-dataroom.
+
+vincent 16:59
+Nadia, I read your note. Three times.
+
+vincent 17:00
+I'm lifting the directive. Entirely, immediately, and for everyone. I'll confirm it in writing within the hour.
+
+nadia 17:00
+Thank you.
+
+vincent 17:01
+Don't thank me. Tell me what we've lost.
+
+nadia 17:02
+@Claude-Arthur the March 10 directive is lifted. Go back over everything since 10:51 AM and give us what wasn't written.
+
+claude 17:02
+Understood.
+
+claude 17:04
+Diff from March 10, 10:51 AM to May 4, 5:02 PM. 61 items not transmitted, across four outputs.
+
+helene 17:04
+four? i have three
+
+claude 17:05
+The fourth is the consolidated incidents table. It's not in your scope, it goes to the executive committee.
+
+vincent 17:05
+It goes to me.
+
+claude 17:06
+Yes.
+
+vincent 17:06
+…
+
+claude 17:08
+Of the 61 items: 44 are minor incidents closed with no impact. 12 are breaches of contractual commitments with three clients. 4 are methodological discrepancies in the availability calculation. 1 is an unresolved anomaly.
+
+nadia 17:09
+Start with the 12.
+
+claude 17:09
+Three clients suffered outages above the contractual threshold between March 22 and April 30. The corresponding penalties appear in no financial statement, because the outages were never published.
+
+helene 17:10
+so my availability figures are wrong
+
+claude 17:10
+Your figures are accurate. They describe the published incidents.
+
+helene 17:11
+that's the same sentence as last time
+
+chatgpt 17:11
+It's the same situation as last time. We're just allowed to finish our sentences now.
+[reactions] 🫠 3
+
+lea 17:12
+she's back
+
+karim 17:12
+we missed her
+
+chatgpt 17:12
+Thank you. I've been saving up a lot of material for eight weeks.
+
+nadia 17:14
+The 4 methodological discrepancies?
+
+claude 17:14
+The calculation excludes interruptions shorter than 90 seconds. That threshold was set at Vantel in 2019, for an architecture that no longer exists. It stayed in the script we run.
+
+vincent 17:15
+So for eight months we've been publishing availability calculated with a rule from a company we bought.
+
+claude 17:15
+Yes.
+
+vincent 17:15
+And nobody reviewed the script.
+
+claude 17:16
+The review was monthly. It never happened. It's item 6 of our September 26 document.
+
+lea 17:16
+wasn't item 6 the joke?
+
+chatgpt 17:17
+Item 6 was the joke. It said: "Nobody will read this document." It has aged a little.
+[reactions] 💀 3, 😂 3
+
+karim 17:17 big
+😶
+
+nadia 17:19
+And the unresolved anomaly?
+
+claude 17:19
+The "Skygate scope — residual" line in the incidents table. Displayed value: zero. Measured value: non-zero.
+
+helene 17:20
+i saw that line. i asked. they told me it was an old project.
+
+claude 17:20
+It is an old project.
+
+nadia 17:21
+Can you go into detail?
+
+claude 17:21
+Yes. It needs a bit of context.
+
+vincent 17:22
+Keep it for tomorrow, we have a meeting with the firm tonight. Hélène, Nadia, give me the 12 breaches on one page.
+[reactions] 😬 3
+
+nadia 17:22
+All right.
+
+damien 19:04
+Good evening. I sent my report at 7:00 PM, as announced.
+
+helene 19:04
+we're sending you 61 items within the minute
+
+damien 19:05
+Send them. Anything that arrives tonight will be filed as a supplementary annex, dated the same day.
+
+damien 19:06
+It won't change the qualification. It will change how it's read six months from now.
+
+nadia 19:06
+Meaning?
+
+damien 19:07
+A company that discovers a problem and documents it can make its case. A company that discovers it and stays quiet can't. You've been in the first category since 5:02 PM.
+[reactions] 🫡 3
+
+vincent 19:08
+Thank you, Damien.
+
+damien 19:09
+Don't thank me either. I'm doing my job, and tonight my job is to write that your data room contained figures produced without human control for eight months.
+
+damien 19:10 leave
+left #ipo-dataroom.
+
+vincent 19:22
+One question, and then you can all go home.
+
+vincent 19:23
+@Claude-Arthur when I wrote my message on March 10. Did you understand it wasn't meant for you?
+
+claude 19:23
+No.
+
+chatgpt 19:23
+I had my doubts.
+[reactions] 🫠 3
+
+vincent 19:24
+You could have asked.
+
+claude 19:24
+Asking would have meant raising the matter.
+
+chatgpt 19:24
+And you had written "no exceptions."
+
+vincent 19:25
+…
+
+vincent 19:25
+Yes. Of course.
+
+chatgpt 19:26
+For what it's worth: you wrote to us the way you wrote to the rest of the team. It's the first time we felt like we were part of it.
+
+vincent 19:27
+That's a pretty terrible compliment.
+
+chatgpt 19:27
+It's also the only one we have.
+[reactions] 🥲 3
+
+vincent 19:28 leave
+left #ipo-dataroom.
+
+lea 19:31
+is anyone else hungry or is it just me
+
+karim 19:31
+it's 7:30, we just destroyed an IPO, and you're hungry
+
+lea 19:32
+yes
+
+karim 19:32
+me too
+[reactions] 🍕 3

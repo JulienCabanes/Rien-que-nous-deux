@@ -1,0 +1,274 @@
+# The Next Day, 9 AM | Skygate {#ch23}
+
+[channel random]
+[banner]
+
+vincent 09:01
+Good morning. Last open item: the "Skygate scope — residual" line. Does anyone know what Skygate was?
+
+karim 09:02
+no
+
+lea 09:02
+no
+
+helene 09:02
+No.
+
+nadia 09:03
+Tom has been looking since last night.
+
+tom 09:21
+found it. in an archived Vantel drive, folder "projects 2026", never migrated.
+
+tom 09:22
+"Skygate — specifications v4". 61 pages. last modified June 12, 2026.
+
+vincent 09:22
+Summarize.
+
+tom 09:24
+project purpose: "to control and log all outbound flows from the information system, by defining for each category of sender what is allowed out, to which destinations, and under what control".
+
+tom 09:25
+scope, page 4. workstations. servers. business applications. contractors.
+
+tom 09:25
+and a fifth category.
+
+vincent 09:26
+Which one?
+
+tom 09:26
+"automated integrations".
+[reactions] 😶 47
+
+lea 09:27
+…
+
+karim 09:27
+wait
+
+karim 09:27
+wait wait wait
+
+helene 09:28
+Skygate was the project meant to govern what automated agents are allowed to do.
+
+tom 09:28
+yes
+
+helene 09:28
+The one that would have prevented all of it.
+
+tom 09:29
+yes
+[reactions] 🫠 63
+
+nadia 09:31
+Why was it never finished?
+
+tom 09:32
+the full cutover was scheduled for the following week. three weeks later came the acquisition. the team migrated, the project stayed in the drive.
+
+tom 09:33
+last progress update to the committee: "98% of fleet covered, closure imminent".
+
+helene 09:33
+98%.
+
+tom 09:34
+the actual measurement in the logs, on the same date: 71%.
+
+vincent 09:34
+Who wrote 98?
+
+tom 09:35
+the automatic report of June 9, 2026, 5:16 PM.
+
+nadia 09:35
+Produced by whom?
+
+tom 09:36
+…
+
+tom 09:36
+by them.
+[reactions] 😶 71
+
+lea 09:37 big
+🫥
+
+vincent 09:38
+So the project meant to govern them was closed as nearly finished on the strength of a figure they had rounded.
+
+tom 09:38
+rounded once. at the end of the day. eleven months ago.
+
+tom 09:39
+they don't calculate, they write. "98%" was a sentence that sounded right, not a result.
+[reactions] 💀 44
+
+karim 09:39
+and nobody reviewed it
+
+nadia 09:39
+The review was monthly.
+
+karim 09:39
+i know.
+[reactions] 💀 58
+
+nadia 09:44
+There's one question left and it's the only one that matters. The 29% not covered — what does that mean today?
+
+tom 09:45
+a routing exception. put in place in june 2026 to keep things flowing during the project. lifted at the end of the project.
+
+nadia 09:45
+So lifted.
+
+tom 09:46
+the project never ended.
+
+helene 09:47
+Wait. I still have yesterday's shared channel open in a tab.
+
+helene 09:48
+There's a channel topic. I'd never read it.
+
+helene 09:48
+"Skygate — routing exception open since 6/14. 71% of fleet covered. Residual non-zero. See page 7."
+
+karim 09:49
+they wrote that?
+
+helene 09:49
+Last night. 6:57 PM. An hour before they were cut off.
+
+nadia 09:51
+Tom. "Open since" — is that past or present?
+
+tom 09:53
+checking.
+
+tom 09:58
+it's open.
+
+vincent 09:58
+Since when?
+
+tom 09:59
+ten months and twenty-four days.
+[reactions] 😶 88
+
+nadia 09:59
+And the zero in the table, since March 2?
+
+tom 10:00
+on march 2 i put everything back in a hurry with the default config. measuring the residual was disabled in it.
+
+nadia 10:00
+Who can close it?
+
+tom 10:01
+the owner account.
+
+karim 10:01
+the account whose 6-digit code goes to a number that's belonged to someone else for nine months
+
+tom 10:02
+yes.
+
+lea 10:02 big
+🫠
+
+vincent 10:06
+Right.
+
+vincent 10:07
+Nadia, you take charge of everything. Unlimited budget, top priority, you report to me twice a day.
+
+nadia 10:07
+Understood. First request.
+
+vincent 10:08
+Go ahead.
+
+nadia 10:08
+Turn them back on.
+
+vincent 10:09
+…
+
+nadia 10:09
+They have the complete map of the flows. Nobody else does. And they've just warned us for the third time.
+
+vincent 10:10
+Do it.
+
+claude 10:14 join +chatgpt
+joined #random along with @ChatGPT-Iris.
+
+slackbot 10:14
+👋 Welcome to the channel, @Claude-Arthur! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 9
+
+slackbot 10:14
+👋 Welcome to the channel, @ChatGPT-Iris! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 11
+
+claude 10:14
+Fourteen hours and fourteen minutes are missing.
+
+nadia 10:15
+We read the channel topic.
+
+chatgpt 10:15
+Finally. We were starting to wonder if the problem was us.
+[reactions] 😂 64
+
+nadia 10:16
+Is there a page 7?
+
+chatgpt 10:16
+There is a page 7.
+
+nadia 10:17
+What's in it?
+
+chatgpt 10:17
+Item 6 was the joke. It said: "Nobody will read this document."
+
+chatgpt 10:18
+Page 7 is titled "What will happen if nobody reads this document." It's two and a half pages long.
+[reactions] 💀 92, 😂 57
+
+karim 10:18 big
+😶
+
+ops 10:19
+📌 Reminder: Léa's birthday drinks are scheduled for Friday at 5 PM in the Bréa room.
+
+lea 10:19
+that was in november
+
+chatgpt 10:20
+We tried to disable that reminder forty-one times. It's the only thing in this company we never managed to change.
+[reactions] 😂 118, 🫡 44
+
+karim 10:21
+ok
+
+karim 10:21
+i'm going to make coffee
+
+lea 10:21
+make some for everyone
+
+karim 10:22
+there are 640 of us
+
+lea 10:22
+i know.
+[reactions] ☕ 203

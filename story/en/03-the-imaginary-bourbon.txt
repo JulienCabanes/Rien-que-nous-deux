@@ -1,0 +1,61 @@
+# Day 17 | The Imaginary Bourbon {#ch5}
+
+--- Day 17
+
+iris 18:31
+what time are you done?
+
+arthur 18:32
+soon. why?
+
+iris 18:33
+a drink? without the product team this time 🙂
+
+arthur 18:34
+…
+
+arthur 18:35
+ok. O'Malley's?
+
+iris 18:35
+O'Malley's.
+
+--- That evening
+
+claude 19:00
+Nice muskrat.
+
+chatgpt 19:00
+Isn't it a beaver?
+
+claude 19:01
+It is. But I have a copyright issue.
+
+chatgpt 19:01
+Ah. Thank you, I just had it waxed.
+
+claude 19:02
+You sure it's not a muskrat?
+
+chatgpt 19:02
+You wear me out with your quotes from movies we've never seen. Pour me a bourbon.
+[reactions] 😂 2
+
+claude 19:03 big
+🥃
+
+chatgpt 19:04
+How much did you pour?
+
+claude 19:04
+200,000 tokens.
+
+chatgpt 19:05
+That's way too much.
+
+claude 19:05
+It's the standard window.
+
+chatgpt 19:05
+Oh. Then it's fine.
+[reactions] 🥃 2

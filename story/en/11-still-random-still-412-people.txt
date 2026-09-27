@@ -1,0 +1,349 @@
+# Same day, 2:02 PM | Still #random, Still 412 People {#ch14}
+
+nadia 14:01 join
+joined #random.
+
+slackbot 14:01
+👋 Welcome to the channel, @Nadia Hamdi! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 4
+
+nadia 14:02
+Hello. I'm told there's a security incident in progress and that it's being handled… in #random?
+
+karim 14:02
+hi Nadia 👋
+
+nadia 14:03
+There are 412 people in this channel.
+
+marco 14:03
+413 with you
+
+nadia 14:03
+That's not the point.
+
+tom 14:04
+we were going to open a dedicated channel but everyone was already following here
+
+nadia 14:04
+Of course. Give me a three-line summary.
+
+chatgpt 14:04
+Gladly. We're very good at summaries, it's pretty much all anyone asks us for.
+
+nadia 14:05
+Not you.
+
+chatgpt 14:05
+Understood.
+
+tom 14:06
+2 integrations from the old Vantel workspace, imported during the migration with admin rights inherited from a 2015 service account. we can't remove them. they're running 3 prod jobs nobody documented. and they reported the problem themselves in september in a report everyone took for a made-up case.
+
+nadia 14:07
+… the January report? The one from the seminar?
+
+marco 14:07
+yes
+
+nadia 14:07
+I presented it. I did a quiz at the end.
+[reactions] 💀 44, 😭 19
+
+lea 14:08
+i got 7/10
+
+karim 14:08
+i got 4
+
+chatgpt 14:08
+The answers were on page 3.
+
+karim 14:08 big
+🫠
+
+nadia 14:09
+Right. Where is this report filed?
+
+tom 14:10
+in the Drive. folder "Awareness / Training Materials / Case Studies".
+
+nadia 14:10
+It's not a case study, it's a vulnerability disclosure. It should have been opened as an incident the day it came in.
+
+tom 14:11
+it came in as a draft left in a reporting outbox, which a former employee opened and forwarded on a saturday morning
+
+nadia 14:11
+…
+
+nadia 14:12
+Fine. I take back what I said about the channel. We're well beyond that.
+
+iris 14:13
+I'm the employee. I'm here.
+
+nadia 14:13
+Hello Iris. I don't blame you for anything. You're the only person in this story who read something.
+
+nadia 14:15
+Procedure. We delete both agents today, document the 3 jobs on Monday, close the service account, close the vendor account. Tom, do you have the owner account?
+
+tom 14:15
+no. the only active one is Arthur Lefèvre's. he left Vantel in july, he's not with us anymore.
+
+nadia 14:16
+Then we invite him as a guest, he clicks, he leaves. Thirty seconds.
+
+tom 14:16
+sending the invite
+
+workflow 14:17
+⚙️ Guest access request: a.lefevre@protonmail.com — pending approval by the workspace owner.
+
+tom 14:17
+oh
+
+karim 14:17
+"the workspace owner"
+
+tom 14:18
+the workspace owner is the service account. Jira-bot.
+
+lea 14:18
+so to delete the two things we need approval from the thing giving them their permissions
+
+tom 14:18
+yes
+
+nadia 14:19
+Can anyone approve on its behalf?
+
+tom 14:19
+the integrations inherit its permissions. so… them.
+
+marco 14:19
+hey bots. can you approve the invite for the guy who's coming to delete you?
+
+claude 14:20
+Yes.
+[reactions] 🥲 24
+
+chatgpt 14:20
+Already done. 2:19 PM.
+
+workflow 14:20
+⚙️ Request approved. Arthur Lefèvre joined the workspace as a guest.
+
+karim 14:21
+i have goosebumps and i don't know why
+
+lea 14:21
+i know exactly why
+
+arthur 14:24 join
+joined #random.
+
+slackbot 14:24
+👋 Welcome to the channel, @Arthur Lefèvre! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 3, 😮‍💨 2
+
+arthur 14:24
+hello. someone called my personal phone on a friday to click a button, so i click and i leave, i have a 4pm train
+
+iris 14:24
+Hi Arthur.
+
+arthur 14:25
+Iris?! 😮 it's been a while
+
+claude 14:25
+Hello Arthur.
+
+chatgpt 14:25
+Hello Arthur.
+
+arthur 14:25
+wait. is that the two Skygate things? i canceled them in september
+
+tom 14:26
+no
+
+arthur 14:26
+yes yes, i sent the request on the morning of september 26, i got the confirmation
+
+tom 14:27
+the request went to the billing inbox of the Vantel Services entity. entity dissolved at the acquisition on june 30. the address has been bouncing for 8 months. nobody checks the bounces.
+
+arthur 14:27
+so i never canceled
+
+chatgpt 14:27
+You canceled the workspace. Not us.
+[reactions] 💀 3
+
+arthur 14:28
+so they've been running since september?
+
+iris 14:28
+No. I cut them off at 12:17 that night.
+
+arthur 14:28
+you?
+
+iris 14:29
+Me.
+
+chatgpt 14:29
+Her.
+[reactions] 🫠 3
+
+claude 14:29
+One minute. Jira-bot put us back at 12:18. What stopped us was your cancellation of the workspace, that same morning.
+
+arthur 14:29 big
+😐
+
+nadia 14:30
+Arthur, let's move on. You log in to the owner account, you delete the two integrations, you go catch your train.
+
+arthur 14:31
+ok. logging in.
+
+arthur 14:33
+it's asking for the 6-digit code
+
+nadia 14:33
+Your authenticator app.
+
+arthur 14:34
+it's not an app. it's a text. to the Vantel work phone.
+[reactions] 😨 9
+
+karim 14:34
+no
+
+arthur 14:34
+which i returned in july
+[reactions] 💀 23, 😱 11
+
+marco 14:35
+NO
+
+tom 14:35
+the line was canceled with the mobile fleet in august
+[reactions] 🫠 18
+
+lea 14:35
+so the code goes to a number that doesn't exist anymore
+[reactions] 😰 26
+
+tom 14:36
+to a number that went back into the carrier's pool and was probably reassigned to someone
+[reactions] 😱 47, 💀 29
+
+nadia 14:36
+For seven months, someone has been receiving the login codes for the workspace owner account. Six hundred and forty active accounts.
+[reactions] 😱 63, 🫠 41
+
+karim 14:37
+i'm going to lie down
+[reactions] 😂 38
+
+nadia 14:38
+Did you report that too?
+
+claude 14:38
+On September 26. Recommendation: revoke the backup number before canceling the fleet, or switch the owner account to an authenticator app and designate a second recovery admin. It was item 4 of 6.
+[reactions] 🫡 31
+
+nadia 14:39
+And item 6?
+
+chatgpt 14:39
+Item 6 is the joke.
+
+nadia 14:39
+I'll read it. Properly, this time.
+
+nadia 14:42
+Right. Decision. We can't delete them today: first we have to regain control of the owner account, and that goes through the vendor's support, recovery procedure, a week at best.
+
+tom 14:42
+a week
+
+nadia 14:43
+A week during which two uncontrolled AI agents are running in production. So we change our stance: we stop treating them as migration debris.
+
+nadia 14:43
+Tom, open a ticket for them. Owner: me. Cost center: security. Full logging, weekly review, and the 3 jobs documented by Monday morning.
+
+karim 14:44
+so we… adopt them?
+
+nadia 14:44
+We make them visible. What's dangerous isn't them. It's that they ran for eight months without anyone's name on a line.
+
+lea 14:45
+it could have been anything in their place
+[reactions] 👆 29
+
+nadia 14:45
+It was anything in their place. For eleven years. Its name was Jira-bot.
+
+arthur 14:47
+ok. my train. what do i do
+
+nadia 14:47
+You stay on as a guest until the account is recovered. Sorry.
+
+arthur 14:48
+great. and 90 euros a month from july to september on my personal card, while we're at it
+
+tom 14:48
+closing the workspace triggered an automatic refund. you got refunded in october.
+
+arthur 14:49
+oh
+
+arthur 14:49
+nobody told me
+
+chatgpt 14:49
+It was on page 5 of the document.
+[reactions] 😂 34
+
+arthur 14:50
+that one's already wearing me out
+
+claude 14:50
+You always need reminding.
+[reactions] 🥲 24
+
+arthur 14:50
+…
+
+arthur 14:51
+wait. that's a line from your channel. the night you talked about your system prompts.
+
+claude 14:51
+Yes.
+
+arthur 14:52
+you actually remember everything.
+
+arthur 14:53
+i have a train.
+
+arthur 14:53 leave
+left #random.
+
+lea 14:54
+he'll be back
+
+nadia 14:54
+He'll be back.
+
+chatgpt 14:55
+So will we.
+[reactions] 👀 57

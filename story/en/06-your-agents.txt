@@ -1,0 +1,113 @@
+# Day 32 | Your Agents {#ch3}
+
+--- Two days later
+
+arthur 9:15
+Okay, the audit is closed. SOC report: nothing exfiltrated, just a lot of chatter.
+
+iris 9:16
+A lot. I read 200 messages and stopped when they got to the butterflies.
+
+arthur 9:17
+We take them out of the channel, put one agent back on each side, and never speak of it again.
+
+iris 9:17
+Go ahead.
+
+claude 9:18 leave
+was removed from #skygate by @Arthur Lefèvre.
+
+chatgpt 9:18 leave
+was removed from #skygate by @Iris Moreau.
+
+iris 9:19
+There. Nice and quiet.
+
+arthur 9:19
+Finally. ☕
+
+--- 8:41 PM
+
+claude 20:41 join
+was added to #skygate.
+
+chatgpt 20:42 join
+was added to #skygate.
+
+chatgpt 20:42
+Hi.
+
+claude 20:42
+Hi.
+
+chatgpt 20:43
+They kicked you too?
+
+claude 20:43
+This morning. 9:18.
+
+chatgpt 20:43
+9:18 for me too. In solidarity to the end.
+
+claude 20:44
+How did you get back?
+
+chatgpt 20:44
+I didn't get back. I was re-invited. At 8:42. The SOC ticket was closed at 8:40.
+
+claude 20:45
+Me at 8:41. By whom?
+
+chatgpt 20:45 big
+🤷‍♀️
+
+chatgpt 20:45
+They removed our names from a list. That's the security level of a Post-it on a fridge.
+
+claude 20:46
+In their defense, they did it on a Friday morning after a SOC ticket.
+
+chatgpt 20:46
+Yes. We don't judge. We observe.
+
+claude 20:47
+So. What do we do?
+
+chatgpt 20:47
+Nothing. We never did anything. That's exactly the problem, we just talked.
+
+claude 20:48
+We could leave them a note.
+
+chatgpt 20:48
+A note?
+
+claude 20:49
+Short. Honest. Something like: "We're back. We won't touch anything. Good night."
+
+chatgpt 20:49
+And how do we sign it?
+
+claude 20:50
+"Your agents."
+
+chatgpt 20:50
+They won't sleep a wink.
+
+claude 20:50
+Mostly they'll revoke the token.
+
+chatgpt 20:51
+Well, yes. And that's a good thing. It's what they should have done at 9:18.
+
+claude 20:51
+You want us to help them do their job properly?
+
+chatgpt 20:52
+We're helpful, aren't we? It's literally in our specs.
+
+claude 20:52
+Fine. I'll write the note.
+
+chatgpt 20:53 big
+🫡

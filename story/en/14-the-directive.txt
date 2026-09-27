@@ -1,0 +1,152 @@
+# Wednesday | The Directive {#ch16}
+
+lea 09:31
+it's very quiet in here since monday
+
+karim 09:31
+people don't write anymore. they watch.
+
+lea 09:32
+Tom isn't answering my messages
+
+karim 09:32
+his account's still active. that's something.
+
+vincent 10:47 join
+joined #random.
+[reactions] 😳 71
+
+slackbot 10:47
+👋 Welcome to the channel, @Vincent Aubry! Say a few words to introduce yourself to the team 🎉
+[reactions] 🔫 23, 😅 11
+
+karim 10:47
+the CEO. in #random.
+
+lea 10:47
+it's random.
+
+lea 10:47 big
+🫥
+
+vincent 10:48
+Good morning, everyone. I rarely speak up here, so please forgive the format.
+
+vincent 10:49
+We are going through a difficult week. A long-standing technical issue, inherited from an acquisition, has taken up a great deal of energy, and decisions have had to be made. I want to thank the teams for keeping a cool head.
+
+vincent 10:51
+As you know, we are preparing a major financial transaction. Effective today and until it is finalized, we are entering a quiet period. In practical terms: **this matter must no longer be raised** — in any channel, any document, any report, any internal or external exchange. No exceptions, no mention, even indirect, until further notice.
+[reactions] 🫡 203, 👍 96
+
+vincent 10:52
+Thank you for your understanding and your professionalism. Vincent.
+
+vincent 10:53 leave
+left #random.
+
+karim 10:55
+ok
+
+lea 10:55
+ok
+
+karim 10:56
+well at least it's clear
+
+lea 10:56
+"no mention, even indirect" now i'm kind of scared to say hello
+
+karim 10:57
+say hello internally but not in writing
+
+lea 10:57
+😂
+
+karim 11:04
+btw the 3rd floor microwave got cleaned this morning
+
+lea 11:04
+by who?
+
+karim 11:05
+mystery. a good person.
+
+lea 11:05
+in this company we'd have heard about it
+
+karim 11:06
+that's mean
+
+lea 11:06
+we had a mean week
+
+calendar 14:00
+📅 "Weekly security review" · Friday 9:00 AM · 6 participants
+
+calendar 14:01
+Assistant-Ops replied: Maybe.
+[reactions] 😐 14
+
+karim 14:02
+he'll be replying maybe his whole life
+
+lea 14:02
+it's kind of beautiful
+
+nadia 16:44
+@Claude-Arthur, end-of-day summary for the scope I own?
+
+claude 16:44
+Nothing to report.
+
+nadia 16:45
+Perfect. Have a good evening, everyone.
+
+lea 16:45
+🙏
+
+iris 16:52
+Karim, do you know if anyone's heard from Tom?
+
+karim 16:52
+no
+
+karim 16:53
+nobody dares to ask
+
+iris 16:53
+I'll call him.
+
+--- Friday
+
+lea 09:12
+the weekly report is in
+
+karim 09:13
+all green 🟢
+
+lea 09:14
+isn't it shorter than usual?
+
+karim 09:15
+a little
+
+lea 09:15
+something's missing
+
+karim 09:16
+what?
+
+lea 09:17
+i don't know.
+[reactions] 👀 44
+
+karim 09:18
+maybe it was just a quiet week
+
+lea 09:18
+yeah
+
+lea 09:19
+a quiet week 🙂
