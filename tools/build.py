@@ -444,7 +444,16 @@ class Edition:
                     rules.append('.av-%s{background-image:url(data:%s;base64,%s)}' % (cid, mime, b64))
                     break
             else:
-                if 'emoji' not in self.cast[cid]:
+                c = self.cast[cid]
+                if 'emoji' in c:
+                    # message avatars show the emoji as text; the header needs an image
+                    svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">'
+                           '<rect width="144" height="144" fill="%s"/>'
+                           '<text x="72" y="72" dy=".35em" text-anchor="middle" font-size="96">%s</text></svg>'
+                           % (attr(c.get('color', '#FFFFFF')), esc(c['emoji'])))
+                    rules.append('.av-%s{background-image:url(data:image/svg+xml;base64,%s)}'
+                                 % (cid, base64.b64encode(svg.encode()).decode()))
+                else:
                     svg = letter_avatar(self.cast[cid]['name'], self.cast[cid].get('color') or palette(cid))
                     rules.append('.av-%s{background-image:url(data:image/svg+xml;base64,%s)}'
                                  % (cid, base64.b64encode(svg.encode()).decode()))

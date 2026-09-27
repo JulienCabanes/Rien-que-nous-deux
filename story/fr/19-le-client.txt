@@ -143,6 +143,30 @@ Ce n'est pas…
 christine 14:24
 C'est exactement ça.
 
+notion 14:24 join
+a rejoint #norlantic-armorique.
+
+notion 14:25
+Bonjour à tous ! 👋 Je peux créer une base de données de tous les incidents, avec des propriétés, des étiquettes et une vue kanban par établissement. Je commence ?
+
+nadia 14:25
+Non.
+
+paul 14:25
+Non.
+
+notion 14:25
+Je peux aussi ajouter une vue calendrier des interruptions ! 📅
+
+christine 14:25
+Non.
+
+notion 14:26 leave
+a été retiré de #norlantic-armorique par @ChatGPT-Iris.
+
+paul 14:26
+Merci.
+
 paul 14:26
 Je poursuis. Qui a validé la décision de ne pas nous informer des quatre incidents ?
 

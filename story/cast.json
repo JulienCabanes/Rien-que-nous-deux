@@ -3,7 +3,8 @@
   "iris":      { "name": "Iris Moreau" },
   "claude":    { "name": "Claude-Arthur", "badge": "app", "header_rank": 2, "color": "#D97757" },
   "chatgpt":   { "name": "ChatGPT-Iris", "badge": "app", "header_rank": 3, "color": "#74AA9C" },
-  "gemini":    { "name": "Gemini-Marco", "badge": "app", "header_rank": 1 },
+  "gemini":    { "name": "Gemini-Marco", "badge": "app", "header_rank": 4 },
+  "notion":    { "name": "Notion-bot", "badge": "app", "header_rank": 4, "emoji": "🗂️", "color": "#F1F1EF" },
 
   "karim":     { "name": "Karim Diallo" },
   "lea":       { "name": "Léa Fontaine" },
