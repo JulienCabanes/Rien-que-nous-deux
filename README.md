@@ -110,7 +110,7 @@ dans le même bloc.
 | `[channel random]` | on passe dans ce canal (défini dans `book.json`) |
 | `[banner]` | bandeau d'en-tête du canal courant |
 | `[topic] Nouveau sujet…` | le sujet du canal change à partir du message suivant |
-| `[cast arthur badge=guest status=none]` | un personnage change d'apparence à partir d'ici |
+| `[cast arthur badge=guest]` | un personnage change d'apparence à partir d'ici |
 | `[interlude] 159 jours plus tard` | ellipse centrée |
 | `[spacer]` | grand blanc vertical |
 | `[members random -claude -chatgpt]` | arrivée ou départ hors champ (`+id` / `-id`), pour n'importe quel canal |
@@ -128,7 +128,8 @@ bandeaux suivants de 412 à 413 membres.
 emoji, l'avatar est `assets/avatars/<id>.svg` ou `.png`.
 
 `story/fr/book.json` : textes de l'interface (`ui`), barres latérales des
-espaces de travail (`workspaces`) et canaux (`channels` : type `public`,
+espaces de travail (`workspaces` : la liste des canaux ; un canal marqué
+`"from_creation": true` n'y apparaît qu'à partir de sa première scène) et canaux (`channels` : type `public`,
 `private` ou `shared`, espace, nombre de membres, avatars affichés, sujet et
 bandeau facultatifs).
 

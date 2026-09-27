@@ -28,6 +28,7 @@
         var on = item.getAttribute('data-channel') === s.channel;
         item.classList.toggle('active', on);
         if (item.hasAttribute('data-only-active')) item.style.display = on ? '' : 'none';
+        if (item.hasAttribute('data-from')) item.style.display = n >= +item.getAttribute('data-from') ? '' : 'none';
       });
     });
   }

@@ -1,5 +1,5 @@
 {
-  "arthur":    { "name": "Arthur Lefèvre", "status": "🏡" },
+  "arthur":    { "name": "Arthur Lefèvre" },
   "iris":      { "name": "Iris Moreau" },
   "claude":    { "name": "Claude-Arthur", "badge": "app", "header_rank": 2, "color": "#D97757" },
   "chatgpt":   { "name": "ChatGPT-Iris", "badge": "app", "header_rank": 3, "color": "#74AA9C" },

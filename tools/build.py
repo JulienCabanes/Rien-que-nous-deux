@@ -417,21 +417,27 @@ class Edition:
                 ch = self.channels[cid]
                 icon = {'public': '#', 'private': '🔒', 'shared': '🤝'}[ch['kind']]
                 extra = ' data-channel="%s"' % cid + (' data-only-active' if item.get('only_active') else '')
+                if item.get('from_creation'):
+                    # listed from the first scene set in the channel onwards
+                    first = next((n for n, sc in enumerate(self.scenes) if sc['channel'] == cid), len(self.scenes))
+                    extra += ' data-from="%d"' % first + (' style="display:none"' if first > 0 else '')
                 label = ch.get('name', cid)
             else:
                 icon, extra, label = '#', '', cid
             out.append('  <div class="chan"%s><span class="h">%s</span>%s</div>' % (extra, icon, esc(label)))
-        out.append('  <div class="section">%s</div>' % esc(self.ui['direct_messages']))
-        for item in ws.get('direct_messages', []):
-            item = item if isinstance(item, dict) else {'cast': item}
-            c = self.need_cast(item['cast'], 'book.json: workspace %s' % wid)
-            pres = 'pres gone' if item.get('away') else 'pres'
-            out.append('  <div class="chan"><span class="%s"></span>%s</div>' % (pres, esc(c['name'])))
-        out.append('  <div class="section">%s</div>' % esc(self.ui['apps']))
-        for cid in ws.get('apps', []):
-            c = self.need_cast(cid, 'book.json: workspace %s' % wid)
-            out.append('  <div class="chan"><span class="ic" style="background:%s"></span>%s</div>'
-                       % (attr(c.get('color', '#FFFFFF')), esc(c['name'])))
+        if ws.get('direct_messages'):
+            out.append('  <div class="section">%s</div>' % esc(self.ui['direct_messages']))
+            for item in ws['direct_messages']:
+                item = item if isinstance(item, dict) else {'cast': item}
+                c = self.need_cast(item['cast'], 'book.json: workspace %s' % wid)
+                pres = 'pres gone' if item.get('away') else 'pres'
+                out.append('  <div class="chan"><span class="%s"></span>%s</div>' % (pres, esc(c['name'])))
+        if ws.get('apps'):
+            out.append('  <div class="section">%s</div>' % esc(self.ui['apps']))
+            for cid in ws['apps']:
+                c = self.need_cast(cid, 'book.json: workspace %s' % wid)
+                out.append('  <div class="chan"><span class="ic" style="background:%s"></span>%s</div>'
+                           % (attr(c.get('color', '#FFFFFF')), esc(c['name'])))
         out.append('</div>')
         return '\n'.join(out)
 

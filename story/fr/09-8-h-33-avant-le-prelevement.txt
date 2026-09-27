@@ -213,6 +213,6 @@ Je sais.
 
 [spacer]
 [channel random]
-[cast arthur badge=guest status=none]
+[cast arthur badge=guest]
 [interlude] 160 jours plus tard
 [spacer]

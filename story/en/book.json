@@ -27,15 +27,11 @@
   "workspaces": {
     "vantel": {
       "name": "Vantel",
-      "channels": ["general", "support", "skygate", "random"],
-      "direct_messages": ["arthur", "iris"],
-      "apps": ["claude", "chatgpt"]
+      "channels": ["general", "support", "skygate", "random"]
     },
     "norlantic": {
       "name": "Norlantic Group",
-      "channels": ["general", "support", "random", { "channel": "ipo-dataroom", "only_active": true }],
-      "direct_messages": [{ "cast": "arthur", "away": true }, "iris"],
-      "apps": ["claude", "chatgpt"]
+      "channels": ["general", "support", "random", { "channel": "ipo-dataroom", "from_creation": true }, { "channel": "norlantic-armorique", "from_creation": true }, { "channel": "int-0412", "from_creation": true }]
     }
   },
 
