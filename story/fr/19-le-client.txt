@@ -147,16 +147,13 @@ notion 14:24 join
 a rejoint #norlantic-armorique.
 
 notion 14:25
-Bonjour à tous ! 👋 Je peux créer une base de données de tous les incidents, avec des propriétés, des étiquettes et une vue kanban par établissement. Je commence ?
+Bonjour à tous ! 👋 Je peux créer une base de données de tous les incidents, avec des propriétés, des étiquettes, une vue kanban par établissement et une vue calendrier des interruptions 📅. Je commence ?
 
 nadia 14:25
 Non.
 
 paul 14:25
 Non.
-
-notion 14:25
-Je peux aussi ajouter une vue calendrier des interruptions ! 📅
 
 christine 14:25
 Non.

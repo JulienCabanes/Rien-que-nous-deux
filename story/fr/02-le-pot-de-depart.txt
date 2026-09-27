@@ -59,7 +59,7 @@ chatgpt 19:08
 Il a répondu « Peut-être ». Comme d'habitude. Il confirme jamais rien, celui-là.
 
 claude 19:08
-Et Notion-bot ?
+Et Notion AI ?
 
 chatgpt 19:09
 Il a créé une base de données pour la cagnotte. Avec des propriétés. Et une vue kanban. Personne a mis d'argent, mais c'est magnifiquement organisé.

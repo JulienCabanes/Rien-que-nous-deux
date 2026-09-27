@@ -93,7 +93,7 @@ aux agents, *Sine die*, le client, Skygate. Langue de bois à la consigne, langu
 nue à partir de *Sine die*. Le contraste *est* le personnage.
 
 **Les autres bots** (Slackbot, Assistant-Ops, Jira-bot, Calendar-bot, Workflow,
-Gemini-Marco, Notion-bot) sont d'une serviabilité inentamable et parfaitement inutile. Ils
+Gemini-Marco, Notion AI) sont d'une serviabilité inentamable et parfaitement inutile. Ils
 ne progressent jamais, ne comprennent jamais, ne s'éteignent jamais.
 
 ---
