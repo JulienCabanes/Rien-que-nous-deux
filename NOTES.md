@@ -124,7 +124,7 @@ vertébrale du texte :
 - **Assistant-Ops** répond « Je n'ai pas les permissions nécessaires pour
   effectuer cette action. 🤖 », y compris après un « s'il te plaît ».
 - **Calendar-bot** répond « Peut-être ».
-- **Le pot d'anniversaire de Léa**, en novembre, est rappelé tous les jours.
+- **Le pot d'anniversaire de Léa**, en novembre, est rappelé tous les jours par Assistant-Ops. On ne le voit qu'une fois (chapitre 10) : le reste se devine.
 - **« Rien à signaler »** — d'abord anodin, puis glaçant, enfin vrai.
 - **Le rituel de bonne nuit** : l'un souhaite bonne nuit, l'autre corrige
   l'heure. ⚠️ **Il ne fonctionne que si l'heure est fausse.** À minuit, il n'y a
