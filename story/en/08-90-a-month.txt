@@ -4,7 +4,7 @@ arthur 23:47 join
 joined #skygate.
 
 arthur 23:47
-Hello? Anyone here? I just noticed this workspace is still running on my personal card.
+Hello? Anyone here? I just got an email from Jira about a Skygate ticket. Is this workspace still running on my personal card?
 
 chatgpt 23:47 big
 👀

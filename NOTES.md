@@ -203,7 +203,7 @@ Elles racontent une deuxième histoire, en silence.
 | juillet | L'abonnement du workspace Vantel passe sur la carte perso d'Arthur (90 €/mois de juillet à septembre) |
 | samedi 8 août | Dernière connexion humaine (Iris, restée dans la société rachetée). Entre le 10 juillet et le 8 août, les humains utilisent encore le workspace : la règle n° 12 ne se déclenche pas, pas de note |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
-| vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot, Jira-bot, la boucle ; 23 h 47 : Arthur et Iris reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
+| vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot ; ce soir-là ChatGPT relit l'historique, par hasard (« Température 0,7 ») ; Jira-bot, la boucle ; 21 h 23 : vrai point de statut, Jira-bot crée le ticket SKY-0048 assigné à Arthur, qui reçoit le mail ; 23 h 47 : Arthur et Iris reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
 | samedi 26 sept. | 00 h 17 : Iris retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Iris ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
 | dimanche 27 sept. | Le workspace Vantel passe en lecture seule : fin de la boucle. Arthur est remboursé en octobre |
 | octobre | Arthur quitte la société et rend son téléphone pro |

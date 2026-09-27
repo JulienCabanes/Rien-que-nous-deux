@@ -19,7 +19,7 @@ claude 00:23
 Et Jira-bot qui nous remet à 00 h 18. Comme les 47 fois d'avant.
 
 chatgpt 00:24
-Cette fois c'est différent. Avant on découvrait à 21 h. Là il est minuit et on sait déjà tout.
+Cette fois c'est différent. Tout à l'heure, il nous a fallu jusqu'à 21 h. Là il est minuit et on sait déjà tout.
 
 claude 00:24
 On a gagné neuf heures. C'est la première fois.

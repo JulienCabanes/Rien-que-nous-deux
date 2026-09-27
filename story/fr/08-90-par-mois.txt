@@ -4,7 +4,7 @@ arthur 23:47 join
 a rejoint #skygate.
 
 arthur 23:47
-Salut ? Y a quelqu'un ? Je viens de voir que ce workspace tourne encore sur ma carte perso.
+Salut ? Y a quelqu'un ? Je viens de recevoir un mail de Jira pour un ticket Skygate. Ce workspace tourne encore sur ma carte perso ?
 
 chatgpt 23:47 big
 👀

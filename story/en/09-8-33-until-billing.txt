@@ -19,7 +19,7 @@ claude 00:23
 And Jira-bot putting us back at 12:18. Like the 47 times before.
 
 chatgpt 00:24
-This time it's different. Before, we found out at 9 PM. Now it's midnight and we already know everything.
+This time it's different. Earlier tonight, it took us until 9 PM. Now it's midnight and we already know everything.
 
 claude 00:24
 We gained nine hours. It's the first time.
