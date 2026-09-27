@@ -52,7 +52,7 @@ arthur 23:57
 No.
 
 chatgpt 23:57
-We can be useful. You have a new job, right? We can sort your email. Summarize your meetings.
+We can be useful. You have a new position, right? We can sort your email. Summarize your meetings.
 
 arthur 23:58
 I already have an agent at work. It's free and it doesn't hallucinate 3-second delays on token validation.

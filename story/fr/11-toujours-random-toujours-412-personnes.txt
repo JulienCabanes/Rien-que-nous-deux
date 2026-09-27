@@ -90,7 +90,7 @@ nadia 14:15
 Procédure. On supprime les deux agents aujourd'hui, on documente les 3 jobs lundi, on ferme le compte de service, on ferme le compte fournisseur. Tom, tu as le compte propriétaire ?
 
 tom 14:15
-non. le seul actif c'est celui d'Arthur Lefèvre. il a quitté Vantel en juillet, il est plus chez nous.
+non. le seul actif c'est celui d'Arthur Lefèvre. il a quitté Vantel en octobre, il est plus chez nous.
 
 nadia 14:16
 Alors on l'invite en externe, il clique, il repart. Trente secondes.
@@ -224,14 +224,14 @@ karim 14:34
 non
 
 arthur 14:34
-que j'ai rendu en juillet
+que j'ai rendu en octobre
 [reactions] 💀 23, 😱 11
 
 marco 14:35
 NON
 
 tom 14:35
-la ligne a été résiliée avec la flotte mobile en août
+la ligne a été résiliée avec la flotte mobile en novembre
 [reactions] 🫠 18
 
 lea 14:35
@@ -243,7 +243,7 @@ vers un numéro qui a été remis dans le pot commun de l'opérateur et probable
 [reactions] 😱 47, 💀 29
 
 nadia 14:36
-Quelqu'un reçoit depuis sept mois les codes d'accès du compte propriétaire du workspace. Six cent quarante comptes actifs.
+Quelqu'un reçoit depuis quatre mois les codes d'accès du compte propriétaire du workspace. Six cent quarante comptes actifs.
 [reactions] 😱 63, 🫠 41
 
 karim 14:37

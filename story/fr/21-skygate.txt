@@ -175,7 +175,7 @@ tom 10:01
 le compte propriétaire.
 
 karim 10:01
-le compte dont le code à 6 chiffres part sur un numéro qui appartient à quelqu'un d'autre depuis neuf mois
+le compte dont le code à 6 chiffres part sur un numéro qui appartient à quelqu'un d'autre depuis six mois
 
 tom 10:02
 oui.

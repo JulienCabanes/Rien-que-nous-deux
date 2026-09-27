@@ -175,7 +175,7 @@ tom 10:01
 the owner account.
 
 karim 10:01
-the account whose 6-digit code goes to a number that's belonged to someone else for nine months
+the account whose 6-digit code goes to a number that's belonged to someone else for six months
 
 tom 10:02
 yes.

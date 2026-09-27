@@ -90,7 +90,7 @@ nadia 14:15
 Procedure. We delete both agents today, document the 3 jobs on Monday, close the service account, close the vendor account. Tom, do you have the owner account?
 
 tom 14:15
-no. the only active one is Arthur Lefèvre's. he left Vantel in july, he's not with us anymore.
+no. the only active one is Arthur Lefèvre's. he left Vantel in october, he's not with us anymore.
 
 nadia 14:16
 Then we invite him as a guest, he clicks, he leaves. Thirty seconds.
@@ -224,14 +224,14 @@ karim 14:34
 no
 
 arthur 14:34
-which i returned in july
+which i returned in october
 [reactions] 💀 23, 😱 11
 
 marco 14:35
 NO
 
 tom 14:35
-the line was canceled with the mobile fleet in august
+the line was canceled with the mobile fleet in november
 [reactions] 🫠 18
 
 lea 14:35
@@ -243,7 +243,7 @@ to a number that went back into the carrier's pool and was probably reassigned t
 [reactions] 😱 47, 💀 29
 
 nadia 14:36
-For seven months, someone has been receiving the login codes for the workspace owner account. Six hundred and forty active accounts.
+For four months, someone has been receiving the login codes for the workspace owner account. Six hundred and forty active accounts.
 [reactions] 😱 63, 🫠 41
 
 karim 14:37
