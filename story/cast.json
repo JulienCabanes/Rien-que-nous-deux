@@ -19,21 +19,22 @@
   "paul":      { "name": "Paul Sirven", "badge": "external" },
   "damien":    { "name": "Damien Roussel", "badge": "external" },
 
-  "hugo":      { "name": "Hugo Vasseur" },
+  "hugo":      { "name": "Hugo Marchal" },
   "sonia":     { "name": "Sonia Ferret" },
   "amine":     { "name": "Amine Cherki" },
   "claire":    { "name": "Claire Dubosc" },
-  "julien":    { "name": "Julien Vasseur" },
+  "julien":    { "name": "Julien Castel" },
   "priya":     { "name": "Priya Raman" },
   "bastien":   { "name": "Bastien Ollivier" },
   "nour":      { "name": "Nour Benali" },
   "gaelle":    { "name": "Gaëlle Pichon" },
   "youssef":   { "name": "Youssef Amrani" },
-  "lecoq":     { "name": "Damien Lecoq" },
+  "lecoq":     { "name": "Maxime Lecoq" },
 
   "slackbot":  { "name": "Slackbot", "badge": "app", "header": false },
   "jira":      { "name": "Jira-bot", "badge": "app", "header_rank": 1 },
   "ops":       { "name": "Assistant-Ops", "badge": "app", "header": false, "emoji": "🤖", "color": "#DCE6F2" },
   "workflow":  { "name": "Workflow", "badge": "app", "header": false, "emoji": "⚙️", "color": "#D4EDDA" },
-  "calendar":  { "name": "Calendar-bot", "badge": "app", "header": false }
+  "calendar":  { "name": "Calendar-bot", "badge": "app", "header": false },
+  "drive":     { "name": "Drive-bot", "badge": "app", "header": false }
 }

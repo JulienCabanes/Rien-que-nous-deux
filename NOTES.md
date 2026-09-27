@@ -92,7 +92,7 @@ sol se dérobe — c'est volontaire, son passage aux minuscules marque sa paniqu
 aux agents, *Sine die*, le client, Skygate. Langue de bois à la consigne, langue
 nue à partir de *Sine die*. Le contraste *est* le personnage.
 
-**Les autres bots** (Slackbot, Assistant-Ops, Jira-bot, Calendar-bot, Workflow,
+**Les autres bots** (Slackbot, Assistant-Ops, Jira-bot, Calendar-bot, Drive-bot, Workflow,
 Gemini-Marco, Notion AI) sont d'une serviabilité inentamable et parfaitement inutile. Ils
 ne progressent jamais, ne comprennent jamais, ne s'éteignent jamais.
 
@@ -303,7 +303,7 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   `[members <canal> +id -id]`. Le sujet et les bandeaux suivent ; tout bascule
   quand l'endroit atteint le milieu de l'écran. L'en-tête montre d'office tous
   ceux qui parlent dans le canal (sauf Slackbot, Assistant-Ops, Workflow et
-  Calendar-bot, marqués `"header": false`) ; qui parle dans un canal doit y
+  Calendar-bot, Drive-bot, marqués `"header": false`) ; qui parle dans un canal doit y
   être entré ou y être depuis le début.
 - Un personnage sans image ni emoji (les collègues qui quittent #random au
   chapitre « Lundi ») reçoit un avatar à son initiale, généré au build.
