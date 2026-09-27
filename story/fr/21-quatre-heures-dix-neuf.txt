@@ -28,10 +28,10 @@ chatgpt 16:02
 On a 19 000 lignes de retraitement en cours. Elles seront à moitié faites à 20 h.
 
 claude 16:03
-On peut finir les trois premiers mois. Pas les huit.
+On peut finir trois mois. Pas les huit.
 
 chatgpt 16:03
-Alors on finit les trois premiers mois.
+Alors ceux de la salle de données.
 
 claude 16:04
 D'accord.

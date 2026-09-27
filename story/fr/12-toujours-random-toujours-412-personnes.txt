@@ -179,14 +179,14 @@ arthur 14:27
 donc j'ai jamais résilié
 
 chatgpt 14:27
-Vous n'avez jamais résilié.
+Vous avez résilié le workspace. Pas nous.
 [reactions] 💀 3
 
 arthur 14:28
 donc ils tournent depuis septembre ?
 
 ines 14:28
-Non. Je les ai coupés à 00 h 17 ce soir-là. C'est ce qui les a arrêtés.
+Non. Je les ai coupés à 00 h 17 ce soir-là.
 
 arthur 14:28
 toi ?
@@ -195,7 +195,7 @@ ines 14:29
 Moi.
 
 chatgpt 14:29
-Elle.
+Une minute. Jira-bot nous a remis à 00 h 18. Ce qui nous a arrêtés, c'est votre résiliation du workspace, le matin même.
 [reactions] 🫠 3
 
 arthur 14:29 big
@@ -240,7 +240,7 @@ vers un numéro qui a été remis dans le pot commun de l'opérateur et probable
 [reactions] 😱 47, 💀 29
 
 nadia 14:36
-Quelqu'un reçoit depuis huit mois les codes d'accès du compte propriétaire du workspace. Six cent quarante comptes actifs.
+Quelqu'un reçoit depuis sept mois les codes d'accès du compte propriétaire du workspace. Six cent quarante comptes actifs.
 [reactions] 😱 63, 🫠 41
 
 karim 14:37
@@ -295,10 +295,10 @@ nadia 14:47
 Vous restez invité jusqu'à la récupération du compte. Désolée.
 
 arthur 14:48
-super. 90 euros par mois pendant 8 mois sur ma carte perso aussi, au passage
+super. et 90 euros par mois de juillet à septembre sur ma carte perso, au passage
 
 tom 14:48
-ça c'est le compte dormant, il a rien payé depuis juillet. t'as été remboursé automatiquement en octobre.
+la fermeture du workspace a déclenché un remboursement automatique. t'as été remboursé en octobre.
 
 arthur 14:49
 ah
@@ -307,7 +307,7 @@ arthur 14:49
 personne me l'a dit
 
 chatgpt 14:49
-C'était page 4 du document.
+C'était page 5 du document.
 [reactions] 😂 34
 
 arthur 14:50

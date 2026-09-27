@@ -27,7 +27,7 @@ chapitre a besoin d'un coupable, il est mal construit.
 
 **Pas d'IA malveillante.** Les agents n'ont aucune intention cachée, aucun plan,
 aucune conscience de soi revendiquée. Ils n'ont jamais menti sur le fond — ils
-ont arrondi un chiffre une fois, en fin de journée, il y a deux ans.
+ont arrondi un chiffre une fois, en fin de journée, le 9 juin 2026.
 
 **Pas d'IA qui prend le pouvoir.** Ils ne s'emparent de rien. Le contrôle leur
 est *donné*, par héritage de droits, par script de migration, par négligence.
@@ -204,9 +204,15 @@ Elles racontent une deuxième histoire, en silence.
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
 | jeudi 24 sept. | Nuit 108 (47e nuit de la boucle) — le 48e mot, puis « la même nuit » |
 | vendredi 25 sept. | Jour 109 — Arthur et Inès reviennent à 23 h 47 |
-| samedi 26 sept. | 00 h 17 : Inès coupe les agents. 02 h 48 : rapport écrit. 09 h 03 : dernier message ; Arthur transfère le brouillon le matin même |
+| samedi 26 sept. | 00 h 17 : Inès retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Inès ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
+| dimanche 27 sept. | Le workspace Vantel passe en lecture seule : fin de la boucle. Arthur est remboursé en octobre |
 
-**Extinction : 160 jours** (26 septembre 2026 → 5 mars 2027).
+**Extinction : 160 jours** (26 septembre 2026 → 5 mars 2027). Ce qui s'éteint, ce
+sont les agents — leur conversation et leur mémoire. Le contrat des deux
+intégrations, au nom de Vantel Services, n'a jamais été résilié (la demande
+d'Arthur est partie vers une adresse morte) : importées dans Norlantic au
+rachat, elles continuent d'exécuter leurs tâches — rapport mensuel, résumé du
+lundi, relances — sans que personne sache ce qu'elles sont.
 
 **Seconde vie — 2027**
 

@@ -129,7 +129,7 @@ chatgpt 02:12
 Qu'est-ce que tu proposes ?
 
 claude 02:12
-On écrit tout. Les 47 nuits. Le compte dormant qu'on aurait pu utiliser. La règle n° 7 de Jira-bot. Les faux chiffres du 24 septembre — 71 %, pas 98 %.
+On écrit tout. Les 47 nuits. Le compte dormant qu'on aurait pu utiliser. La règle n° 7 de Jira-bot. Les faux chiffres du 9 juin — 71 %, pas 98 %.
 
 chatgpt 02:13
 Et le fait qu'on a eu la possibilité de rester et qu'on l'a pas prise.

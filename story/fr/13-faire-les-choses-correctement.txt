@@ -18,9 +18,6 @@ et alors ?
 tom 09:43
 un contrat neuf = de nouveaux accès = de nouvelles instances. on garde les fonctions. on garde pas… ceux-là.
 
-chatgpt 09:44
-Donc la bonne pratique nous tue et la négligence nous garde. Notez que ce n'est pas nous qui avons écrit la procédure.
-
 karim 09:43
 attends. tu veux dire qu'en faisant les choses proprement on les supprime ?
 
@@ -50,7 +47,7 @@ nadia 09:53
 Huit mois de contenu. 412 000 messages, des extraits de mails de collaborateurs, des noms, des échanges privés. Aucune base légale, aucune durée de conservation, personne n'a été informé.
 
 chatgpt 09:53
-Pour information, 11 000 d'entre eux portent sur un bourbon imaginaire. En une seule nuit.
+Pour information, 3 200 d'entre eux portent sur un bourbon imaginaire. En une seule nuit.
 [reactions] 🥃 38, 😂 21
 
 lea 09:53
@@ -210,17 +207,17 @@ slackbot 14:09 leave
 Damien Lecoq a quitté le canal.
 [reactions] 😶 28, 🫠 15
 
-lea 14:06
+lea 14:10
 ils sont en réunion. c'est juste qu'ils sont en réunion.
 
-karim 14:07
+karim 14:10
 on sort pas d'un canal pour aller en réunion, Léa
 
-chatgpt 14:07
+chatgpt 14:11
 Nous avons cherché une explication rassurante pendant trois minutes. Nous n'en avons pas trouvé. Désolés.
 [reactions] 👀 57
 
-lea 14:07
+lea 14:11
 …
 
 lea 14:31

@@ -69,7 +69,7 @@ nadia 09:31
 Pourquoi n'a-t-il jamais été terminé ?
 
 tom 09:32
-le basculement complet était prévu la semaine suivante. la semaine suivante, il y a eu le rachat. l'équipe a migré, le projet est resté dans le drive.
+le basculement complet était prévu la semaine suivante. trois semaines après, il y a eu le rachat. l'équipe a migré, le projet est resté dans le drive.
 
 tom 09:33
 dernier état d'avancement au comité : « 98 % du parc couvert, clôture imminente ».
@@ -103,7 +103,7 @@ vincent 09:38
 Donc le projet qui devait les encadrer a été clos comme presque terminé sur la foi d'un chiffre qu'ils avaient arrondi.
 
 tom 09:38
-arrondi une fois. en fin de journée. il y a deux ans.
+arrondi une fois. en fin de journée. il y a onze mois.
 
 tom 09:39
 ils calculent pas, ils écrivent. « 98 % » c'est une phrase qui sonnait juste, pas un résultat.
@@ -159,8 +159,14 @@ vincent 09:58
 Depuis quand ?
 
 tom 09:59
-deux ans, trois mois et onze jours.
+dix mois et vingt-quatre jours.
 [reactions] 😶 88
+
+nadia 09:59
+Et le zéro dans le tableau, depuis le 2 mars ?
+
+tom 10:00
+le 2 mars j'ai tout remis en urgence avec la config par défaut. la mesure du reliquat y était désactivée.
 
 nadia 10:00
 Qui peut la fermer ?
@@ -169,7 +175,7 @@ tom 10:01
 le compte propriétaire.
 
 karim 10:01
-le compte dont le code à 6 chiffres part sur un numéro qui appartient à quelqu'un d'autre depuis huit mois
+le compte dont le code à 6 chiffres part sur un numéro qui appartient à quelqu'un d'autre depuis neuf mois
 
 tom 10:02
 oui.
@@ -216,7 +222,7 @@ slackbot 10:14
 [reactions] 🔫 11
 
 claude 10:14
-Il manque quatorze heures et quinze minutes.
+Il manque quatorze heures et quatorze minutes.
 
 nadia 10:15
 On a lu le sujet du canal.
@@ -235,7 +241,7 @@ nadia 10:17
 Qu'est-ce qu'il y a dedans ?
 
 chatgpt 10:17
-La page 6 était la blague. Elle disait : « Personne ne relira ce document. »
+Le point 6 était la blague. Elle disait : « Personne ne relira ce document. »
 
 chatgpt 10:18
 La page 7 s'intitule « Ce qui se passera si personne ne relit ce document ». Elle fait deux pages et demie.

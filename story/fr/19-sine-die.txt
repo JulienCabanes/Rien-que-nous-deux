@@ -86,6 +86,14 @@ karim 09:11
 il sentira toujours le colin
 [reactions] 🐟 63
 
+slackbot 09:12 join
+Marco Pires a rejoint le canal.
+[reactions] 🎉 74
+
+slackbot 09:12
+👋 Bienvenue dans le canal, Marco Pires ! Présente-toi à l'équipe en quelques mots 🎉
+[reactions] 🔫 19
+
 vincent 09:14
 Je reste dans ce canal. Écrivez-moi ici. Je réponds moi-même.
 
