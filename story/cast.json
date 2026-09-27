@@ -20,7 +20,7 @@
 
   "slackbot":  { "name": "Slackbot", "badge": "app" },
   "jira":      { "name": "Jira-bot", "badge": "app" },
-  "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#4A4A4A" },
-  "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#2E7D32" },
+  "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#DCE6F2" },
+  "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#D4EDDA" },
   "calendar":  { "name": "Calendar-bot", "badge": "app" }
 }
