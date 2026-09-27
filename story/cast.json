@@ -22,5 +22,5 @@
   "jira":      { "name": "Jira-bot", "badge": "app" },
   "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#4A4A4A" },
   "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#2E7D32" },
-  "calendar":  { "name": "Calendar-bot", "badge": "app", "emoji": "📅", "color": "#1A73E8" }
+  "calendar":  { "name": "Calendar-bot", "badge": "app" }
 }
