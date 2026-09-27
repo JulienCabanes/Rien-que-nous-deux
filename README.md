@@ -148,10 +148,22 @@ ligne.
 
 ## Traduire
 
-Copier `story/fr/` en `story/en/`, traduire les textes des chapitres et de
-`book.json`, et y mettre `"lang": "en"` et `"output": "en/index.html"`. Les
-identifiants, options et directives restent identiques dans toutes les
-langues ; le format de l'heure et les libellés se règlent dans `ui`.
+Chaque dossier `story/<langue>/` est une édition. L'anglaise est dans
+`story/en/` et sort en `en/index.html`. Traduire un chapitre, c'est créer le
+fichier correspondant dans `story/en/` ; les identifiants, options et
+directives restent identiques dans toutes les langues, et on garde les mêmes
+ancres de chapitre (`{#ch1}`…) pour que les liens passent d'une édition à
+l'autre. Le format de l'heure et les libellés se règlent dans `ui` :
+`"{h} h {m}"` donne `17 h 12`, `"{h12}:{m} {ampm}"` donne `5:12 PM`.
+
+Passer d'une édition à l'autre, dans `book.json` :
+
+- `"editions"` : liens vers les autres éditions, affichés à la fin de l'intro.
+  Le choix du lecteur est retenu par son navigateur.
+- `"detect_language": true` (sur l'édition servie à la racine) : un premier
+  visiteur est envoyé vers l'édition que demande son navigateur ; si aucune
+  ne correspond, vers la première des `editions`. Un lecteur qui a choisi une
+  édition via le lien n'est plus redirigé.
 
 ## Licence
 

@@ -372,7 +372,9 @@ class Edition:
             top += '<span class="status">%s</span>' % esc(c['status'])
         if 'badge' in c:
             top += '<span class="app">%s</span>' % esc(self.ui['badges'][c['badge']])
-        top += '<span class="time">%s</span>' % esc(typo(self.ui['time'].format(h=hh, m=mm)))
+        h = int(hh)
+        clock = self.ui['time'].format(h=hh, m=mm, h12=h % 12 or 12, ampm='AM' if h < 12 else 'PM')
+        top += '<span class="time">%s</span>' % esc(typo(clock))
 
         cls = 'text' + (' big' if 'big' in opts else '') + (' event' if 'event' in opts else '')
         body, para, reacts = [], [], ''
@@ -480,11 +482,25 @@ class Edition:
         b = self.book
         prologue = ['<div class="prologue">', '<h1>%s</h1>' % esc(b['title'])]
         prologue += ['<p>%s</p>' % prose(p) for p in b.get('intro', [])]
+        editions = b.get('editions', [])
+        if editions:
+            # the other editions, linked at the end of the intro
+            prologue.append('<p class="editions">%s</p>' % ' · '.join(
+                '<a href="%s" hreflang="%s" lang="%s" data-lang="%s">%s</a>'
+                % (attr(e['href']), attr(e['lang']), attr(e['lang']), attr(e['lang']), esc(e['label']))
+                for e in editions))
         if b.get('disclaimer'):
             prologue.append('<p class="disclaimer">%s</p>' % prose(b['disclaimer']))
         prologue.append('</div>')
+        head = ''
+        if editions:
+            config = dict(editions={e['lang']: e['href'] for e in editions},
+                          detect=bool(b.get('detect_language')))
+            head = '<script>var EDITIONS = %s;\n%s</script>' % (
+                json.dumps(config).replace('</', '<\\/'), tpl('lang.js'))
         values = {
             'lang': attr(b['lang']),
+            'head': head,
             'page_title': esc(b['page_title']),
             'style': tpl('style.css') + '\n' + self.avatars_css(),
             'workspace': esc(data['workspaces'][first_ch['workspace']]),

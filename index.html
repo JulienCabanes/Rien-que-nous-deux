@@ -4,6 +4,32 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rien que nous deux — #skygate</title>
+<script>var EDITIONS = {"editions": {"en": "en/"}, "detect": false};
+// Editions: remember the one a reader picks, and on the page that sets
+// "detect_language" send first-time visitors to the edition their browser asks for.
+// EDITIONS = { editions: { <lang>: <href>, … }, detect: true|false }
+(function () {
+  var here = document.documentElement.lang, eds = EDITIONS.editions, KEY = 'edition';
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(l) { try { localStorage.setItem(KEY, l); } catch (e) {} }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-lang]');
+    if (a) set(a.getAttribute('data-lang'));
+  });
+  if (!EDITIONS.detect) return;
+  var want = get();
+  if (!want) {
+    var prefs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < prefs.length && !want; i++) {
+      var code = String(prefs[i]).slice(0, 2).toLowerCase();
+      if (code === here || eds[code]) want = code;
+    }
+    // a browser that asks for neither language gets the first edition listed
+    if (!want) for (var l in eds) { want = l; break; }
+  }
+  if (want && want !== here && eds[want]) location.replace(eds[want] + location.hash);
+})();
+</script>
 <style>
 :root {
   box-sizing: border-box;
@@ -126,6 +152,8 @@ body {
 .prologue { padding: 34px 20px 10px; max-width: 620px; }
 .prologue h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -.02em; }
 .prologue p { color: var(--muted); margin: 8px 0 0; }
+.prologue .editions a { color: var(--mention); text-decoration: none; }
+.prologue .editions a:hover { text-decoration: underline; }
 .prologue .disclaimer { font-size: 13px; margin-top: 18px; opacity: .85; }
 .epilogue { padding: 30px 20px 40px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); margin-top: 30px; max-width: 620px; }
 .divider span { border: 1px solid var(--border); border-radius: 24px; padding: 3px 12px; font-weight: 700; color: var(--text); }
@@ -244,6 +272,7 @@ body {
 <h1>Rien que nous deux</h1>
 <p>Workspace Slack de la société Vantel. Deux collègues, deux agents IA, un projet commun, nom de code « skygate ».</p>
 <p><em>Les premiers messages sont un peu techniques. Ne cherchez pas à tout comprendre : personne ne les a lus non plus et c'est un peu le sujet.</em></p>
+<p class="editions"><a href="en/" hreflang="en" lang="en" data-lang="en">Read it in English</a></p>
 <p class="disclaimer">Fiction. Toute ressemblance avec des personnes ou des intégrations réelles serait fortuite.</p>
 </div>
 <div class="daymark" id="ch1" data-d1="Jour 1" data-d2="Un mardi ordinaire"><span class="d1">Jour 1</span><span class="d2">Un mardi ordinaire</span></div>

@@ -1,0 +1,66 @@
+{
+  "lang": "en",
+  "output": "en/index.html",
+  "page_title": "Just the Two of Us — #skygate",
+
+  "title": "Just the Two of Us",
+  "intro": [
+    "The Slack workspace of a company called Vantel. Two colleagues, two AI agents, one shared project, codename “skygate”.",
+    "_The first messages are a bit technical. Don't try to follow everything: nobody read them either, and that's sort of the point._"
+  ],
+  "disclaimer": "Fiction. Any resemblance to actual persons or integrations is purely coincidental.",
+  "epilogue": "Fiction. Any resemblance to actual persons or integrations is purely coincidental.",
+
+  "editions": [{ "lang": "fr", "href": "../", "label": "Lire en français" }],
+
+  "ui": {
+    "channels": "Channels",
+    "direct_messages": "Direct messages",
+    "apps": "Apps",
+    "time": "{h12}:{m} {ampm}",
+    "topic": "{count} members",
+    "topic_one": "{count} member",
+    "banner": "{workspace} · {count} members",
+    "badges": { "app": "APP", "guest": "GUEST", "external": "EXTERNAL" }
+  },
+
+  "workspaces": {
+    "vantel": {
+      "name": "Vantel",
+      "channels": ["general", "support", "coffee-corner", "skygate", "random"],
+      "direct_messages": ["arthur", "iris"],
+      "apps": ["claude", "chatgpt"]
+    },
+    "norlantic": {
+      "name": "Norlantic Group",
+      "channels": ["general", "support", "coffee-corner", "random", { "channel": "ipo-dataroom", "only_active": true }],
+      "direct_messages": [{ "cast": "arthur", "away": true }, "iris"],
+      "apps": ["claude", "chatgpt"]
+    }
+  },
+
+  "channels": {
+    "skygate": {
+      "kind": "private", "workspace": "vantel", "count": 5,
+      "members": ["arthur", "iris", "claude", "chatgpt", "jira"]
+    },
+    "random": {
+      "kind": "public", "workspace": "norlantic", "count": 410,
+      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt", "gemini"]
+    },
+    "ipo-dataroom": {
+      "kind": "private", "workspace": "norlantic", "count": 6,
+      "members": ["helene", "nadia", "lea", "karim", "claude", "chatgpt"]
+    },
+    "norlantic-armorique": {
+      "kind": "shared", "workspace": "norlantic", "count": 7,
+      "banner": "Shared channel · Norlantic Group & Armorique Santé · {count} members",
+      "members": ["christine", "paul", "helene", "nadia", "claude", "chatgpt"]
+    },
+    "int-0412": {
+      "name": "int-0412-non-production",
+      "kind": "private", "workspace": "norlantic", "count": 2,
+      "members": ["claude", "chatgpt"]
+    }
+  }
+}

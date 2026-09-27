@@ -12,6 +12,9 @@
   "disclaimer": "Fiction. Toute ressemblance avec des personnes ou des intégrations réelles serait fortuite.",
   "epilogue": "Fiction. Toute ressemblance avec des personnes ou des intégrations réelles serait fortuite.",
 
+  "editions": [{ "lang": "en", "href": "en/", "label": "Read it in English" }],
+  "detect_language": false,
+
   "ui": {
     "channels": "Canaux",
     "direct_messages": "Messages directs",
