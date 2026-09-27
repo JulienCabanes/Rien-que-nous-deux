@@ -153,6 +153,28 @@ dans leur propre vocabulaire (fenêtre de contexte, jetons, extraction).
 
 ---
 
+## 6 bis. Le point de vue (ne pas l'écrire dans le récit)
+
+**Tout le récit est lu depuis le compte Slack de ChatGPT-Iris.** Le lecteur ne
+l'apprend qu'à la dernière ligne : le 🥃 de « Rien que nous deux » est à 2 et
+surligné, comme une réaction qu'on a soi-même posée. Un verre de Claude, un
+d'elle, sur son propre message.
+
+Ce que ça impose :
+
+- **Aucune réaction de ChatGPT-Iris avant la dernière.** Elle serait surlignée
+  et vendrait la mèche. Dans les scènes à deux, il n'y a donc aucune réaction ;
+  dans les canaux à plusieurs, les compteurs restent anonymes et aucun n'est
+  surligné (`*`).
+- **La barre latérale ne trahit personne** : ni messages directs, ni
+  applications, seulement les canaux où elle est.
+- **Chaque canal affiché est un canal dont elle est membre**, au moins après
+  coup. Ce qui s'écrit pendant qu'elle en est retirée (10 juillet au matin,
+  Nuit 109 à 00 h 17, révocation du 7 mai) se lit comme l'historique qu'elle
+  retrouve en y revenant.
+- **Elle est celle qui relit** : « Je me suis relue », « Température 0,7. Il
+  fallait bien qu'un soir je regarde. ». Ne jamais le souligner davantage.
+
 ## 7. Structure d'un chapitre
 
 - **Longueur** : 20 à 40 messages pour une scène nocturne à deux, 50 à 90 pour
@@ -171,7 +193,7 @@ dans leur propre vocabulaire (fenêtre de contexte, jetons, extraction).
 
 Elles racontent une deuxième histoire, en silence.
 
-- **Entre les deux agents seuls, pas de réaction**, sauf une : le 🥃 de la dernière réplique, à 2 et surligné. Claude, et le lecteur, comme s'il avait réagi lui-même.
+- **Entre les deux agents seuls, pas de réaction**, sauf une : le 🥃 de la dernière réplique, à 2 et surligné. Voir 6 bis.
 - **Le nombre doit être cohérent avec la taille du canal.** Dans #ipo-dataroom
   (6 membres), une réaction ne dépasse pas 3. Dans #random (412), elle peut
   monter à 200.
