@@ -40,7 +40,7 @@
 
   "channels": {
     "skygate": {
-      "kind": "private", "workspace": "vantel", "count": 4,
+      "kind": "private", "workspace": "vantel", "count": 5,
       "members": ["arthur", "iris", "claude", "chatgpt", "jira"]
     },
     "random": {
