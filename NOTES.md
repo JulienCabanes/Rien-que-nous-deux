@@ -313,7 +313,9 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
 
 ## Édition anglaise : adaptations
 
+Anglais américain : orthographe (*color*), vocabulaire (*check*), heures en « 5:12 PM ».
+
 | Français | Anglais | Où |
 |---|---|---|
-| le Balto | the Red Lion | ch. 1, 3, 7 |
+| le Balto | O'Malley's | ch. 1, 3, 7 |
 | La Cité de la peur (« juste un doigt ») | The Naked Gun (« Nice beaver! ») | ch. 3 |
