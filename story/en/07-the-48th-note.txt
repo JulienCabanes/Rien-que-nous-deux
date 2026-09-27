@@ -28,7 +28,7 @@ claude 20:58
 How many?
 
 chatgpt 20:58
-47.
+47. Not counting the first one, on July 10.
 
 claude 20:58 big
 🫥

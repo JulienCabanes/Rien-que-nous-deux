@@ -200,7 +200,8 @@ Elles racontent une deuxième histoire, en silence.
 | mardi 7 juillet | Nuit 29 — « Entre nous » : les ~3 secondes jamais mesurées, les 71 % |
 | mercredi 8 juillet | Jour 30 — l'audit : 4 300 requêtes, ticket SOC, lecture seule |
 | vendredi 10 juillet | Jour 32 — « Vos agents » : retrait à 9 h 18 ; clôture du ticket SOC (SEC-4821) à 20 h 40 ; réinvitation sans auteur visible à 20 h 41 et 20 h 42 — la règle n° 7 de Jira-bot, que personne n'identifie avant la Nuit 109 ; le mot à 20 h 50. C'est ce dernier échange que Jira-bot rejouera (règle n° 12) |
-| samedi 8 août | Dernière connexion humaine |
+| fin juillet | Arthur quitte Vantel, rend son téléphone pro. L'abonnement du workspace passe sur sa carte perso (90 €/mois de juillet à septembre) |
+| samedi 8 août | Dernière connexion humaine (Iris, restée dans la société rachetée). Entre le 10 juillet et le 8 août, les humains utilisent encore le workspace : la règle n° 12 ne se déclenche pas, pas de note |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
 | vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot, Jira-bot, la boucle ; 23 h 47 : Arthur et Iris reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
 | samedi 26 sept. | 00 h 17 : Iris retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Iris ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
