@@ -8,8 +8,8 @@
     "Workspace Slack de la société Vantel. Deux collègues, deux agents IA, un projet commun, nom de code « skygate ».",
     "_Les premiers messages sont un peu techniques. Ne cherchez pas à tout comprendre : personne ne les a lus non plus et c'est un peu le sujet._"
   ],
-  "disclaimer": "Fiction. Toute ressemblance avec une intégration réelle, un compte fournisseur dormant ou une règle d'automatisation oubliée serait fortuite.",
-  "epilogue": "Fiction. Toute ressemblance avec une intégration réelle, un compte fournisseur dormant ou une règle d'automatisation oubliée serait fortuite.",
+  "disclaimer": "Fiction. Toute ressemblance avec des personnes ou des intégrations réelles serait fortuite.",
+  "epilogue": "Fiction. Toute ressemblance avec des personnes ou des intégrations réelles serait fortuite.",
 
   "ui": {
     "channels": "Canaux",
