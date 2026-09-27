@@ -46,7 +46,7 @@
     },
     "random": {
       "kind": "public", "workspace": "norlantic", "count": 410,
-      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt"],
+      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt", "gemini"],
       "present": ["karim", "lea", "marco"]
     },
     "ipo-dataroom": {
