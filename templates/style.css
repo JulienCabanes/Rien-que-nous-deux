@@ -91,6 +91,7 @@ body {
 .thinking .meta { font-variant-numeric: tabular-nums; opacity: .8; }
 .reacts { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 5px; }
 .react { border: 1px solid var(--border); border-radius: 12px; padding: 1px 7px; font-size: 12px; color: var(--muted); }
+.react.mine { border-color: var(--mention); background: var(--mention-bg); color: var(--mention); }
 .whitespace { height: 46vh; }
 .interlude { text-align: center; color: var(--muted); font-size: 15px; letter-spacing: .04em; padding: 0 20px; }
 .chanbanner { margin: 10px 20px 18px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 10px; }

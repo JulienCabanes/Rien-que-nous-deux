@@ -392,8 +392,10 @@ class Edition:
             elif line == '[next]':
                 flush()
             elif line.startswith('[reactions]'):
+                # a trailing * marks the reader's own reaction, highlighted as in Slack
                 reacts = '<div class="reacts">%s</div>' % ''.join(
-                    '<span class="react">%s</span>' % esc(r.strip()) for r in line[11:].split(',') if r.strip())
+                    '<span class="react%s">%s</span>' % (' mine' if r.strip().endswith('*') else '', esc(r.strip().rstrip('*')))
+                    for r in line[11:].split(',') if r.strip())
             else:
                 if reacts:
                     raise StoryError('%s: [reactions] must be the last line of the message' % where)

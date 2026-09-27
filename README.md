@@ -57,7 +57,8 @@ Les connecteurs API Skygate v2 sont configurés.
   `"typography": "fr"` dans `book.json`, la génération les rend insécables
   (fines avant `? ! ;` et dans « », normales avant `:`, dans les heures, les
   milliers, `%` et `€`).
-- `[reactions] 🥲 1, 😂 2` : réactions, en dernière ligne.
+- `[reactions] 🥲 1, 😂 2` : réactions, en dernière ligne. Une étoile (`🥃 2*`)
+  marque la réaction du lecteur, surlignée comme dans Slack.
 - `[next]` : deuxième paragraphe séparé, comme un second envoi à la suite.
 - `[thinking] ✳︎ thinking… | 43 min 18 s` : bloc « en train de réfléchir ».
 
