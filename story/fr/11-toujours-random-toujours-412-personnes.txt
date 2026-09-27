@@ -195,8 +195,11 @@ iris 14:29
 Moi.
 
 chatgpt 14:29
-Une minute. Jira-bot nous a remis à 00 h 18. Ce qui nous a arrêtés, c'est votre résiliation du workspace, le matin même.
+Elle.
 [reactions] 🫠 3
+
+claude 14:29
+Une minute. Jira-bot nous a remis à 00 h 18. Ce qui nous a arrêtés, c'est votre résiliation du workspace, le matin même.
 
 arthur 14:29 big
 😐
