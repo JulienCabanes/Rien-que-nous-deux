@@ -67,8 +67,8 @@ Options après l'heure :
 |---------|-------|
 | `big`   | texte en grand (emoji seul) |
 | `event` | message système en italique gris (révocations…) |
-| `join`  | arrivée : le canal gagne l'auteur **et** chaque personne @mentionnée |
-| `leave` | départ : le canal perd l'auteur et chaque personne @mentionnée |
+| `join`  | arrivée : le canal gagne l'auteur (et chaque `+id` qui suit) |
+| `leave` | départ : le canal perd l'auteur (et chaque `+id` qui suit) |
 
 Comme dans Slack, une arrivée ou un départ est **signé par la personne
 concernée**, avec son avatar ; les arrivées simultanées tiennent sur une ligne.
@@ -78,7 +78,7 @@ Slackbot ne fait que l'accueil automatique de #random.
 nadia 14:01 join
 a rejoint #random.
 
-claude 11:07
+claude 11:07 join +chatgpt
 a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 11:07
@@ -88,8 +88,8 @@ nadia 14:29 big
 😐
 ```
 
-Sans `join` / `leave` (ex. les agents, ou #skygate), le message s'affiche
-sans toucher au compteur. Un personnage sans image ni emoji reçoit un avatar
+Le compteur **et les avatars de l'en-tête** suivent ces arrivées et départs.
+Sans `join` / `leave`, le message s'affiche sans rien changer. Un personnage sans image ni emoji reçoit un avatar
 à son initiale.
 
 ### Directives
@@ -107,9 +107,11 @@ dans le même bloc.
 | `[cast arthur badge=guest status=none]` | un personnage change d'apparence à partir d'ici |
 | `[interlude] 159 jours plus tard` | ellipse centrée |
 | `[spacer]` | grand blanc vertical |
+| `[members random -claude -chatgpt]` | arrivée ou départ hors champ (`+id` / `-id`), pour n'importe quel canal |
 
-Le changement de canal, le nombre de membres et le sujet s'appliquent au
-défilement, à l'endroit exact où la directive est placée. Les compteurs sont
+Le changement de canal, le nombre de membres, les avatars et le sujet
+s'appliquent au défilement, quand l'endroit concerné atteint le milieu de
+l'écran. Les compteurs sont
 calculés : un `join` sur #random fait passer l'en-tête, le sujet et les
 bandeaux suivants de 412 à 413 membres.
 

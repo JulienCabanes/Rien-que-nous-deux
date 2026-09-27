@@ -146,10 +146,30 @@ class Edition:
         ws = self.book['workspaces'][ch['workspace']]['name']
         return template.format(count=self.state[cid]['count'], workspace=ws)
 
+    def channel_state(self, cid):
+        if cid not in self.state:
+            ch = self.channels[cid]
+            self.state[cid] = dict(topic=ch.get('topic'), count=ch['count'],
+                                   present=list(ch.get('present', ch.get('members', []))))
+        return self.state[cid]
+
+    def move(self, cid, ids, joining, where):
+        """People join or leave a channel: member count and header avatars follow."""
+        st = self.channel_state(cid)
+        for i in ids:
+            self.need_cast(i, where)
+            st['count'] += 1 if joining else -1
+            if joining and i not in st['present']:
+                st['present'].append(i)
+            if not joining and i in st['present']:
+                st['present'].remove(i)
+
     def scene(self):
         s = self.state[self.channel]
-        return dict(channel=self.channel, topic=s['topic'] or self.fill(self.ui['topic'], self.channel),
-                    count=s['count'])
+        shown = [m for m in self.channels[self.channel].get('members', []) if m in s['present']]
+        default = self.ui.get('topic_one', self.ui['topic']) if s['count'] == 1 else self.ui['topic']
+        return dict(channel=self.channel, topic=s['topic'] or self.fill(default, self.channel),
+                    count=s['count'], avatars=shown)
 
     def emit(self, block):
         """Append a block; tag it if the scene changed since the last tag."""
@@ -229,8 +249,7 @@ class Edition:
             if arg not in self.channels:
                 raise StoryError('%s: unknown channel "%s" (known: %s)' % (where, arg, ', '.join(self.channels)))
             self.channel = arg
-            if arg not in self.state:
-                self.state[arg] = dict(topic=self.channels[arg].get('topic'), count=self.channels[arg]['count'])
+            self.channel_state(arg)
         elif kw == 'banner':
             self.need_channel(where)
             sub = self.fill(self.channels[self.channel].get('banner', self.ui['banner']), self.channel)
@@ -250,6 +269,12 @@ class Edition:
                     c.pop(k, None)
                 else:
                     c[k] = v
+        elif kw == 'members':
+            parts = arg.split()
+            if not parts or parts[0] not in self.channels or not all(re.fullmatch(r'[+-]\w+', p) for p in parts[1:]):
+                raise StoryError('%s: expected [members <channel> +id -id …]' % where)
+            for p in parts[1:]:
+                self.move(parts[0], [p[1:]], p[0] == '+', where)
         elif kw == 'spacer':
             self.emit('<div class="whitespace" aria-hidden="true"></div>')
         elif kw == 'interlude':
@@ -268,14 +293,16 @@ class Edition:
         if len(head) < 2 or not re.fullmatch(r'\d{1,2}:\d{2}', head[1]):
             raise StoryError('%s: a message starts with "<character> <HH:MM>", got: %s' % (where, block[0]))
         c = self.need_cast(head[0], where)
-        opts = head[2:]
+        opts = [o for o in head[2:] if not o.startswith('+')]
+        others = [o[1:] for o in head[2:] if o.startswith('+')]
         for o in opts:
             if o not in ('big', 'event', 'join', 'leave'):
-                raise StoryError('%s: unknown message option "%s" (big, event, join, leave)' % (where, o))
+                raise StoryError('%s: unknown message option "%s" (big, event, join, leave, +id)' % (where, o))
         if 'join' in opts or 'leave' in opts:
-            # the author, plus everyone mentioned in the same line ("… ainsi que @X")
-            people = 1 + len(set(self.mention_re.findall('\n'.join(block[1:]))))
-            self.state[self.channel]['count'] += people if 'join' in opts else -people
+            # the author, plus anyone joining or leaving with them: "claude 11:07 join +chatgpt"
+            self.move(self.channel, [head[0]] + others, 'join' in opts, where)
+        elif others:
+            raise StoryError('%s: +%s only makes sense with join or leave' % (where, others[0]))
         hh, mm = head[1].split(':')
 
         if 'emoji' in c:
@@ -373,8 +400,7 @@ class Edition:
 
         channels = {}
         for cid, ch in self.channels.items():
-            channels[cid] = dict(workspace=ch['workspace'], title=self.title_html(cid),
-                                 avatars=''.join('<span class="mini-av av-%s"></span>' % m for m in ch.get('members', [])))
+            channels[cid] = dict(workspace=ch['workspace'], title=self.title_html(cid))
         data = dict(scenes=self.scenes, channels=channels,
                     workspaces={k: v['name'] for k, v in self.book['workspaces'].items()})
         first = self.scenes[0]
@@ -399,7 +425,8 @@ class Edition:
             'sidebars': '\n'.join(sidebars),
             'title': first_ch['title'],
             'topic': esc(first['topic']),
-            'members': first_ch['avatars'] + '<span style="margin-left:10px">%d</span>' % first['count'],
+            'members': ''.join('<span class="mini-av av-%s"></span>' % m for m in first['avatars'])
+                       + '<span style="margin-left:10px">%d</span>' % first['count'],
             'first_chapter': esc(self.first_chapter),
             'prologue': '\n'.join(prologue),
             'feed': '\n'.join(self.out),

@@ -18,6 +18,7 @@
     "apps": "Applications",
     "time": "{h} h {m}",
     "topic": "{count} membres",
+    "topic_one": "{count} membre",
     "banner": "{workspace} · {count} membres",
     "badges": { "app": "APP", "guest": "INVITÉ", "external": "EXTERNE" }
   },
@@ -40,11 +41,13 @@
   "channels": {
     "skygate": {
       "kind": "private", "workspace": "vantel", "count": 4,
-      "members": ["arthur", "iris", "claude", "chatgpt"]
+      "members": ["arthur", "iris", "claude", "chatgpt", "jira"],
+      "present": ["arthur", "iris", "claude", "chatgpt"]
     },
     "random": {
-      "kind": "public", "workspace": "norlantic", "count": 412,
-      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt"]
+      "kind": "public", "workspace": "norlantic", "count": 410,
+      "members": ["karim", "lea", "marco", "nadia", "claude", "chatgpt"],
+      "present": ["karim", "lea", "marco"]
     },
     "ipo-dataroom": {
       "kind": "private", "workspace": "norlantic", "count": 6,

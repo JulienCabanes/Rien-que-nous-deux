@@ -42,7 +42,7 @@ ops 11:06
 marco 11:07
 voilà.
 
-claude 11:07
+claude 11:07 join +chatgpt
 a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 11:07

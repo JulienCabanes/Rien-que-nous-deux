@@ -207,7 +207,7 @@ Ils ont la cartographie complète des flux. Personne d'autre ne l'a. Et ils vien
 vincent 10:10
 Faites.
 
-claude 10:14
+claude 10:14 join +chatgpt
 a rejoint #random ainsi que @ChatGPT-Iris.
 
 slackbot 10:14

@@ -189,7 +189,7 @@ chatgpt 10:08
 Par habitude.
 [reactions] 👀 88
 
-gemini 10:10
+gemini 10:10 join
 a rejoint #random.
 [reactions] 😳 64
 
@@ -216,7 +216,7 @@ Je peux ?
 nadia 10:13
 Allez-y.
 
-gemini 10:13
+gemini 10:13 leave
 a été retiré de #random par @ChatGPT-Iris.
 [reactions] 🫡 147, 😂 96
 

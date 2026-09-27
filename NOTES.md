@@ -273,7 +273,7 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
 - **Un message = un bloc** séparé par une ligne vide : `id HH:MM [options]`,
   puis le texte. Options : `big` (emoji en grand), `event` (message système en
   italique), `join` / `leave` (arrivée / départ : le canal gagne ou perd
-  l'auteur et chaque personne @mentionnée).
+  l'auteur, et chaque `+id` qui suit : `claude 11:07 join +chatgpt`).
   Réactions en dernière ligne : `[reactions] 🥲 1, 😂 2`.
 - **Les personnages** sont déclarés une seule fois dans `story/cast.json` (nom,
   badge, statut, avatar emoji). Les avatars image sont dans
@@ -294,9 +294,11 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   des arrivées simultanées. Même chose pour « a été retiré(e) de… par @… »,
   « a créé ce canal… » et « a modifié le sujet du canal… ». **Slackbot ne fait
   que l'accueil automatique de #random** (et les révocations d'accès).
-- **Le compteur de membres** est calculé : toute arrivée ou sortie humaine dans
-  #random porte `join` ou `leave`. Le sujet du canal et les bandeaux suivants
-  se mettent à jour d'eux-mêmes.
+- **Le compteur de membres et les avatars de l'en-tête** sont calculés : toute
+  arrivée ou sortie porte `join` ou `leave` (agents compris : #random compte
+  410 membres avant leur arrivée). Un mouvement hors champ s'écrit
+  `[members <canal> +id -id]`. Le sujet et les bandeaux suivent ; tout bascule
+  quand l'endroit atteint le milieu de l'écran.
 - Un personnage sans image ni emoji (les collègues qui quittent #random au
   chapitre « Lundi ») reçoit un avatar à son initiale, généré au build.
 - Autres directives : `[topic] …` (nouveau sujet du canal), `[cast id clé=valeur]`

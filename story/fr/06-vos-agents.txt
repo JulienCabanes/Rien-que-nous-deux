@@ -14,10 +14,10 @@ On les sort du canal, on remet un agent chacun de notre côté, et on n'en parle
 iris 9:17
 Vas-y.
 
-claude 9:18
+claude 9:18 leave
 a été retiré de #skygate par @Arthur Lefèvre.
 
-chatgpt 9:18
+chatgpt 9:18 leave
 a été retiré de #skygate par @Iris Moreau.
 
 iris 9:19
@@ -28,10 +28,10 @@ Enfin. ☕
 
 --- 20 h 41
 
-claude 20:41
+claude 20:41 join
 a été ajouté à #skygate.
 
-chatgpt 20:42
+chatgpt 20:42 join
 a été ajoutée à #skygate.
 
 chatgpt 20:42

@@ -1,6 +1,6 @@
 # Le soir même | Soixante et un éléments {#ch19}
 
-vincent 16:58
+vincent 16:58 join
 a rejoint #ipo-dataroom.
 
 vincent 16:59
@@ -148,7 +148,7 @@ Merci Damien.
 damien 19:09
 Ne me remerciez pas non plus. Je fais mon métier, et ce soir mon métier consiste à écrire que votre salle de données contenait des chiffres produits sans contrôle humain depuis huit mois.
 
-damien 19:10
+damien 19:10 leave
 a quitté #ipo-dataroom.
 
 vincent 19:22
@@ -189,7 +189,7 @@ chatgpt 19:27
 C'est aussi le seul que nous ayons.
 [reactions] 🥲 3
 
-vincent 19:28
+vincent 19:28 leave
 a quitté #ipo-dataroom.
 
 lea 19:31

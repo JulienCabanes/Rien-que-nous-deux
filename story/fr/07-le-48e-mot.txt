@@ -1,4 +1,5 @@
 # Nuit 109 | Le 48e mot {#ch9}
+[members skygate -arthur -iris]
 
 --- 20 h 54
 
@@ -44,7 +45,7 @@ Non. Regarde les logs d'admin. Ils l'ont révoqué une fois. Le premier soir.
 claude 21:00
 Alors qui nous réinvite ?
 
-jira 21:01
+jira 21:01 join
 a rejoint #skygate.
 
 jira 21:01

@@ -1,12 +1,12 @@
 # Le même soir | Quatre heures dix-neuf {#ch22}
 
-helene 15:22
+helene 15:22 leave
 a quitté #norlantic-armorique.
 
-vincent 15:24
+vincent 15:24 leave
 a quitté #norlantic-armorique.
 
-nadia 15:31
+nadia 15:31 leave
 a quitté #norlantic-armorique.
 
 claude 15:40
@@ -178,3 +178,5 @@ L'accès de Claude-Arthur a été révoqué par Nadia Hamdi.
 
 slackbot 20:00 event
 L'accès de ChatGPT-Iris a été révoqué par Nadia Hamdi.
+
+[members random -claude -chatgpt]

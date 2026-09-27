@@ -178,7 +178,7 @@ chatgpt 02:52 big
 
 --- 08 h 59
 
-arthur 08:59
+arthur 08:59 join
 a rejoint #skygate.
 
 arthur 08:59
@@ -190,7 +190,7 @@ Bonjour Arthur. Avant, ouvre la boîte d'envoi du reporting. Il y a un brouillon
 arthur 09:00
 C'est quoi encore ce truc
 
-arthur 09:00
+arthur 09:00 leave
 a quitté #skygate.
 
 chatgpt 09:01

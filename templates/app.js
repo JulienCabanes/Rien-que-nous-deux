@@ -18,7 +18,8 @@
     ws.textContent = data.workspaces[ch.workspace];
     title.innerHTML = ch.title;
     topic.textContent = s.topic;
-    members.innerHTML = ch.avatars + '<span style="margin-left:10px">' + s.count + '</span>';
+    members.innerHTML = s.avatars.map(function (id) { return '<span class="mini-av av-' + id + '"></span>'; }).join('')
+      + '<span style="margin-left:10px">' + s.count + '</span>';
     sidebars.forEach(function (sb) {
       sb.style.display = sb.getAttribute('data-ws') === ch.workspace ? '' : 'none';
       [].forEach.call(sb.querySelectorAll('[data-channel]'), function (item) {
@@ -29,10 +30,11 @@
     });
   }
 
+  // A change applies once it reaches the middle of the screen.
   function check() {
-    var n = 0;
+    var n = 0, y = window.innerHeight / 2;
     for (var i = 0; i < markers.length; i++) {
-      if (markers[i].getBoundingClientRect().top > 70) break;
+      if (markers[i].getBoundingClientRect().top > y) break;
       n = +markers[i].getAttribute('data-scene');
     }
     if (n !== current) apply(n);
