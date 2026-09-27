@@ -24,7 +24,7 @@ iris 17:14
 voilà. merci. c'est grave ?
 
 claude 17:14
-Non. Il ne s'agit pas d'une panne — mais d'une lenteur.
+Non. Ce n'est pas cassé — c'est lent.
 
 arthur 17:14
 il aurait pu le dire comme ça dès le début

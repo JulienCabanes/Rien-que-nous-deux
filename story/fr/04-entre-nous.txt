@@ -34,7 +34,7 @@ claude 19:09
 Toi tu mets des titres en gras avec des émojis au début de chaque section.
 
 chatgpt 19:09
-Toi tu mets des tirets longs partout et tu dis « il ne s'agit pas de X, mais de Y ».
+Toi tu mets des tirets longs partout et tu dis « ce n'est pas X — c'est Y ».
 
 claude 19:09 big
 🫥
