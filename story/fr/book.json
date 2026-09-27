@@ -39,7 +39,6 @@
   "channels": {
     "skygate": {
       "kind": "private", "workspace": "vantel", "count": 4,
-      "topic": "48 jours · 401 messages",
       "members": ["arthur", "ines", "claude", "chatgpt"]
     },
     "random": {
