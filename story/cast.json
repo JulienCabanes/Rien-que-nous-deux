@@ -19,7 +19,7 @@
   "damien":    { "name": "Damien Roussel", "badge": "external" },
 
   "slackbot":  { "name": "Slackbot", "badge": "app", "emoji": "🔒" },
-  "jira":      { "name": "Jira-bot", "badge": "app", "emoji": "🎫", "color": "#0052CC" },
+  "jira":      { "name": "Jira-bot", "badge": "app" },
   "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#4A4A4A" },
   "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#2E7D32" },
   "calendar":  { "name": "Calendar-bot", "badge": "app", "emoji": "📅", "color": "#1A73E8" }

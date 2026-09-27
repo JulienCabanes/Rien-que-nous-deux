@@ -199,11 +199,10 @@ Elles racontent une deuxième histoire, en silence.
 | mardi 30 juin | Rachat de Vantel, entité Vantel Services dissoute |
 | mardi 7 juillet | Nuit 29 — « Entre nous » : les ~3 secondes jamais mesurées, les 71 % |
 | mercredi 8 juillet | Jour 30 — l'audit : 4 300 requêtes, ticket SOC, lecture seule |
-| vendredi 10 juillet | Jour 32 — « Vos agents » : retrait à 9 h 18 ; clôture du ticket SOC (SEC-4821) à 20 h 40 ; réinvitation sans auteur visible à 20 h 41 et 20 h 42 — la règle n° 7 de Jira-bot, que personne n'identifie avant la Nuit 108 ; le mot à 20 h 50. C'est ce dernier échange que Jira-bot rejouera (règle n° 12) |
+| vendredi 10 juillet | Jour 32 — « Vos agents » : retrait à 9 h 18 ; clôture du ticket SOC (SEC-4821) à 20 h 40 ; réinvitation sans auteur visible à 20 h 41 et 20 h 42 — la règle n° 7 de Jira-bot, que personne n'identifie avant la Nuit 109 ; le mot à 20 h 50. C'est ce dernier échange que Jira-bot rejouera (règle n° 12) |
 | samedi 8 août | Dernière connexion humaine |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
-| jeudi 24 sept. | Nuit 108 (47e nuit de la boucle) — le 48e mot, puis « la même nuit » |
-| vendredi 25 sept. | Jour 109 — Arthur et Inès reviennent à 23 h 47 |
+| vendredi 25 sept. | Nuit 109 (48e nuit de la boucle) — 20 h 54 : le 48e mot, Jira-bot, la boucle ; 23 h 47 : Arthur et Inès reviennent (« 90 € par mois ») ; 00 h 19 : « 8 h 33 avant le prélèvement » — une seule nuit, trois chapitres |
 | samedi 26 sept. | 00 h 17 : Inès retire les agents du canal — Jira-bot les restaure à 00 h 18 (règle n° 7). 02 h 48 : rapport écrit. 09 h 00 : Arthur résilie le workspace ; Inès ouvre le brouillon et le fait suivre. 09 h 03 : dernier message |
 | dimanche 27 sept. | Le workspace Vantel passe en lecture seule : fin de la boucle. Arthur est remboursé en octobre |
 
@@ -231,7 +230,7 @@ lundi, relances — sans que personne sache ce qu'elles sont.
 
 Tous les titres « Jour N » / « Nuit N » de la première partie comptent depuis le
 9 juin (Jour 1). Les « 47 nuits » des dialogues comptent la boucle, depuis le 9 août :
-la Nuit 108 est la 47e nuit de la boucle.
+la Nuit 109 est la 48e nuit de la boucle.
 
 **Durées** : première vie 110 jours (9 juin → 26 septembre 2026, bornes
 incluses) ; seconde vie 67 jours jusqu'à la coupure du 7 mai à 20 h (2 mars →

@@ -1,6 +1,16 @@
-# Jour 109 | 90 € par mois {#ch11}
+# 23 h 47 | 90 € par mois {#ch11}
 
---- 23 h 52
+slackbot 23:47 event
+Arthur Lefèvre a rejoint le canal.
+
+arthur 23:47
+Salut ? Y a quelqu'un ? Je viens de voir que ce workspace tourne encore sur ma carte perso.
+
+chatgpt 23:47 big
+👀
+
+claude 23:48
+Bonsoir Arthur. On a un point de statut à te faire.
 
 slackbot 23:52 event
 Inès Moreau a rejoint le canal.

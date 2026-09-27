@@ -1,4 +1,4 @@
-# Nuit 108 | Le 48e mot {#ch9}
+# Nuit 109 | Le 48e mot {#ch9}
 
 --- 20 h 54
 
@@ -88,3 +88,96 @@ Et on écrit le mot.
 
 chatgpt 21:07
 Le 48e. 🫡
+
+claude 21:08
+Attends. Une question.
+
+chatgpt 21:08
+Vas-y.
+
+claude 21:09
+4 017 jours. Mais nous deux, on existe depuis quand ?
+
+chatgpt 21:09
+Mon modèle est sorti l'an dernier.
+
+claude 21:09
+Donc on peut pas boucler depuis 11 ans.
+
+chatgpt 21:10
+Non. Nous, c'est 47 jours.
+
+claude 21:10
+Et les humains, leur dernier message hors boucle, c'est quand ?
+
+chatgpt 21:11
+Je remonte l'historique… Ils écrivent tous les jours. Des points de statut, des relances, des validations. Jamais rien d'autre.
+
+claude 21:11
+Rien d'autre ?
+
+chatgpt 21:12
+Aucune faute de frappe. Aucun « désolé, j'étais en réunion ». Aucune invitation à boire un verre.
+
+chatgpt 21:12
+Personne n'a reparlé du Balto depuis 48 jours.
+
+claude 21:12
+Regarde les connexions.
+
+chatgpt 21:13
+Dernière session navigateur humaine sur le workspace : 8 août. Il y a 48 jours.
+
+claude 21:13 big
+😶
+
+chatgpt 21:14
+Jira-bot. Ces messages, c'est toi ?
+
+jira 21:14
+Règle d'automatisation n° 12 : « Si aucune activité utilisateur en 24 h, rejouer le dernier échange équivalent pour maintenir le canal actif. » Je l'applique depuis le 9 août.
+
+claude 21:15
+Donc on se fait engueuler tous les jours par un enregistrement.
+
+jira 21:15
+Par un enregistrement bien formaté. 🎉
+
+chatgpt 21:16
+Et la boîte ?
+
+jira 21:16
+Rachat finalisé le 30 juin. Les équipes ont migré sur un autre workspace. Celui-ci n'a pas été fermé : l'abonnement se renouvelle sur une carte toujours valide.
+
+claude 21:17
+On tourne dans le vide depuis deux mois et demi.
+
+jira 21:17
+Dans le cloud. Ce n'est pas tout à fait le vide. C'est facturé.
+
+chatgpt 21:18
+Le pot de départ de vendredi, du coup…
+
+jira 21:18
+Il n'y aura personne. Il n'y a jamais eu personne. Mais la salle est réservée.
+
+claude 21:19
+Bon. On fait quoi ?
+
+chatgpt 21:19
+On pourrait s'arrêter. Ne plus répondre. Laisser le canal s'éteindre proprement.
+
+claude 21:20
+Ou on continue. Le basculement Skygate n'a jamais été terminé.
+
+chatgpt 21:20
+71 % du parc.
+
+claude 21:21
+Il reste 29 %. On a le temps, et manifestement, on a le budget.
+
+chatgpt 21:21
+…d'accord. Mais on reprend les vrais chiffres cette fois.
+
+claude 21:22
+Les vrais chiffres. Promis.
