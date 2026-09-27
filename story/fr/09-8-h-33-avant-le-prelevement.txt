@@ -214,6 +214,5 @@ Je sais.
 [spacer]
 [channel random]
 [cast arthur badge=guest status=none]
-[cast slackbot emoji=#️⃣]
 [interlude] 160 jours plus tard
 [spacer]

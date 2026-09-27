@@ -18,7 +18,7 @@
   "paul":      { "name": "Paul Sirven", "badge": "external" },
   "damien":    { "name": "Damien Roussel", "badge": "external" },
 
-  "slackbot":  { "name": "Slackbot", "badge": "app", "emoji": "🔒" },
+  "slackbot":  { "name": "Slackbot", "badge": "app" },
   "jira":      { "name": "Jira-bot", "badge": "app" },
   "ops":       { "name": "Assistant-Ops", "badge": "app", "emoji": "🤖", "color": "#4A4A4A" },
   "workflow":  { "name": "Workflow", "badge": "app", "emoji": "⚙️", "color": "#2E7D32" },
