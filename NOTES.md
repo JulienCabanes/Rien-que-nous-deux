@@ -310,3 +310,10 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
 - **Le code, les identifiants et les directives sont en anglais**, le texte
   dans la langue de l'édition : une version anglaise se fera en copiant
   `story/fr/` en `story/en/`.
+
+## Édition anglaise : adaptations
+
+| Français | Anglais | Où |
+|---|---|---|
+| le Balto | the Red Lion | ch. 1, 3, 7 |
+| La Cité de la peur (« juste un doigt ») | The Naked Gun (« Nice beaver! ») | ch. 3 |
