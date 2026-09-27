@@ -283,6 +283,8 @@ Le format complet est décrit dans le `README.md`. L'essentiel :
   surlignage. Parler *d'eux* sans arobase n'en porte pas.
 - Les noms propres gardent leur majuscule, y compris chez les personnages qui
   écrivent en minuscules.
+- **Ponctuation** : une espace normale avant `? ! : ;` et dans « » ; la
+  génération la rend insécable. Les enchaînements (« ??? », « ?!?! ») restent collés.
 - **Le changement de canal** se fait par `[channel <id>]` suivi de `[banner]`.
   L'en-tête, la liste des membres et la barre latérale basculent au défilement,
   à cet endroit précis. Les canaux et les espaces de travail sont décrits dans

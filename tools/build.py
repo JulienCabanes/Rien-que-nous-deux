@@ -46,8 +46,26 @@ BOLD = re.compile(r'(?<!\*)\*\*(?!\*)(\S(?:.*?\S)?)(?<!\*)\*\*(?!\*)')
 ITALIC = re.compile(r'(?<![\w_])_(?!_)(\S(?:.*?\S)?)_(?![\w_])')
 
 
+NBSP, NNBSP = '\u00a0', '\u202f'
+TYPOGRAPHY = None  # set per edition from book.json "typography"
+
+
+def typo(text):
+    """French typography: non-breaking spaces where a line must not break."""
+    if TYPOGRAPHY != 'fr':
+        return text
+    s = re.sub(r' ([?!;»])', NNBSP + r'\1', text)          # espace fine insécable
+    s = s.replace('« ', '«' + NNBSP)
+    s = re.sub(r' :(?=\s|$|\*)', NBSP + ':', s)             # espace insécable
+    s = re.sub(r'(\d) h (?=\d)', r'\1' + NBSP + 'h' + NBSP, s)  # 17 h 12
+    s = re.sub(r'(\d) (?=(h|min|s|%|€)\b|%|€)', r'\1' + NBSP, s)  # 17 h, 43 min, 71 %, 90 €
+    s = re.sub(r'(?<=\d) (?=\d{3}\b)', NBSP, s)               # 11 000
+    return s
+
+
 def inline(text, mention_re=None):
     """Escape text, then apply **bold** and @mentions."""
+    text = typo(text)
     s = BOLD.sub(r'<strong>\1</strong>', esc(text))
     if mention_re:
         s = mention_re.sub(r'<span class="mention">\1</span>', s)
@@ -84,6 +102,8 @@ class Edition:
         self.dir = os.path.dirname(book_path)
         self.book = load_json(book_path)
         self.ui = self.book['ui']
+        global TYPOGRAPHY
+        TYPOGRAPHY = self.book.get('typography')
         self.cast = {k: dict(v) for k, v in cast.items()}
         self.channels = self.book['channels']
         for cid, ch in self.channels.items():
@@ -181,6 +201,7 @@ class Edition:
             if not m:
                 raise StoryError('%s: chapter heading must read "# Title | Subtitle {#id}"' % where)
             d1, d2, cid = m.groups()
+            d1, d2 = typo(d1), typo(d2)
             cid = cid or re.sub(r'^\d+-', '', os.path.splitext(os.path.basename(fname))[0])
             if cid in self.chapter_ids:
                 raise StoryError('%s: chapter id "%s" is already used' % (where, cid))
@@ -197,7 +218,7 @@ class Edition:
             if not label:
                 raise StoryError('%s: a divider needs a label: "--- Le lendemain"' % where)
             self.need_channel(where)
-            self.emit('<div class="divider"><span>%s</span></div>' % esc(label))
+            self.emit('<div class="divider"><span>%s</span></div>' % esc(typo(label)))
             return
         m = re.fullmatch(r'\[(\w+)\]\s*(.*)|\[(\w+) ([^\]]*)\]', line)
         if not m:
@@ -214,10 +235,10 @@ class Edition:
             self.need_channel(where)
             sub = self.fill(self.channels[self.channel].get('banner', self.ui['banner']), self.channel)
             self.emit('<div class="chanbanner"><div class="cb1">%s</div><div class="cb2">%s</div></div>'
-                      % (self.title_html(self.channel, banner=True), esc(sub)))
+                      % (self.title_html(self.channel, banner=True), esc(typo(sub))))
         elif kw == 'topic':
             self.need_channel(where)
-            self.state[self.channel]['topic'] = arg
+            self.state[self.channel]['topic'] = typo(arg)
         elif kw == 'cast':
             parts = arg.split()
             c = self.need_cast(parts[0] if parts else '', where)
@@ -233,7 +254,7 @@ class Edition:
             self.emit('<div class="whitespace" aria-hidden="true"></div>')
         elif kw == 'interlude':
             self.need_channel(where)
-            self.emit('<div class="interlude"><span>%s</span></div>' % esc(arg))
+            self.emit('<div class="interlude"><span>%s</span></div>' % esc(typo(arg)))
         else:
             raise StoryError('%s: unknown directive [%s]' % (where, kw))
 
@@ -267,7 +288,7 @@ class Edition:
             top += '<span class="status">%s</span>' % esc(c['status'])
         if 'badge' in c:
             top += '<span class="app">%s</span>' % esc(self.ui['badges'][c['badge']])
-        top += '<span class="time">%s</span>' % esc(self.ui['time'].format(h=hh, m=mm))
+        top += '<span class="time">%s</span>' % esc(typo(self.ui['time'].format(h=hh, m=mm)))
 
         cls = 'text' + (' big' if 'big' in opts else '') + (' event' if 'event' in opts else '')
         body, para, reacts = [], [], ''
@@ -281,7 +302,7 @@ class Edition:
             if line.startswith('[thinking]'):
                 label, _, meta = line[10:].partition('|')
                 body.append('<div class="thinking"><span class="dots">%s</span><span class="meta">%s</span></div>'
-                            % (esc(label.strip()), esc(meta.strip())))
+                            % (esc(typo(label.strip())), esc(typo(meta.strip()))))
             elif line == '[next]':
                 flush()
             elif line.startswith('[reactions]'):

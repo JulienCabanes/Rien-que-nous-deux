@@ -53,6 +53,10 @@ Les connecteurs API Skygate v2 sont configurés.
   l'heure `HH:MM`, affichée `17 h 12`.
 - Lignes suivantes : le texte. Un retour à la ligne reste un retour à la ligne.
 - `**gras**` ; `@Nom Complet` d'un personnage devient une mention.
+- Typographie : tapez des espaces normales (« Salut Iris ! », « 17 h 12 »). Avec
+  `"typography": "fr"` dans `book.json`, la génération les rend insécables
+  (fines avant `? ! ;` et dans « », normales avant `:`, dans les heures, les
+  milliers, `%` et `€`).
 - `[reactions] 🥲 1, 😂 2` : réactions, en dernière ligne.
 - `[next]` : deuxième paragraphe séparé, comme un second envoi à la suite.
 - `[thinking] ✳︎ thinking… | 43 min 18 s` : bloc « en train de réfléchir ».
