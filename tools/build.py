@@ -476,6 +476,7 @@ class Edition:
             'topic': esc(first['topic']),
             'members': '<span class="avs">%s</span><span class="n">%d</span>'
                        % (''.join('<span class="mini-av av-%s"></span>' % m for m in first['avatars']), first['count']),
+            'members_class': ' many' if len(first['avatars']) > 7 else '',
             'first_chapter': esc(self.first_chapter),
             'prologue': '\n'.join(prologue),
             'feed': '\n'.join(self.out),

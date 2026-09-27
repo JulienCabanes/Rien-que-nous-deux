@@ -18,6 +18,7 @@
     ws.textContent = data.workspaces[ch.workspace];
     title.innerHTML = ch.title;
     topic.textContent = s.topic;
+    members.classList.toggle('many', s.avatars.length > 7);
     members.innerHTML = '<span class="avs">' + s.avatars.map(function (id) {
       return '<span class="mini-av av-' + id + '"></span>';
     }).join('') + '</span><span class="n">' + s.count + '</span>';

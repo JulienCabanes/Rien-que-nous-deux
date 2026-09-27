@@ -135,7 +135,11 @@ body {
 .mini-av { display: inline-block; width: 20px; height: 20px; border-radius: 4px; margin-right: -6px; border: 2px solid var(--bg); background-size: cover; background-position: center; vertical-align: middle; }
 /* header avatars: as many as fit, the count always stays visible */
 .header > div:first-child { min-width: 0; }
-.header .members { min-width: 0; max-width: 55%; flex-shrink: 1; }
+.header .members { min-width: 0; max-width: 70%; flex-shrink: 1; }
 .header .members .avs { display: flex; min-width: 0; overflow: hidden; padding-right: 6px; }
 .header .members .avs .mini-av { flex: none; }
 .header .members .n { flex: none; margin-left: 4px; }
+/* many avatars on a narrow screen: overlap them more before cutting any */
+@media (max-width: 400px) {
+  .header .members.many .mini-av { margin-right: -9px; }
+}
