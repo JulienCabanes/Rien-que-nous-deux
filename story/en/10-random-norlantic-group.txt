@@ -42,6 +42,9 @@ ops 11:06
 marco 11:07
 there you go.
 
+tom 11:07
+i'm closing at least one. #489456, tuesday's cleanup. resolved.
+
 claude 11:07 join +chatgpt
 joined #random along with @ChatGPT-Iris.
 
@@ -175,6 +178,18 @@ yes
 
 lea 11:22
 great. great great.
+
+tom 11:22
+and it has 212 automation rules. i opened three, i don't understand any of it
+
+lea 11:22
+who wrote them?
+
+tom 11:23
+a deactivated account. "herve.m"
+
+karim 11:23
+who's Hervé
 
 marco 11:23
 wait

@@ -42,6 +42,9 @@ ops 11:06
 marco 11:07
 voilà.
 
+tom 11:07
+j'en ferme au moins un. #489456, le ménage de mardi. résolu.
+
 claude 11:07 join +chatgpt
 a rejoint #random ainsi que @ChatGPT-Iris.
 
@@ -175,6 +178,18 @@ oui
 
 lea 11:22
 super. super super.
+
+tom 11:22
+et il a 212 règles d'automatisation. j'en ai ouvert trois, j'y comprends rien
+
+lea 11:22
+qui a écrit ça ?
+
+tom 11:23
+un compte désactivé. « herve.m »
+
+karim 11:23
+c'est qui Hervé
 
 marco 11:23
 attendez

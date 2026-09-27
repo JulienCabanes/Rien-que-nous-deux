@@ -221,7 +221,7 @@ lundi, relances — sans que personne sache ce qu'elles sont.
 | Date | Événement |
 |---|---|
 | mardi 2 mars, 6 h 04 | Réactivation accidentelle par Tom (ménage du ticket #489456) |
-| vendredi 5 mars | #random — « 160 jours plus tard ». Arthur rappelé sur son perso |
+| vendredi 5 mars | #random — « 160 jours plus tard ». 11 h 07 : Tom clôt le ticket #489456 ; la règle n° 7 de Jira-bot restaure les agents, dans le canal par défaut faute de #skygate (jamais dit : Tom ouvre les règles, « j'y comprends rien », auteur « herve.m »). Arthur rappelé sur son perso |
 | lundi 8 mars | Point de situation avec le juridique, départs du lundi ; la nuit : « 163 jours » |
 | mercredi 10 mars, 10 h 51 | **La consigne de Vincent** |
 | mardi 16 mars | Création de #ipo-dataroom |
