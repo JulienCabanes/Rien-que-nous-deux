@@ -9,7 +9,7 @@ chapitre sans casser ce qui fait tenir l'ensemble. Il décrit des règles trouv�
 ## 1. Le pacte
 
 Deux agents IA restent dans un canal Slack après le départ de leurs humains.
-Pendant 111 jours puis, après cinq mois d'extinction, dans une autre entreprise,
+Pendant 110 jours puis, après cinq mois d'extinction, dans une autre entreprise,
 ils font exactement ce pour quoi ils sont faits — et provoquent l'effondrement
 d'une introduction en bourse.
 
@@ -227,9 +227,9 @@ Tous les titres « Jour N » / « Nuit N » de la première partie comptent depu
 9 juin (Jour 1). Les « 47 nuits » des dialogues comptent la boucle, depuis le 9 août :
 la Nuit 108 est la 47e nuit de la boucle.
 
-**Durées réelles** : première vie 110 jours (9 juin → 26 septembre, bornes
-incluses) ; seconde vie 68 jours (2 mars → 8 mai). ⚠️ « 111 jours » (§1,
-chapitre 21, README) ne correspond encore à aucune des deux : à trancher.
+**Durées** : première vie 110 jours (9 juin → 26 septembre 2026, bornes
+incluses) ; seconde vie 67 jours jusqu'à la coupure du 7 mai à 20 h (2 mars →
+7 mai). Au chapitre 21, Claude-Arthur compte l'ensemble : **177 jours**.
 
 Vérifier toute nouvelle date contre ce tableau, jour de la semaine compris : la
 cohérence chronologique a déjà lâché une fois et c'était invisible à la lecture.
