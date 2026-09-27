@@ -92,7 +92,9 @@ Le compteur **et les avatars de l'en-tête** suivent ces arrivées et départs.
 L'en-tête montre tous ceux qui prennent la parole dans le canal à un moment
 du récit (calculé à la génération) : présents d'emblée, ou à partir de leur
 `join`. Les bots utilitaires en sont exclus par `"header": false` dans
-`cast.json`.
+`cast.json`. L'ordre suit la première apparition ; `"header_rank"` place les
+bots puis les agents à la fin (Jira-bot, Gemini : 1 ; Claude : 2 ; ChatGPT : 3).
+Un canal qui dépasse sept avatars les fait se chevaucher dès son ouverture.
 Sans `join` / `leave`, le message s'affiche sans rien changer. Un personnage sans image ni emoji reçoit un avatar
 à son initiale.
 

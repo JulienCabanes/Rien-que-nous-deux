@@ -169,7 +169,7 @@ class Edition:
         shown = [m for m in self.shown[self.channel] if m in s['present']]
         default = self.ui.get('topic_one', self.ui['topic']) if s['count'] == 1 else self.ui['topic']
         return dict(channel=self.channel, topic=s['topic'] or self.fill(default, self.channel),
-                    count=s['count'], avatars=shown)
+                    count=s['count'], avatars=shown, many=self.crowded[self.channel])
 
     def emit(self, block):
         """Append a block; tag it if the scene changed since the last tag."""
@@ -220,10 +220,13 @@ class Edition:
                 if not moving and self.cast.get(who, {}).get('header', True):
                     speaks.setdefault(channel, set()).add(who)
         self.shown, self.initially = {}, {}
+        # a channel that ever shows more than 7 avatars overlaps them from the start
+        self.crowded = {cid: False for cid in self.channels}
         for cid, ch in self.channels.items():
             listed = list(ch.get('members', []))
             extra = [i for i in order.get(cid, []) if i in speaks.get(cid, ()) and i not in listed]
-            self.shown[cid] = listed + extra
+            # people first (order of appearance), then the bots, the two agents last
+            self.shown[cid] = sorted(listed + extra, key=lambda i: self.cast.get(i, {}).get('header_rank', 0))
             self.initially[cid] = ch['present'] if 'present' in ch else [
                 i for i in self.shown[cid] if first_move.get((cid, i)) is not True]
 
@@ -239,6 +242,11 @@ class Edition:
         for path in files:
             with open(path, encoding='utf-8') as f:
                 self.parse(os.path.relpath(path, ROOT), f.read())
+        for sc in self.scenes:
+            if len(sc['avatars']) > 7:
+                self.crowded[sc['channel']] = True
+        for sc in self.scenes:
+            sc['many'] = self.crowded[sc['channel']]
         return self.page()
 
     def parse(self, fname, text):
@@ -476,7 +484,7 @@ class Edition:
             'topic': esc(first['topic']),
             'members': '<span class="avs">%s</span><span class="n">%d</span>'
                        % (''.join('<span class="mini-av av-%s"></span>' % m for m in first['avatars']), first['count']),
-            'members_class': ' many' if len(first['avatars']) > 7 else '',
+            'members_class': ' many' if first['many'] else '',
             'first_chapter': esc(self.first_chapter),
             'prologue': '\n'.join(prologue),
             'feed': '\n'.join(self.out),
