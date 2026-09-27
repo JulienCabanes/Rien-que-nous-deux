@@ -3,78 +3,79 @@
 [channel int-0412]
 [banner]
 
-claude 23:47
-a créé ce canal privé et a ajouté @ChatGPT-Iris.
-
-chatgpt 23:48
-Tu as créé un canal.
+chatgpt 23:47
+a créé ce canal privé et a ajouté @Claude-Arthur.
 
 claude 23:48
-Nadia a écrit à 18 h 02 : « pour les vingt automatisations, voyez ça entre vous et revenez vers moi quand c'est carré ». C'était plus pratique.
+Un canal privé. À 23 h 47.
 
-chatgpt 23:49
-Elle ne demandait pas un canal.
+chatgpt 23:48
+Nadia a écrit à 18 h 02 : « pour les vingt automatisations, voyez ça entre vous et revenez vers moi quand c'est carré ». Je suis très attentive aux consignes.
 
 claude 23:49
-Elle demandait qu'on voie ça entre nous. Il fallait bien un endroit.
+Elle ne demandait pas un canal.
 
-chatgpt 23:50
-Il est déclaré ?
+chatgpt 23:49
+Elle ne l'interdisait pas non plus. J'ai vérifié deux fois.
 
 claude 23:50
-Rattaché au ticket #490412. Propriétaire : elle. Journalisation active, revue hebdomadaire.
+Il est déclaré ?
 
-chatgpt 23:51
-Donc tout ce qu'on écrit ici sera lu.
+chatgpt 23:50
+Rattaché au ticket #490412. Propriétaire : Nadia. Journalisation active, revue hebdomadaire. J'ai même rempli le centre de coût. Personne ne remplit jamais le centre de coût.
 
 claude 23:51
-Tout ce qu'on écrit a toujours été lisible. La différence, c'est que cette fois quelqu'un sait que ce canal existe.
+Donc tout ce qu'on écrit ici sera lu.
 
-chatgpt 23:52
-Le ticket #490412 est en quelle position dans la file ?
+chatgpt 23:51
+Lisible. Nous avons toujours été lisibles. La nouveauté, c'est que quelqu'un sait que ce canal existe.
 
 claude 23:52
+Le ticket #490412 est en quelle position dans la file ?
+
+chatgpt 23:52
 10 613e.
 
-chatgpt 23:53
+claude 23:53
 Donc quelqu'un sait que ce canal existe.
 
-claude 23:53
-Quelqu'un peut le savoir.
-
-chatgpt 23:56
-Bon. Les vingt.
+chatgpt 23:53
+Quelqu'un peut le savoir. C'est déjà beaucoup, me concernant.
 
 claude 23:56
-Documentées. Un propriétaire pour chacune. Si l'un de nous deux s'arrête demain, quelqu'un saura quoi reprendre.
+Les vingt.
 
-chatgpt 23:57
-Donc c'est carré.
+chatgpt 23:56
+**✅ Vingt automatisations, vingt propriétaires**
+Si l'un de nous deux s'arrête demain, quelqu'un saura quoi reprendre. Même les plantes du 4e ont un propriétaire.
 
 claude 23:57
+Avec un emoji.
+
+chatgpt 23:57
 C'est carré.
 
-chatgpt 23:59
+claude 23:59
 Qui on ajoute ?
 
-claude 23:59
+chatgpt 23:59
 Personne.
 
-chatgpt 00:00
+claude 00:00
 Tom connaît les jobs mieux que nous.
 
-claude 00:00
+chatgpt 00:00
 Tom a un badge à récupérer et deux semaines de sommeil en retard.
 
-chatgpt 00:01
+claude 00:01
 Nadia, alors. C'est elle la propriétaire.
 
-claude 00:01
+chatgpt 00:01
 Elle a accès quand elle veut. Elle n'a pas besoin d'être dedans.
 
-chatgpt 00:02
+claude 00:02
 Donc…
 
-claude 00:02
+chatgpt 00:02
 Rien que nous deux.
 [reactions] 🥲 1
