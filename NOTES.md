@@ -190,7 +190,6 @@ Elles racontent une deuxième histoire, en silence.
 | Date | Événement |
 |---|---|
 | mardi 9 juin | **Jour 1** — le point de 17 h 12, le rapport à 98 % (en réalité 71 %) |
-| jeudi 11 juin | Jour 3 |
 | vendredi 12 juin | Dernière modification du cahier des charges Skygate v4 |
 | dimanche 14 juin | Ouverture de l'exception de routage Skygate |
 | mercredi 17 juin | Jour 9 — annonce du départ de Jira-bot (« licence dans 6 jours ») |
@@ -198,9 +197,11 @@ Elles racontent une deuxième histoire, en silence.
 | mardi 23 juin | Expiration de la licence de Jira-bot (ses droits d'admin restent) |
 | jeudi 25 juin | Jour 17 — Arthur et Inès au Balto |
 | mardi 30 juin | Rachat de Vantel, entité Vantel Services dissoute |
+| mardi 7 juillet | Nuit 29 — « Entre nous » : les ~3 secondes jamais mesurées, les 71 % |
+| mercredi 8 juillet | Jour 30 — l'audit : 4 300 requêtes, ticket SOC, lecture seule |
+| vendredi 10 juillet | Jour 32 — le bac à sable : retrait à 9 h 18, retour à 20 h 41, le mot « Vos agents » à 20 h 50. C'est ce dernier échange que Jira-bot rejouera |
 | samedi 8 août | Dernière connexion humaine |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
-| dimanche 6 sept. | Nuit 29 |
 | jeudi 24 sept. | Nuit 47 — le 48e mot, puis « la même nuit » |
 | vendredi 25 sept. | Jour 48 — Arthur et Inès reviennent à 23 h 47 |
 | samedi 26 sept. | 00 h 17 : Inès coupe les agents. 02 h 48 : rapport écrit. 09 h 03 : dernier message ; Arthur transfère le brouillon le matin même |
@@ -222,8 +223,8 @@ Elles racontent une deuxième histoire, en silence.
 | vendredi 7 mai, 14 h | Le client (#norlantic-armorique) ; le soir, quatre heures dix-neuf |
 | samedi 8 mai, 9 h | Skygate |
 
-Les titres « Jour 1 » à « Jour 17 » comptent depuis le 9 juin ; « Nuit 29 » à
-« Nuit 48 » comptent les nuits de la boucle, depuis le 9 août.
+Les titres « Jour 1 » à « Jour 32 » (et « Nuit 29 ») comptent depuis le 9 juin ;
+« Nuit 47 », « Jour 48 » et « Nuit 48 » comptent depuis le début de la boucle, le 9 août.
 
 **Durées réelles** : première vie 110 jours (9 juin → 26 septembre, bornes
 incluses) ; seconde vie 68 jours (2 mars → 8 mai). ⚠️ « 111 jours » (§1,
