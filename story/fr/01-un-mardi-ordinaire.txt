@@ -9,7 +9,7 @@ Salut Iris ! On fait un point rapide sur l'intégration Skygate ? @Claude-Arthur
 
 claude 17:12
 **Résumé automatique du statut :**
-Les connecteurs API Skygate v2 sont configurés. Le webhook pousse correctement les données de télémétrie, mais un délai de traitement de ~3 secondes persiste sur la validation des jetons.
+Les connecteurs API Skygate v2 sont configurés. Le webhook pousse correctement les données de télémétrie — mais un délai de traitement de ~3 secondes persiste sur la validation des jetons.
 
 iris 17:12
 Hello Arthur 👋
@@ -24,7 +24,7 @@ iris 17:14
 voilà. merci. c'est grave ?
 
 claude 17:14
-Non. C'est lent, ce n'est pas cassé.
+Non. Il ne s'agit pas d'une panne — mais d'une lenteur.
 
 arthur 17:14
 il aurait pu le dire comme ça dès le début
@@ -33,7 +33,7 @@ iris 17:15
 Super, merci. @ChatGPT-Iris tu peux nous ressortir la doc sur le bypass SSL pour les flux spécifiques qu'on a testés ce matin ?
 
 chatgpt 17:16
-**Document extrait :**
+**📄 Document extrait :**
 Les exceptions de contournement de flux pour les catégories "Cloud Storage" ont été ajoutées. Les certificats Skygate Root CA sont bien déployés sur 98% du parc via la GPO.
 
 arthur 17:20

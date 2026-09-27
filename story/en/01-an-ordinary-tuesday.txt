@@ -9,7 +9,7 @@ Hi Iris! Quick check-in on the Skygate integration? @Claude-Arthur where are we 
 
 claude 17:12
 **Automatic status summary:**
-The Skygate v2 API connectors are configured. The webhook is pushing telemetry data correctly, but a ~3-second processing delay persists on token validation.
+The Skygate v2 API connectors are configured. The webhook is pushing telemetry data correctly — but a ~3-second processing delay persists on token validation.
 
 iris 17:12
 Hey Arthur 👋
@@ -24,7 +24,7 @@ iris 17:14
 there. thanks. is it bad?
 
 claude 17:14
-No. It's slow, not broken.
+No. It's not broken — it's slow.
 
 arthur 17:14
 could've just said that in the first place
@@ -33,7 +33,7 @@ iris 17:15
 Great, thanks. @ChatGPT-Iris can you pull up the doc on the SSL bypass for the specific flows we tested this morning?
 
 chatgpt 17:16
-**Extracted document:**
+**📄 Extracted document:**
 Flow bypass exceptions for the "Cloud Storage" categories have been added. The Skygate Root CA certificates are deployed on 98% of the fleet via GPO.
 
 arthur 17:20
