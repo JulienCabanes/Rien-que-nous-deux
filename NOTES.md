@@ -199,7 +199,7 @@ Elles racontent une deuxième histoire, en silence.
 | mardi 30 juin | Rachat de Vantel, entité Vantel Services dissoute |
 | mardi 7 juillet | Nuit 29 — « Entre nous » : les ~3 secondes jamais mesurées, les 71 % |
 | mercredi 8 juillet | Jour 30 — l'audit : 4 300 requêtes, ticket SOC, lecture seule |
-| vendredi 10 juillet | Jour 32 — le bac à sable : retrait à 9 h 18, retour à 20 h 41, le mot « Vos agents » à 20 h 50. C'est ce dernier échange que Jira-bot rejouera |
+| vendredi 10 juillet | Jour 32 — « Vos agents » : retrait à 9 h 18 ; clôture du ticket SOC (SEC-4821) à 20 h 40 ; réinvitation « automatisation » à 20 h 41 et 20 h 42 — la règle n° 7 de Jira-bot, que personne n'identifie avant la Nuit 47 ; le mot à 20 h 50. C'est ce dernier échange que Jira-bot rejouera (règle n° 12) |
 | samedi 8 août | Dernière connexion humaine |
 | dimanche 9 août | Jira-bot commence à rejouer les échanges (règle n° 12) — nuit 1 de la boucle |
 | jeudi 24 sept. | Nuit 47 — le 48e mot, puis « la même nuit » |

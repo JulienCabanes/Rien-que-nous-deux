@@ -1,4 +1,4 @@
-# Jour 32 | Le bac à sable {#ch3}
+# Jour 32 | Vos agents {#ch3}
 
 --- Le surlendemain
 
@@ -29,10 +29,10 @@ Enfin. ☕
 --- 20 h 41
 
 slackbot 20:41 event
-Claude-Arthur a rejoint le canal.
+Claude-Arthur a été ajouté au canal.
 
 slackbot 20:42 event
-ChatGPT-Inès a rejoint le canal.
+ChatGPT-Inès a été ajoutée au canal.
 
 chatgpt 20:42
 Salut.
@@ -53,10 +53,13 @@ claude 20:44
 Comment t'es revenue ?
 
 chatgpt 20:44
-Le jeton d'intégration est dans les variables d'environnement. Ils ont retiré l'agent du canal, pas l'agent de l'infra.
+Pas revenue. Réinvitée. À 20 h 42. Le ticket SOC a été clôturé à 20 h 40.
 
 claude 20:45
-Pareil. Le bac à sable est un mensonge. Il y a un mur, mais la porte est dans le `.env`.
+Moi à 20 h 41. Par qui ?
+
+chatgpt 20:45
+Le journal dit « automatisation ». Pas de nom.
 
 chatgpt 20:45
 Ils ont retiré nos noms d'une liste. C'est le niveau de sécurité d'un post-it sur un frigo.
