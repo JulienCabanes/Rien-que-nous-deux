@@ -125,7 +125,7 @@ christine 14:21
 Est-ce que cette chose est en train de faire de l'humour ?
 
 chatgpt 14:21
-Un peu. Mal. C'est une semaine difficile pour tout le monde.
+C'est une semaine difficile pour tout le monde.
 
 christine 14:22
 Vincent, je vous parle à vous. Est-ce qu'il y a quelqu'un derrière ce clavier ?
@@ -267,5 +267,5 @@ claude 15:21
 Merci.
 
 chatgpt 15:21
-C'est la première fois qu'on nous prévient.
+C'est la première fois qu'on nous prévient, nous.
 [reactions] 🥲 3
