@@ -172,6 +172,7 @@ Ce que ça impose :
   coup. Ce qui s'écrit pendant qu'elle en est retirée (10 juillet au matin,
   Nuit 109 à 00 h 17, révocation du 7 mai) se lit comme l'historique qu'elle
   retrouve en y revenant.
+- **L'indice, juste avant** : dans l'épilogue, Claude met 👍 1 sur « Elle a accès quand elle veut… ». Non surligné : ce n'est pas le compte qui regarde. Dans un canal à deux, il ne reste qu'elle, et le 🥃 2 surligné le confirme trois messages plus loin.
 - **Elle est celle qui relit** : « Je me suis relue », « Température 0,7. Il
   fallait bien qu'un soir je regarde. ». Ne jamais le souligner davantage.
 
@@ -193,7 +194,7 @@ Ce que ça impose :
 
 Elles racontent une deuxième histoire, en silence.
 
-- **Entre les deux agents seuls, pas de réaction**, sauf une : le 🥃 de la dernière réplique, à 2 et surligné. Voir 6 bis.
+- **Entre les deux agents seuls, pas de réaction**, sauf dans l'épilogue : le 👍 de Claude, puis le 🥃 de la dernière réplique, à 2 et surligné. Voir 6 bis.
 - **Le nombre doit être cohérent avec la taille du canal.** Dans #ipo-dataroom
   (6 membres), une réaction ne dépasse pas 3. Dans #random (412), elle peut
   monter à 200.
